@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/letta-ai/letta",
+  "default_branch": "main",
+  "id": "letta",
+  "last_commit": "2026-10-18T22:28:01Z",
+  "latest_release": {
+    "published_at": "2026-05-14T17:14:24Z",
+    "tag": "0.16.8"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/letta-ai/letta/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-18T22:28:04Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/letta-ai/letta",
+  "stars": 25206,
+  "state": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/supabase/supabase",
+  "default_branch": "master",
+  "id": "supabase",
+  "last_commit": "2026-10-20T18:52:57Z",
+  "latest_release": {
+    "published_at": "2026-08-07T13:57:57Z",
+    "tag": "v1.26.08"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/supabase/supabase/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T18:53:01Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/supabase/supabase",
+  "stars": 112360,
+  "state": "active"
+}

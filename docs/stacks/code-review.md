@@ -14,8 +14,8 @@ Automated AI pull-request review.
 
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
-| [Open Code Review](#open-code-review) | Hybrid deterministic + LLM agent code reviewer with line-level comments | CLI / CI | ci | cpu-ok | Apache-2.0 | not yet collected |
-| [PR-Agent](#pr-agent) | PR review, describe and improve commands | GitHub Action / app | ci | cpu-ok | AGPL-3.0 | not yet collected |
+| [Open Code Review](#open-code-review) | Hybrid deterministic + LLM agent code reviewer with line-level comments | CLI / CI | ci | cpu-ok | Apache-2.0 | active |
+| [PR-Agent](#pr-agent) | PR review, describe and improve commands | GitHub Action / app | ci | cpu-ok | AGPL-3.0 | active |
 
 ## Quick start
 
@@ -32,14 +32,14 @@ Hybrid deterministic + LLM agent code reviewer with line-level comments
 | Upstream repository | [Open Code Review on GitHub](https://github.com/alibaba/open-code-review) |
 | Setup docs | [Open Code Review setup guide](https://github.com/alibaba/open-code-review#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/alibaba/open-code-review/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v1.13.2 (2026-10-20) |
 | Deployment | ci |
 | Hardware | cpu-ok |
 | Languages | Go |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### PR-Agent {#pr-agent}
 
@@ -50,11 +50,11 @@ PR review, describe and improve commands
 | Upstream repository | [PR-Agent on GitHub](https://github.com/The-PR-Agent/pr-agent) |
 | Setup docs | [PR-Agent setup guide](https://github.com/The-PR-Agent/pr-agent#readme) |
 | Licence | AGPL-3.0 · [licence evidence](https://github.com/The-PR-Agent/pr-agent/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v0.48.0 (2026-10-16) |
 | Deployment | ci |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |

@@ -1,0 +1,17 @@
+{
+  "canonical_repo": "https://github.com/tashfeenahmed/html-email-template",
+  "default_branch": "main",
+  "id": "html-email-template",
+  "last_commit": "2021-09-19T14:40:46Z",
+  "latest_release": null,
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/tashfeenahmed/html-email-template/license",
+    "state": "detected"
+  },
+  "pushed_at": "2021-09-19T14:40:46Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/tashfeenahmed/html-email-template",
+  "stars": 1,
+  "state": "active"
+}

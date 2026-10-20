@@ -14,12 +14,12 @@ OpenAI-compatible gateways, routers, guardrail firewalls and free-LLM aggregator
 
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
-| [FreeLLMAPI](#freellmapi) | Aggregates free LLM providers behind one /v1 endpoint with failover | Free-tier aggregation | self-hosted | cpu-ok | MIT | not yet collected |
-| [OpenCode Free Router](#opencode-free-9router) | Routes coding-agent traffic to free model endpoints | Free routing for coding agents | self-hosted | cpu-ok | MIT | not yet collected |
-| [Bifrost](#bifrost) | High-performance AI gateway with load balancing and fallbacks | Low-latency gateway | self-hosted | cpu-ok | Apache-2.0 | not yet collected |
-| [Trylon Gateway](#trylon-gateway) | Self-hosted LLM firewall with guardrails | Guardrails / security | self-hosted | cpu-ok | BUSL-1.1 | not yet collected |
-| [LiteLLM](#litellm) | Proxy + SDK for 100+ LLM APIs in OpenAI format, cost tracking | Broadest provider coverage | self-hosted | cpu-ok | MIT (enterprise/ dir separate) ⚠ needs review | not yet collected |
-| [Portkey Gateway](#portkey-gateway) | Fast AI gateway with routing, retries and caching | Edge-friendly gateway | self-hosted | cpu-ok | MIT | not yet collected |
+| [FreeLLMAPI](#freellmapi) | Aggregates free LLM providers behind one /v1 endpoint with failover | Free-tier aggregation | self-hosted | cpu-ok | MIT | active |
+| [OpenCode Free Router](#opencode-free-9router) | Routes coding-agent traffic to free model endpoints | Free routing for coding agents | self-hosted | cpu-ok | MIT | active |
+| [Bifrost](#bifrost) | High-performance AI gateway with load balancing and fallbacks | Low-latency gateway | self-hosted | cpu-ok | Apache-2.0 | active |
+| [Trylon Gateway](#trylon-gateway) | Self-hosted LLM firewall with guardrails | Guardrails / security | self-hosted | cpu-ok | BUSL-1.1 | active |
+| [LiteLLM](#litellm) | Proxy + SDK for 100+ LLM APIs in OpenAI format, cost tracking | Broadest provider coverage | self-hosted | cpu-ok | MIT (enterprise/ dir separate) ⚠ needs review | active |
+| [Portkey Gateway](#portkey-gateway) | Fast AI gateway with routing, retries and caching | Edge-friendly gateway | self-hosted | cpu-ok | MIT | active |
 
 ## Quick start
 
@@ -41,14 +41,14 @@ Aggregates free LLM providers behind one /v1 endpoint with failover
 | Upstream repository | [FreeLLMAPI on GitHub](https://github.com/tashfeenahmed/freellmapi) |
 | Setup docs | [FreeLLMAPI setup guide](https://github.com/tashfeenahmed/freellmapi#readme) |
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/freellmapi/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v0.16.6 (2026-10-20) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### OpenCode Free Router {#opencode-free-9router}
 
@@ -59,14 +59,14 @@ Routes coding-agent traffic to free model endpoints
 | Upstream repository | [OpenCode Free Router on GitHub](https://github.com/0xgetz/opencode-free-9router) |
 | Setup docs | [OpenCode Free Router setup guide](https://github.com/0xgetz/opencode-free-9router#readme) |
 | Licence | MIT · [licence evidence](https://github.com/0xgetz/opencode-free-9router/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-17 |
 | Latest release | none detected  |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | JavaScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Bifrost {#bifrost}
 
@@ -77,14 +77,14 @@ High-performance AI gateway with load balancing and fallbacks
 | Upstream repository | [Bifrost on GitHub](https://github.com/maximhq/bifrost) |
 | Setup docs | [Bifrost setup guide](https://github.com/maximhq/bifrost#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/maximhq/bifrost/blob/dev/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-19 |
+| Latest release | ent-v2.3.1-base (2026-10-19) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | Go |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Trylon Gateway {#trylon-gateway}
 
@@ -95,14 +95,14 @@ Self-hosted LLM firewall with guardrails
 | Upstream repository | [Trylon Gateway on GitHub](https://github.com/trylonai/gateway) |
 | Setup docs | [Trylon Gateway setup guide](https://github.com/trylonai/gateway#readme) |
 | Licence | BUSL-1.1 · [licence evidence](https://github.com/trylonai/gateway/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2025-06-25 |
 | Latest release | none detected  |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### LiteLLM {#litellm}
 
@@ -113,14 +113,14 @@ Proxy + SDK for 100+ LLM APIs in OpenAI format, cost tracking
 | Upstream repository | [LiteLLM on GitHub](https://github.com/BerriAI/litellm) |
 | Setup docs | [LiteLLM setup guide](https://github.com/BerriAI/litellm#readme) |
 | Licence | MIT (enterprise/ dir separate) ⚠ needs review · [licence evidence](https://github.com/BerriAI/litellm/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v1.106.0 (2026-10-18) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Portkey Gateway {#portkey-gateway}
 
@@ -131,11 +131,11 @@ Fast AI gateway with routing, retries and caching
 | Upstream repository | [Portkey Gateway on GitHub](https://github.com/Portkey-AI/gateway) |
 | Setup docs | [Portkey Gateway setup guide](https://github.com/Portkey-AI/gateway#readme) |
 | Licence | MIT · [licence evidence](https://github.com/Portkey-AI/gateway/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-05-25 |
+| Latest release | v1.15.2 (2026-01-12) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |

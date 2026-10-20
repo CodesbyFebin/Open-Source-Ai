@@ -1,0 +1,17 @@
+{
+  "canonical_repo": "https://github.com/tashfeenahmed/circlechat",
+  "default_branch": "main",
+  "id": "circlechat",
+  "last_commit": "2026-09-30T13:10:04Z",
+  "latest_release": null,
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/tashfeenahmed/circlechat/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-19T03:34:06Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/tashfeenahmed/circlechat",
+  "stars": 81,
+  "state": "active"
+}

@@ -14,12 +14,12 @@ Run LLMs on your own laptop or server.
 
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
-| [GPT4All](#gpt4all) | Desktop app for private local LLM chat | Non-technical desktop users | local | cpu-ok | MIT | not yet collected |
-| [Ollama](#ollama) | One-command local model runner with OpenAI-compatible API | Easiest local API | local | cpu-ok | MIT | not yet collected |
-| [llama.cpp](#llamacpp) | Portable C/C++ inference for GGUF models | CPU / Apple Silicon | local | cpu-ok | MIT | not yet collected |
-| [llamafile](#llamafile) | Single-file executable LLMs | Zero-install distribution | local | cpu-ok | Apache-2.0 | not yet collected |
-| [LocalAI](#localai) | Drop-in OpenAI API replacement for local models | Multi-modal local API | local | cpu-ok | MIT | not yet collected |
-| [Text Generation WebUI](#text-generation-webui) | Gradio UI supporting many backends | Experimenting with backends | local | cpu-ok | AGPL-3.0 | not yet collected |
+| [GPT4All](#gpt4all) | Desktop app for private local LLM chat | Non-technical desktop users | local | cpu-ok | MIT | active |
+| [Ollama](#ollama) | One-command local model runner with OpenAI-compatible API | Easiest local API | local | cpu-ok | MIT | active |
+| [llama.cpp](#llamacpp) | Portable C/C++ inference for GGUF models | CPU / Apple Silicon | local | cpu-ok | MIT | active |
+| [llamafile](#llamafile) | Single-file executable LLMs | Zero-install distribution | local | cpu-ok | Apache-2.0 | active |
+| [LocalAI](#localai) | Drop-in OpenAI API replacement for local models | Multi-modal local API | local | cpu-ok | MIT | active |
+| [Text Generation WebUI](#text-generation-webui) | Gradio UI supporting many backends | Experimenting with backends | local | cpu-ok | AGPL-3.0 | active |
 
 ## Quick start
 
@@ -40,14 +40,14 @@ Desktop app for private local LLM chat
 | Upstream repository | [GPT4All on GitHub](https://github.com/nomic-ai/gpt4all) |
 | Setup docs | [GPT4All setup guide](https://github.com/nomic-ai/gpt4all#readme) |
 | Licence | MIT · [licence evidence](https://github.com/nomic-ai/gpt4all/blob/main/LICENSE.txt) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2025-05-27 |
+| Latest release | v3.10.0 (2025-02-25) |
 | Deployment | local |
 | Hardware | cpu-ok |
 | Languages | C++ |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Ollama {#ollama}
 
@@ -58,14 +58,14 @@ One-command local model runner with OpenAI-compatible API
 | Upstream repository | [Ollama on GitHub](https://github.com/ollama/ollama) |
 | Setup docs | [Ollama setup guide](https://github.com/ollama/ollama#readme) |
 | Licence | MIT · [licence evidence](https://github.com/ollama/ollama/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v0.40.6 (2026-10-16) |
 | Deployment | local |
 | Hardware | cpu-ok |
 | Languages | Go |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### llama.cpp {#llamacpp}
 
@@ -76,14 +76,14 @@ Portable C/C++ inference for GGUF models
 | Upstream repository | [llama.cpp on GitHub](https://github.com/ggml-org/llama.cpp) |
 | Setup docs | [llama.cpp setup guide](https://github.com/ggml-org/llama.cpp#readme) |
 | Licence | MIT · [licence evidence](https://github.com/ggml-org/llama.cpp/blob/master/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v0.7.0 (2026-10-15) |
 | Deployment | local |
 | Hardware | cpu-ok |
 | Languages | C++ |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### llamafile {#llamafile}
 
@@ -94,14 +94,14 @@ Single-file executable LLMs
 | Upstream repository | [llamafile on GitHub](https://github.com/mozilla-ai/llamafile) |
 | Setup docs | [llamafile setup guide](https://github.com/mozilla-ai/llamafile#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/mozilla-ai/llamafile/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2026-10-08 |
+| Latest release | 0.10.6 (2026-09-15) |
 | Deployment | local |
 | Hardware | cpu-ok |
 | Languages | C++ |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### LocalAI {#localai}
 
@@ -112,14 +112,14 @@ Drop-in OpenAI API replacement for local models
 | Upstream repository | [LocalAI on GitHub](https://github.com/mudler/LocalAI) |
 | Setup docs | [LocalAI setup guide](https://github.com/mudler/LocalAI#readme) |
 | Licence | MIT · [licence evidence](https://github.com/mudler/LocalAI/blob/master/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v4.11.0 (2026-10-02) |
 | Deployment | local |
 | Hardware | cpu-ok |
 | Languages | Go |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Text Generation WebUI {#text-generation-webui}
 
@@ -130,11 +130,11 @@ Gradio UI supporting many backends
 | Upstream repository | [Text Generation WebUI on GitHub](https://github.com/oobabooga/textgen) |
 | Setup docs | [Text Generation WebUI setup guide](https://github.com/oobabooga/textgen#readme) |
 | Licence | AGPL-3.0 · [licence evidence](https://github.com/oobabooga/textgen/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | AGPL-3.0 |
+| Repository state | active |
+| Last commit | 2026-08-17 |
+| Latest release | v4.9 (2026-05-20) |
 | Deployment | local |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |

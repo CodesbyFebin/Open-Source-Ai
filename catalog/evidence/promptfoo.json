@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/promptfoo/promptfoo",
+  "default_branch": "main",
+  "id": "promptfoo",
+  "last_commit": "2026-10-20T15:41:20Z",
+  "latest_release": {
+    "published_at": "2026-10-08T15:46:03Z",
+    "tag": "code-scan-action-0.2.2"
+  },
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/promptfoo/promptfoo/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T17:04:08Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/promptfoo/promptfoo",
+  "stars": 26191,
+  "state": "active"
+}

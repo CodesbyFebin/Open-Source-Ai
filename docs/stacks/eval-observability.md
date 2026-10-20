@@ -14,10 +14,10 @@ Tracing, evaluations and prompt management.
 
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
-| [Langfuse](#langfuse) | LLM tracing, evals and prompt management | Tracing platform | library, self-hosted | cpu-ok | MIT (ee/ dirs separate) ⚠ needs review | not yet collected |
-| [Phoenix](#phoenix) | AI observability and evaluation | Notebook + server | library, self-hosted | cpu-ok | Elastic-2.0 | not yet collected |
-| [promptfoo](#promptfoo) | Prompt testing and red-teaming CLI | CI evals | library, self-hosted | cpu-ok | MIT | not yet collected |
-| [DeepEval](#deepeval) | Unit-test style LLM evaluation | pytest-style | library, self-hosted | cpu-ok | Apache-2.0 | not yet collected |
+| [Langfuse](#langfuse) | LLM tracing, evals and prompt management | Tracing platform | library, self-hosted | cpu-ok | MIT (ee/ dirs separate) ⚠ needs review | active |
+| [Phoenix](#phoenix) | AI observability and evaluation | Notebook + server | library, self-hosted | cpu-ok | Elastic-2.0 | active |
+| [promptfoo](#promptfoo) | Prompt testing and red-teaming CLI | CI evals | library, self-hosted | cpu-ok | MIT | active |
+| [DeepEval](#deepeval) | Unit-test style LLM evaluation | pytest-style | library, self-hosted | cpu-ok | Apache-2.0 | active |
 
 ## Quick start
 
@@ -38,14 +38,14 @@ LLM tracing, evals and prompt management
 | Upstream repository | [Langfuse on GitHub](https://github.com/langfuse/langfuse) |
 | Setup docs | [Langfuse setup guide](https://github.com/langfuse/langfuse#readme) |
 | Licence | MIT (ee/ dirs separate) ⚠ needs review · [licence evidence](https://github.com/langfuse/langfuse/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v4.66.0 (2026-10-20) |
 | Deployment | library, self-hosted |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Phoenix {#phoenix}
 
@@ -56,14 +56,14 @@ AI observability and evaluation
 | Upstream repository | [Phoenix on GitHub](https://github.com/Arize-ai/phoenix) |
 | Setup docs | [Phoenix setup guide](https://github.com/Arize-ai/phoenix#readme) |
 | Licence | Elastic-2.0 · [licence evidence](https://github.com/Arize-ai/phoenix/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | arize-phoenix-sqlean-v0.2.1 (2026-10-19) |
 | Deployment | library, self-hosted |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### promptfoo {#promptfoo}
 
@@ -74,14 +74,14 @@ Prompt testing and red-teaming CLI
 | Upstream repository | [promptfoo on GitHub](https://github.com/promptfoo/promptfoo) |
 | Setup docs | [promptfoo setup guide](https://github.com/promptfoo/promptfoo#readme) |
 | Licence | MIT · [licence evidence](https://github.com/promptfoo/promptfoo/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | code-scan-action-0.2.2 (2026-10-08) |
 | Deployment | library, self-hosted |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### DeepEval {#deepeval}
 
@@ -92,11 +92,11 @@ Unit-test style LLM evaluation
 | Upstream repository | [DeepEval on GitHub](https://github.com/confident-ai/deepeval) |
 | Setup docs | [DeepEval setup guide](https://github.com/confident-ai/deepeval#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/confident-ai/deepeval/blob/main/LICENSE.md) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-19 |
+| Latest release | python-v4.2.4 (2026-09-22) |
 | Deployment | library, self-hosted |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |

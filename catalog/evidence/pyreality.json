@@ -1,0 +1,17 @@
+{
+  "canonical_repo": "https://github.com/tashfeenahmed/pyreality",
+  "default_branch": "main",
+  "id": "pyreality",
+  "last_commit": "2021-07-31T19:25:13Z",
+  "latest_release": null,
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/tashfeenahmed/pyreality/license",
+    "state": "detected"
+  },
+  "pushed_at": "2021-07-31T19:25:13Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/tashfeenahmed/pyreality",
+  "stars": 1,
+  "state": "active"
+}

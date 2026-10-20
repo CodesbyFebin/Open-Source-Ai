@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/langfuse/langfuse",
+  "default_branch": "main",
+  "id": "langfuse",
+  "last_commit": "2026-10-20T18:26:33Z",
+  "latest_release": {
+    "published_at": "2026-10-20T17:31:25Z",
+    "tag": "v4.66.0"
+  },
+  "license": {
+    "github_spdx": "NOASSERTION",
+    "source": "https://api.github.com/repos/langfuse/langfuse/license",
+    "state": "needs-review"
+  },
+  "pushed_at": "2026-10-20T18:37:59Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/langfuse/langfuse",
+  "stars": 36093,
+  "state": "active"
+}

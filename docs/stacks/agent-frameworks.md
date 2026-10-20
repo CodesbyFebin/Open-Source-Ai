@@ -14,13 +14,13 @@ Libraries for building single and multi-agent systems.
 
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
-| [LangChain](#langchain) | Composable LLM application framework | Broad integrations | library | not-applicable | MIT | not yet collected |
-| [LangGraph](#langgraph) | Graph-based stateful agent orchestration | Controllable workflows | library | not-applicable | MIT | not yet collected |
-| [CrewAI](#crewai) | Role-based multi-agent crews | Multi-agent teams | library | not-applicable | MIT | not yet collected |
-| [AutoGen](#autogen) | Conversational multi-agent framework | Agent conversations | library | not-applicable | CC-BY-4.0 (docs) / MIT (code) ⚠ needs review | not yet collected |
-| [smolagents](#smolagents) | Minimal code-writing agents | Lightweight | library | not-applicable | Apache-2.0 | not yet collected |
-| [Agno](#agno) | Fast agent framework with memory and tools | Performance | library | not-applicable | Apache-2.0 | not yet collected |
-| [OpenHuman](#openhuman) | Lightweight agent harness that runs hundreds of agents on a small VPS | - | library | not-applicable | GPL-3.0 | not yet collected |
+| [LangChain](#langchain) | Composable LLM application framework | Broad integrations | library | not-applicable | MIT | active |
+| [LangGraph](#langgraph) | Graph-based stateful agent orchestration | Controllable workflows | library | not-applicable | MIT | active |
+| [CrewAI](#crewai) | Role-based multi-agent crews | Multi-agent teams | library | not-applicable | MIT | active |
+| [AutoGen](#autogen) | Conversational multi-agent framework | Agent conversations | library | not-applicable | CC-BY-4.0 (docs) / MIT (code) ⚠ needs review | active |
+| [smolagents](#smolagents) | Minimal code-writing agents | Lightweight | library | not-applicable | Apache-2.0 | active |
+| [Agno](#agno) | Fast agent framework with memory and tools | Performance | library | not-applicable | Apache-2.0 | active |
+| [OpenHuman](#openhuman) | Lightweight agent harness that runs hundreds of agents on a small VPS | - | library | not-applicable | GPL-3.0 | active |
 
 ## Quick start
 
@@ -41,14 +41,14 @@ Composable LLM application framework
 | Upstream repository | [LangChain on GitHub](https://github.com/langchain-ai/langchain) |
 | Setup docs | [LangChain setup guide](https://github.com/langchain-ai/langchain#readme) |
 | Licence | MIT · [licence evidence](https://github.com/langchain-ai/langchain/blob/master/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | langchain-core==1.6.12 (2026-10-16) |
 | Deployment | library |
 | Hardware | not-applicable |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### LangGraph {#langgraph}
 
@@ -59,14 +59,14 @@ Graph-based stateful agent orchestration
 | Upstream repository | [LangGraph on GitHub](https://github.com/langchain-ai/langgraph) |
 | Setup docs | [LangGraph setup guide](https://github.com/langchain-ai/langgraph#readme) |
 | Licence | MIT · [licence evidence](https://github.com/langchain-ai/langgraph/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | cli==0.4.37 (2026-10-19) |
 | Deployment | library |
 | Hardware | not-applicable |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### CrewAI {#crewai}
 
@@ -77,14 +77,14 @@ Role-based multi-agent crews
 | Upstream repository | [CrewAI on GitHub](https://github.com/crewAIInc/crewAI) |
 | Setup docs | [CrewAI setup guide](https://github.com/crewAIInc/crewAI#readme) |
 | Licence | MIT · [licence evidence](https://github.com/crewAIInc/crewAI/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | 1.15.28 (2026-10-14) |
 | Deployment | library |
 | Hardware | not-applicable |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### AutoGen {#autogen}
 
@@ -95,14 +95,14 @@ Conversational multi-agent framework
 | Upstream repository | [AutoGen on GitHub](https://github.com/microsoft/autogen) |
 | Setup docs | [AutoGen setup guide](https://github.com/microsoft/autogen#readme) |
 | Licence | CC-BY-4.0 (docs) / MIT (code) ⚠ needs review · [licence evidence](https://github.com/microsoft/autogen/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | CC-BY-4.0 |
+| Repository state | active |
+| Last commit | 2026-10-16 |
+| Latest release | python-v0.7.5 (2025-09-30) |
 | Deployment | library |
 | Hardware | not-applicable |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### smolagents {#smolagents}
 
@@ -113,14 +113,14 @@ Minimal code-writing agents
 | Upstream repository | [smolagents on GitHub](https://github.com/huggingface/smolagents) |
 | Setup docs | [smolagents setup guide](https://github.com/huggingface/smolagents#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/huggingface/smolagents/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-06 |
+| Latest release | v1.26.0 (2026-05-29) |
 | Deployment | library |
 | Hardware | not-applicable |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Agno {#agno}
 
@@ -131,14 +131,14 @@ Fast agent framework with memory and tools
 | Upstream repository | [Agno on GitHub](https://github.com/agno-agi/agno) |
 | Setup docs | [Agno setup guide](https://github.com/agno-agi/agno#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/agno-agi/agno/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v3.1.7 (2026-10-20) |
 | Deployment | library |
 | Hardware | not-applicable |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### OpenHuman {#openhuman}
 
@@ -149,11 +149,11 @@ Lightweight agent harness that runs hundreds of agents on a small VPS
 | Upstream repository | [OpenHuman on GitHub](https://github.com/tinyhumansai/openhuman) |
 | Setup docs | [OpenHuman setup guide](https://github.com/tinyhumansai/openhuman#readme) |
 | Licence | GPL-3.0 · [licence evidence](https://github.com/tinyhumansai/openhuman/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | GPL-3.0 |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v0.64.15 (2026-10-09) |
 | Deployment | library |
 | Hardware | not-applicable |
 | Languages | Rust |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |

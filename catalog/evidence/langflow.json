@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/langflow-ai/langflow",
+  "default_branch": "main",
+  "id": "langflow",
+  "last_commit": "2026-10-16T02:13:02Z",
+  "latest_release": {
+    "published_at": "2026-10-13T16:29:12Z",
+    "tag": "v1.12.6"
+  },
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/langflow-ai/langflow/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T18:52:04Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/langflow-ai/langflow",
+  "stars": 155879,
+  "state": "active"
+}

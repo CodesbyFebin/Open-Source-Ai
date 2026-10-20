@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/qdrant/qdrant",
+  "default_branch": "master",
+  "id": "qdrant",
+  "last_commit": "2026-10-05T10:03:16Z",
+  "latest_release": {
+    "published_at": "2026-10-05T14:16:50Z",
+    "tag": "v1.19.2"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/qdrant/qdrant/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T16:36:27Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/qdrant/qdrant",
+  "stars": 35158,
+  "state": "active"
+}

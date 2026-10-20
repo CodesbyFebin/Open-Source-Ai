@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/FlowiseAI/Flowise",
+  "default_branch": "main",
+  "id": "flowise",
+  "last_commit": "2026-08-13T12:38:19Z",
+  "latest_release": {
+    "published_at": "2026-07-29T15:51:25Z",
+    "tag": "flowise@3.1.4"
+  },
+  "license": {
+    "github_spdx": "NOASSERTION",
+    "source": "https://api.github.com/repos/FlowiseAI/Flowise/license",
+    "state": "needs-review"
+  },
+  "pushed_at": "2026-08-13T12:38:19Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/FlowiseAI/Flowise",
+  "stars": 55510,
+  "state": "archived"
+}

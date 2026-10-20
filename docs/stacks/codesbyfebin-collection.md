@@ -14,19 +14,19 @@ Hand-picked agent tools, MCP servers and experiments.
 
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
-| [One Person Company](#one-person-company) | Operations dashboard for solo founders | Dashboard | unknown | unknown | MIT | not yet collected |
-| [Kinetic](#kinetic) | GTM enrichment tables plus cold-email outreach | Sales app | unknown | unknown | MIT | not yet collected |
-| [CircleChat](#circlechat) | Team chat where humans and agents are members | Chat + agent runtime | unknown | unknown | MIT | not yet collected |
-| [AgentDomains](#agentdomains) | CLI to claim free subdomains and DNS for agents | CLI | unknown | unknown | FSL-1.1-Apache-2.0 | not yet collected |
-| [AgentDomains MCP](#agentdomains-mcp) | MCP server for subdomain/DNS management | MCP server | unknown | unknown | FSL-1.1-Apache-2.0 | not yet collected |
-| [AgentDomains Skill](#agentdomains-skill) | Coding-agent skill for subdomain/DNS | Agent skill | unknown | unknown | FSL-1.1-Apache-2.0 | not yet collected |
-| [ScallopBot](#scallopbot) | Self-hosted assistant with MCP-native memory | Assistant | unknown | unknown | MIT | not yet collected |
-| [Cashmaxx](#cashmaxx) | Autonomous agent with guarded crypto wallet | Agent | unknown | unknown | MIT | not yet collected |
-| [Jev Deep Research](#jev-deepresearch) | Deep-research crawler with planner LLM | Research agent | unknown | unknown | MIT | not yet collected |
-| [Emotion State](#emotion-state) | Emotion state classification for agents | Library | unknown | unknown | MIT | not yet collected |
-| [MagicTap](#magictap) | Gaze + sound touch input for laptops | HCI experiment | unknown | unknown | MIT | not yet collected |
-| [PyReality](#pyreality) | Mixed-reality visualisations in notebooks | Library | unknown | unknown | MIT | not yet collected |
-| [HTML Email Template](#html-email-template) | Reusable HTML email template | Template | unknown | unknown | MIT | not yet collected |
+| [One Person Company](#one-person-company) | Operations dashboard for solo founders | Dashboard | unknown | unknown | MIT | active |
+| [Kinetic](#kinetic) | GTM enrichment tables plus cold-email outreach | Sales app | unknown | unknown | MIT | active |
+| [CircleChat](#circlechat) | Team chat where humans and agents are members | Chat + agent runtime | unknown | unknown | MIT | active |
+| [AgentDomains](#agentdomains) | CLI to claim free subdomains and DNS for agents | CLI | unknown | unknown | FSL-1.1-Apache-2.0 | active |
+| [AgentDomains MCP](#agentdomains-mcp) | MCP server for subdomain/DNS management | MCP server | unknown | unknown | FSL-1.1-Apache-2.0 | active |
+| [AgentDomains Skill](#agentdomains-skill) | Coding-agent skill for subdomain/DNS | Agent skill | unknown | unknown | FSL-1.1-Apache-2.0 | active |
+| [ScallopBot](#scallopbot) | Self-hosted assistant with MCP-native memory | Assistant | unknown | unknown | MIT | active |
+| [Cashmaxx](#cashmaxx) | Autonomous agent with guarded crypto wallet | Agent | unknown | unknown | MIT | active |
+| [Jev Deep Research](#jev-deepresearch) | Deep-research crawler with planner LLM | Research agent | unknown | unknown | MIT | active |
+| [Emotion State](#emotion-state) | Emotion state classification for agents | Library | unknown | unknown | MIT | active |
+| [MagicTap](#magictap) | Gaze + sound touch input for laptops | HCI experiment | unknown | unknown | MIT | active |
+| [PyReality](#pyreality) | Mixed-reality visualisations in notebooks | Library | unknown | unknown | MIT | active |
+| [HTML Email Template](#html-email-template) | Reusable HTML email template | Template | unknown | unknown | MIT | active |
 
 ## Quick start
 
@@ -43,14 +43,14 @@ Operations dashboard for solo founders
 | Upstream repository | [One Person Company on GitHub](https://github.com/tashfeenahmed/OnePersonCompany) |
 | Setup docs | [One Person Company setup guide](https://github.com/tashfeenahmed/OnePersonCompany#readme) |
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/OnePersonCompany/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-06 |
 | Latest release | none detected  |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Kinetic {#kinetic}
 
@@ -61,14 +61,14 @@ GTM enrichment tables plus cold-email outreach
 | Upstream repository | [Kinetic on GitHub](https://github.com/tashfeenahmed/kinetic) |
 | Setup docs | [Kinetic setup guide](https://github.com/tashfeenahmed/kinetic#readme) |
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/kinetic/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-15 |
 | Latest release | none detected  |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### CircleChat {#circlechat}
 
@@ -79,14 +79,14 @@ Team chat where humans and agents are members
 | Upstream repository | [CircleChat on GitHub](https://github.com/tashfeenahmed/circlechat) |
 | Setup docs | [CircleChat setup guide](https://github.com/tashfeenahmed/circlechat#readme) |
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/circlechat/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-09-30 |
 | Latest release | none detected  |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### AgentDomains {#agentdomains}
 
@@ -97,14 +97,14 @@ CLI to claim free subdomains and DNS for agents
 | Upstream repository | [AgentDomains on GitHub](https://github.com/tashfeenahmed/AgentDomains) |
 | Setup docs | [AgentDomains setup guide](https://github.com/tashfeenahmed/AgentDomains#readme) |
 | Licence | FSL-1.1-Apache-2.0 · [licence evidence](https://github.com/tashfeenahmed/AgentDomains/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2026-10-17 |
+| Latest release | v0.1.8 (2026-10-17) |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | Go |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### AgentDomains MCP {#agentdomains-mcp}
 
@@ -115,14 +115,14 @@ MCP server for subdomain/DNS management
 | Upstream repository | [AgentDomains MCP on GitHub](https://github.com/tashfeenahmed/AgentDomains-mcp) |
 | Setup docs | [AgentDomains MCP setup guide](https://github.com/tashfeenahmed/AgentDomains-mcp#readme) |
 | Licence | FSL-1.1-Apache-2.0 · [licence evidence](https://github.com/tashfeenahmed/AgentDomains-mcp/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2026-09-30 |
 | Latest release | none detected  |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### AgentDomains Skill {#agentdomains-skill}
 
@@ -133,14 +133,14 @@ Coding-agent skill for subdomain/DNS
 | Upstream repository | [AgentDomains Skill on GitHub](https://github.com/tashfeenahmed/AgentDomains-skill) |
 | Setup docs | [AgentDomains Skill setup guide](https://github.com/tashfeenahmed/AgentDomains-skill#readme) |
 | Licence | FSL-1.1-Apache-2.0 · [licence evidence](https://github.com/tashfeenahmed/AgentDomains-skill/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2026-10-17 |
 | Latest release | none detected  |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | Shell |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### ScallopBot {#scallopbot}
 
@@ -151,14 +151,14 @@ Self-hosted assistant with MCP-native memory
 | Upstream repository | [ScallopBot on GitHub](https://github.com/tashfeenahmed/scallopbot) |
 | Setup docs | [ScallopBot setup guide](https://github.com/tashfeenahmed/scallopbot#readme) |
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/scallopbot/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-16 |
+| Latest release | v0.1.0 (2026-02-03) |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Cashmaxx {#cashmaxx}
 
@@ -169,14 +169,14 @@ Autonomous agent with guarded crypto wallet
 | Upstream repository | [Cashmaxx on GitHub](https://github.com/tashfeenahmed/cashmaxx) |
 | Setup docs | [Cashmaxx setup guide](https://github.com/tashfeenahmed/cashmaxx#readme) |
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/cashmaxx/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-04 |
 | Latest release | none detected  |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Jev Deep Research {#jev-deepresearch}
 
@@ -187,14 +187,14 @@ Deep-research crawler with planner LLM
 | Upstream repository | [Jev Deep Research on GitHub](https://github.com/tashfeenahmed/jev-deepresearch) |
 | Setup docs | [Jev Deep Research setup guide](https://github.com/tashfeenahmed/jev-deepresearch#readme) |
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/jev-deepresearch/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-09-22 |
+| Latest release | v0.1.0 (2026-09-22) |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | JavaScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Emotion State {#emotion-state}
 
@@ -205,14 +205,14 @@ Emotion state classification for agents
 | Upstream repository | [Emotion State on GitHub](https://github.com/tashfeenahmed/emotion-state) |
 | Setup docs | [Emotion State setup guide](https://github.com/tashfeenahmed/emotion-state#readme) |
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/emotion-state/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-02-05 |
 | Latest release | none detected  |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### MagicTap {#magictap}
 
@@ -223,14 +223,14 @@ Gaze + sound touch input for laptops
 | Upstream repository | [MagicTap on GitHub](https://github.com/tashfeenahmed/magictap) |
 | Setup docs | [MagicTap setup guide](https://github.com/tashfeenahmed/magictap#readme) |
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/magictap/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-14 |
 | Latest release | none detected  |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### PyReality {#pyreality}
 
@@ -241,14 +241,14 @@ Mixed-reality visualisations in notebooks
 | Upstream repository | [PyReality on GitHub](https://github.com/tashfeenahmed/pyreality) |
 | Setup docs | [PyReality setup guide](https://github.com/tashfeenahmed/pyreality#readme) |
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/pyreality/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2021-07-31 |
 | Latest release | none detected  |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### HTML Email Template {#html-email-template}
 
@@ -259,11 +259,11 @@ Reusable HTML email template
 | Upstream repository | [HTML Email Template on GitHub](https://github.com/tashfeenahmed/html-email-template) |
 | Setup docs | [HTML Email Template setup guide](https://github.com/tashfeenahmed/html-email-template#readme) |
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/html-email-template/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2021-09-19 |
 | Latest release | none detected  |
 | Deployment | unknown |
 | Hardware | unknown |
 | Languages | HTML |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |

@@ -14,13 +14,13 @@ Retrieval frameworks, document pipelines and vector stores.
 
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
-| [LlamaIndex](#llama-index) | Data framework for RAG | Framework | library, self-hosted | cpu-ok | MIT | not yet collected |
-| [Haystack](#haystack) | Production RAG pipelines | Framework | library, self-hosted | cpu-ok | Apache-2.0 | not yet collected |
-| [RAGFlow](#ragflow) | Deep-document-understanding RAG engine | Engine + UI | library, self-hosted | cpu-ok | Apache-2.0 | not yet collected |
-| [Qdrant](#qdrant) | Vector search engine | Vector DB | library, self-hosted | cpu-ok | Apache-2.0 | not yet collected |
-| [Chroma](#chroma) | Embedding database | Vector DB (embedded) | library, self-hosted | cpu-ok | Apache-2.0 | not yet collected |
-| [Milvus](#milvus) | Cloud-native vector database | Vector DB (scale) | library, self-hosted | cpu-ok | Apache-2.0 | not yet collected |
-| [Weaviate](#weaviate) | Vector DB with hybrid search | Vector DB (hybrid) | library, self-hosted | cpu-ok | BSD-3-Clause (core) ⚠ needs review | not yet collected |
+| [LlamaIndex](#llama-index) | Data framework for RAG | Framework | library, self-hosted | cpu-ok | MIT | active |
+| [Haystack](#haystack) | Production RAG pipelines | Framework | library, self-hosted | cpu-ok | Apache-2.0 | active |
+| [RAGFlow](#ragflow) | Deep-document-understanding RAG engine | Engine + UI | library, self-hosted | cpu-ok | Apache-2.0 | active |
+| [Qdrant](#qdrant) | Vector search engine | Vector DB | library, self-hosted | cpu-ok | Apache-2.0 | active |
+| [Chroma](#chroma) | Embedding database | Vector DB (embedded) | library, self-hosted | cpu-ok | Apache-2.0 | active |
+| [Milvus](#milvus) | Cloud-native vector database | Vector DB (scale) | library, self-hosted | cpu-ok | Apache-2.0 | active |
+| [Weaviate](#weaviate) | Vector DB with hybrid search | Vector DB (hybrid) | library, self-hosted | cpu-ok | BSD-3-Clause (core) ⚠ needs review | active |
 
 ## Quick start
 
@@ -41,14 +41,14 @@ Data framework for RAG
 | Upstream repository | [LlamaIndex on GitHub](https://github.com/run-llama/llama_index) |
 | Setup docs | [LlamaIndex setup guide](https://github.com/run-llama/llama_index#readme) |
 | Licence | MIT · [licence evidence](https://github.com/run-llama/llama_index/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-14 |
+| Latest release | v0.14.25 (2026-09-21) |
 | Deployment | library, self-hosted |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Haystack {#haystack}
 
@@ -59,14 +59,14 @@ Production RAG pipelines
 | Upstream repository | [Haystack on GitHub](https://github.com/deepset-ai/haystack) |
 | Setup docs | [Haystack setup guide](https://github.com/deepset-ai/haystack#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/deepset-ai/haystack/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v3.4.0 (2026-10-15) |
 | Deployment | library, self-hosted |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### RAGFlow {#ragflow}
 
@@ -77,14 +77,14 @@ Deep-document-understanding RAG engine
 | Upstream repository | [RAGFlow on GitHub](https://github.com/infiniflow/ragflow) |
 | Setup docs | [RAGFlow setup guide](https://github.com/infiniflow/ragflow#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/infiniflow/ragflow/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v1.0.0-rc2 (2026-10-16) |
 | Deployment | library, self-hosted |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Qdrant {#qdrant}
 
@@ -95,14 +95,14 @@ Vector search engine
 | Upstream repository | [Qdrant on GitHub](https://github.com/qdrant/qdrant) |
 | Setup docs | [Qdrant setup guide](https://github.com/qdrant/qdrant#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/qdrant/qdrant/blob/master/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-05 |
+| Latest release | v1.19.2 (2026-10-05) |
 | Deployment | library, self-hosted |
 | Hardware | cpu-ok |
 | Languages | Rust |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Chroma {#chroma}
 
@@ -113,14 +113,14 @@ Embedding database
 | Upstream repository | [Chroma on GitHub](https://github.com/chroma-core/chroma) |
 | Setup docs | [Chroma setup guide](https://github.com/chroma-core/chroma#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/chroma-core/chroma/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-17 |
+| Latest release | 1.5.9 (2026-05-05) |
 | Deployment | library, self-hosted |
 | Hardware | cpu-ok |
 | Languages | Rust, Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Milvus {#milvus}
 
@@ -131,14 +131,14 @@ Cloud-native vector database
 | Upstream repository | [Milvus on GitHub](https://github.com/milvus-io/milvus) |
 | Setup docs | [Milvus setup guide](https://github.com/milvus-io/milvus#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/milvus-io/milvus/blob/master/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v3.0.3 (2026-10-14) |
 | Deployment | library, self-hosted |
 | Hardware | cpu-ok |
 | Languages | Go |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Weaviate {#weaviate}
 
@@ -149,11 +149,11 @@ Vector DB with hybrid search
 | Upstream repository | [Weaviate on GitHub](https://github.com/weaviate/weaviate) |
 | Setup docs | [Weaviate setup guide](https://github.com/weaviate/weaviate#readme) |
 | Licence | BSD-3-Clause (core) ⚠ needs review · [licence evidence](https://github.com/weaviate/weaviate/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2026-10-16 |
+| Latest release | v1.40.1 (2026-10-13) |
 | Deployment | library, self-hosted |
 | Hardware | cpu-ok |
 | Languages | Go |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |

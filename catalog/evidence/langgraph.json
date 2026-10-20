@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/langchain-ai/langgraph",
+  "default_branch": "main",
+  "id": "langgraph",
+  "last_commit": "2026-10-20T10:09:26Z",
+  "latest_release": {
+    "published_at": "2026-10-19T14:06:22Z",
+    "tag": "cli==0.4.37"
+  },
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/langchain-ai/langgraph/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T10:09:29Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/langchain-ai/langgraph",
+  "stars": 43590,
+  "state": "active"
+}

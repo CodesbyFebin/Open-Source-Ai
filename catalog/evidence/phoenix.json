@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/Arize-ai/phoenix",
+  "default_branch": "main",
+  "id": "phoenix",
+  "last_commit": "2026-10-20T17:52:16Z",
+  "latest_release": {
+    "published_at": "2026-10-19T16:42:17Z",
+    "tag": "arize-phoenix-sqlean-v0.2.1"
+  },
+  "license": {
+    "github_spdx": "NOASSERTION",
+    "source": "https://api.github.com/repos/Arize-ai/phoenix/license",
+    "state": "needs-review"
+  },
+  "pushed_at": "2026-10-20T18:43:03Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/Arize-ai/phoenix",
+  "stars": 11925,
+  "state": "active"
+}

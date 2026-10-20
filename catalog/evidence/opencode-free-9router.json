@@ -1,0 +1,17 @@
+{
+  "canonical_repo": "https://github.com/0xgetz/opencode-free-9router",
+  "default_branch": "main",
+  "id": "opencode-free-9router",
+  "last_commit": "2026-10-17T13:49:38Z",
+  "latest_release": null,
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/0xgetz/opencode-free-9router/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-17T13:49:39Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/0xgetz/opencode-free-9router",
+  "stars": 45,
+  "state": "active"
+}

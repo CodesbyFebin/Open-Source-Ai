@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/huggingface/text-generation-inference",
+  "default_branch": "main",
+  "id": "text-generation-inference",
+  "last_commit": "2026-03-21T11:34:22Z",
+  "latest_release": {
+    "published_at": "2025-12-19T14:35:25Z",
+    "tag": "v3.3.7"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/huggingface/text-generation-inference/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-03-21T11:34:22Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/huggingface/text-generation-inference",
+  "stars": 10880,
+  "state": "archived"
+}

@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/continuedev/continue",
+  "default_branch": "main",
+  "id": "continue",
+  "last_commit": "2026-07-21T04:00:09Z",
+  "latest_release": {
+    "published_at": "2026-06-19T00:24:01Z",
+    "tag": "v2.0.0-vscode"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/continuedev/continue/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T14:30:21Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/continuedev/continue",
+  "stars": 36273,
+  "state": "active"
+}

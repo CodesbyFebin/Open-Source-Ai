@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/milvus-io/milvus",
+  "default_branch": "master",
+  "id": "milvus",
+  "last_commit": "2026-10-20T17:51:51Z",
+  "latest_release": {
+    "published_at": "2026-10-14T07:58:49Z",
+    "tag": "v3.0.3"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/milvus-io/milvus/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T17:51:51Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/milvus-io/milvus",
+  "stars": 46447,
+  "state": "active"
+}

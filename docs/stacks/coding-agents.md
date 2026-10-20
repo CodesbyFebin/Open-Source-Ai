@@ -14,11 +14,11 @@ AI pair programmers and autonomous software agents.
 
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
-| [OpenHands](#openhands) | Autonomous software-engineering agent | Web / headless | local | cpu-ok | MIT | not yet collected |
-| [Continue](#continue) | IDE assistant for VS Code and JetBrains | IDE extension | local | cpu-ok | Apache-2.0 | not yet collected |
-| [Aider](#aider) | Terminal pair programmer working on git repos | CLI | local | cpu-ok | Apache-2.0 | not yet collected |
-| [OpenCode](#opencode) | Terminal coding agent | TUI | local | cpu-ok | MIT | not yet collected |
-| [Cline](#cline) | Autonomous coding agent in VS Code | IDE extension | local | cpu-ok | Apache-2.0 | not yet collected |
+| [OpenHands](#openhands) | Autonomous software-engineering agent | Web / headless | local | cpu-ok | MIT | active |
+| [Continue](#continue) | IDE assistant for VS Code and JetBrains | IDE extension | local | cpu-ok | Apache-2.0 | active |
+| [Aider](#aider) | Terminal pair programmer working on git repos | CLI | local | cpu-ok | Apache-2.0 | active |
+| [OpenCode](#opencode) | Terminal coding agent | TUI | local | cpu-ok | MIT | active |
+| [Cline](#cline) | Autonomous coding agent in VS Code | IDE extension | local | cpu-ok | Apache-2.0 | active |
 
 ## Quick start
 
@@ -38,14 +38,14 @@ Autonomous software-engineering agent
 | Upstream repository | [OpenHands on GitHub](https://github.com/OpenHands/OpenHands) |
 | Setup docs | [OpenHands setup guide](https://github.com/OpenHands/OpenHands#readme) |
 | Licence | MIT · [licence evidence](https://github.com/OpenHands/OpenHands/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v1.28.1 (2026-10-19) |
 | Deployment | local |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Continue {#continue}
 
@@ -56,14 +56,14 @@ IDE assistant for VS Code and JetBrains
 | Upstream repository | [Continue on GitHub](https://github.com/continuedev/continue) |
 | Setup docs | [Continue setup guide](https://github.com/continuedev/continue#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/continuedev/continue/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-07-21 |
+| Latest release | v2.0.0-vscode (2026-06-19) |
 | Deployment | local |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Aider {#aider}
 
@@ -74,14 +74,14 @@ Terminal pair programmer working on git repos
 | Upstream repository | [Aider on GitHub](https://github.com/Aider-AI/aider) |
 | Setup docs | [Aider setup guide](https://github.com/Aider-AI/aider#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/Aider-AI/aider/blob/main/LICENSE.txt) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-05-22 |
+| Latest release | v0.86.0 (2025-08-09) |
 | Deployment | local |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### OpenCode {#opencode}
 
@@ -92,14 +92,14 @@ Terminal coding agent
 | Upstream repository | [OpenCode on GitHub](https://github.com/anomalyco/opencode) |
 | Setup docs | [OpenCode setup guide](https://github.com/anomalyco/opencode#readme) |
 | Licence | MIT · [licence evidence](https://github.com/anomalyco/opencode/blob/dev/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v1.19.3 (2026-10-16) |
 | Deployment | local |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Cline {#cline}
 
@@ -110,11 +110,11 @@ Autonomous coding agent in VS Code
 | Upstream repository | [Cline on GitHub](https://github.com/cline/cline) |
 | Setup docs | [Cline setup guide](https://github.com/cline/cline#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/cline/cline/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | desktop-v0.0.48 (2026-10-17) |
 | Deployment | local |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
