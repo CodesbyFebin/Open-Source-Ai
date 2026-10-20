@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block extrahead %}
+<meta name="keywords" content="open source ai, llm, ai agents, llm gateway, local llm, rag, vector database, chat ui, coding agents, CodesbyFebin">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Open Source Ai by CodesbyFebin">
+<meta property="og:title" content="{{ page.meta.title or page.title }} | Open Source Ai">
+<meta property="og:description" content="{{ page.meta.description or config.site_description }}">
+<meta property="og:url" content="{{ page.canonical_url }}">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="{{ 'assets/favicon.svg' | url }}">
+{% endblock %}

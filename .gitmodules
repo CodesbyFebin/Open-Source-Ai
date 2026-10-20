@@ -1,0 +1,324 @@
+[submodule "stacks/gateways-routing/freellmapi"]
+	path = stacks/gateways-routing/freellmapi
+	url = https://github.com/tashfeenahmed/freellmapi.git
+	shallow = true
+[submodule "stacks/gateways-routing/opencode-free-9router"]
+	path = stacks/gateways-routing/opencode-free-9router
+	url = https://github.com/0xgetz/opencode-free-9router.git
+	shallow = true
+[submodule "stacks/gateways-routing/bifrost"]
+	path = stacks/gateways-routing/bifrost
+	url = https://github.com/maximhq/bifrost.git
+	shallow = true
+[submodule "stacks/gateways-routing/gateway"]
+	path = stacks/gateways-routing/gateway
+	url = https://github.com/trylonai/gateway.git
+	shallow = true
+[submodule "stacks/gateways-routing/litellm"]
+	path = stacks/gateways-routing/litellm
+	url = https://github.com/BerriAI/litellm.git
+	shallow = true
+[submodule "stacks/gateways-routing/gateway"]
+	path = stacks/gateways-routing/gateway
+	url = https://github.com/Portkey-AI/gateway.git
+	shallow = true
+[submodule "stacks/chat-ui/open-webui"]
+	path = stacks/chat-ui/open-webui
+	url = https://github.com/open-webui/open-webui.git
+	shallow = true
+[submodule "stacks/chat-ui/lobe-chat"]
+	path = stacks/chat-ui/lobe-chat
+	url = https://github.com/lobehub/lobe-chat.git
+	shallow = true
+[submodule "stacks/chat-ui/LibreChat"]
+	path = stacks/chat-ui/LibreChat
+	url = https://github.com/danny-avila/LibreChat.git
+	shallow = true
+[submodule "stacks/chat-ui/chatbot-ui"]
+	path = stacks/chat-ui/chatbot-ui
+	url = https://github.com/mckaywrigley/chatbot-ui.git
+	shallow = true
+[submodule "stacks/local-models/gpt4all"]
+	path = stacks/local-models/gpt4all
+	url = https://github.com/nomic-ai/gpt4all.git
+	shallow = true
+[submodule "stacks/local-models/ollama"]
+	path = stacks/local-models/ollama
+	url = https://github.com/ollama/ollama.git
+	shallow = true
+[submodule "stacks/local-models/llama.cpp"]
+	path = stacks/local-models/llama.cpp
+	url = https://github.com/ggml-org/llama.cpp.git
+	shallow = true
+[submodule "stacks/local-models/llamafile"]
+	path = stacks/local-models/llamafile
+	url = https://github.com/Mozilla-Ocho/llamafile.git
+	shallow = true
+[submodule "stacks/local-models/LocalAI"]
+	path = stacks/local-models/LocalAI
+	url = https://github.com/mudler/LocalAI.git
+	shallow = true
+[submodule "stacks/local-models/text-generation-webui"]
+	path = stacks/local-models/text-generation-webui
+	url = https://github.com/oobabooga/text-generation-webui.git
+	shallow = true
+[submodule "stacks/inference-serving/vllm"]
+	path = stacks/inference-serving/vllm
+	url = https://github.com/vllm-project/vllm.git
+	shallow = true
+[submodule "stacks/inference-serving/sglang"]
+	path = stacks/inference-serving/sglang
+	url = https://github.com/sgl-project/sglang.git
+	shallow = true
+[submodule "stacks/inference-serving/text-generation-inference"]
+	path = stacks/inference-serving/text-generation-inference
+	url = https://github.com/huggingface/text-generation-inference.git
+	shallow = true
+[submodule "stacks/inference-serving/server"]
+	path = stacks/inference-serving/server
+	url = https://github.com/triton-inference-server/server.git
+	shallow = true
+[submodule "stacks/memory/mem0"]
+	path = stacks/memory/mem0
+	url = https://github.com/mem0ai/mem0.git
+	shallow = true
+[submodule "stacks/memory/openmemory"]
+	path = stacks/memory/openmemory
+	url = https://github.com/mem0ai/openmemory.git
+	shallow = true
+[submodule "stacks/memory/letta"]
+	path = stacks/memory/letta
+	url = https://github.com/letta-ai/letta.git
+	shallow = true
+[submodule "stacks/memory/graphiti"]
+	path = stacks/memory/graphiti
+	url = https://github.com/getzep/graphiti.git
+	shallow = true
+[submodule "stacks/agent-frameworks/langchain"]
+	path = stacks/agent-frameworks/langchain
+	url = https://github.com/langchain-ai/langchain.git
+	shallow = true
+[submodule "stacks/agent-frameworks/langgraph"]
+	path = stacks/agent-frameworks/langgraph
+	url = https://github.com/langchain-ai/langgraph.git
+	shallow = true
+[submodule "stacks/agent-frameworks/crewAI"]
+	path = stacks/agent-frameworks/crewAI
+	url = https://github.com/crewAIInc/crewAI.git
+	shallow = true
+[submodule "stacks/agent-frameworks/autogen"]
+	path = stacks/agent-frameworks/autogen
+	url = https://github.com/microsoft/autogen.git
+	shallow = true
+[submodule "stacks/agent-frameworks/smolagents"]
+	path = stacks/agent-frameworks/smolagents
+	url = https://github.com/huggingface/smolagents.git
+	shallow = true
+[submodule "stacks/agent-frameworks/agno"]
+	path = stacks/agent-frameworks/agno
+	url = https://github.com/agno-agi/agno.git
+	shallow = true
+[submodule "stacks/agent-frameworks/openhuman"]
+	path = stacks/agent-frameworks/openhuman
+	url = https://github.com/tinyhumansai/openhuman.git
+	shallow = true
+[submodule "stacks/agent-frameworks/medullabot"]
+	path = stacks/agent-frameworks/medullabot
+	url = https://github.com/medullabot/medullabot.git
+	shallow = true
+[submodule "stacks/coding-agents/OpenHands"]
+	path = stacks/coding-agents/OpenHands
+	url = https://github.com/All-Hands-AI/OpenHands.git
+	shallow = true
+[submodule "stacks/coding-agents/continue"]
+	path = stacks/coding-agents/continue
+	url = https://github.com/continuedev/continue.git
+	shallow = true
+[submodule "stacks/coding-agents/aider"]
+	path = stacks/coding-agents/aider
+	url = https://github.com/Aider-AI/aider.git
+	shallow = true
+[submodule "stacks/coding-agents/opencode"]
+	path = stacks/coding-agents/opencode
+	url = https://github.com/sst/opencode.git
+	shallow = true
+[submodule "stacks/coding-agents/cline"]
+	path = stacks/coding-agents/cline
+	url = https://github.com/cline/cline.git
+	shallow = true
+[submodule "stacks/code-review/open-code-review"]
+	path = stacks/code-review/open-code-review
+	url = https://github.com/alibaba/open-code-review.git
+	shallow = true
+[submodule "stacks/code-review/pr-agent"]
+	path = stacks/code-review/pr-agent
+	url = https://github.com/qodo-ai/pr-agent.git
+	shallow = true
+[submodule "stacks/app-builders/dify"]
+	path = stacks/app-builders/dify
+	url = https://github.com/langgenius/dify.git
+	shallow = true
+[submodule "stacks/app-builders/Flowise"]
+	path = stacks/app-builders/Flowise
+	url = https://github.com/FlowiseAI/Flowise.git
+	shallow = true
+[submodule "stacks/app-builders/langflow"]
+	path = stacks/app-builders/langflow
+	url = https://github.com/langflow-ai/langflow.git
+	shallow = true
+[submodule "stacks/app-builders/n8n"]
+	path = stacks/app-builders/n8n
+	url = https://github.com/n8n-io/n8n.git
+	shallow = true
+[submodule "stacks/rag-vector-db/llama_index"]
+	path = stacks/rag-vector-db/llama_index
+	url = https://github.com/run-llama/llama_index.git
+	shallow = true
+[submodule "stacks/rag-vector-db/haystack"]
+	path = stacks/rag-vector-db/haystack
+	url = https://github.com/deepset-ai/haystack.git
+	shallow = true
+[submodule "stacks/rag-vector-db/ragflow"]
+	path = stacks/rag-vector-db/ragflow
+	url = https://github.com/infiniflow/ragflow.git
+	shallow = true
+[submodule "stacks/rag-vector-db/qdrant"]
+	path = stacks/rag-vector-db/qdrant
+	url = https://github.com/qdrant/qdrant.git
+	shallow = true
+[submodule "stacks/rag-vector-db/chroma"]
+	path = stacks/rag-vector-db/chroma
+	url = https://github.com/chroma-core/chroma.git
+	shallow = true
+[submodule "stacks/rag-vector-db/milvus"]
+	path = stacks/rag-vector-db/milvus
+	url = https://github.com/milvus-io/milvus.git
+	shallow = true
+[submodule "stacks/rag-vector-db/weaviate"]
+	path = stacks/rag-vector-db/weaviate
+	url = https://github.com/weaviate/weaviate.git
+	shallow = true
+[submodule "stacks/eval-observability/langfuse"]
+	path = stacks/eval-observability/langfuse
+	url = https://github.com/langfuse/langfuse.git
+	shallow = true
+[submodule "stacks/eval-observability/phoenix"]
+	path = stacks/eval-observability/phoenix
+	url = https://github.com/Arize-ai/phoenix.git
+	shallow = true
+[submodule "stacks/eval-observability/promptfoo"]
+	path = stacks/eval-observability/promptfoo
+	url = https://github.com/promptfoo/promptfoo.git
+	shallow = true
+[submodule "stacks/eval-observability/deepeval"]
+	path = stacks/eval-observability/deepeval
+	url = https://github.com/confident-ai/deepeval.git
+	shallow = true
+[submodule "stacks/backend-infra/butterbase"]
+	path = stacks/backend-infra/butterbase
+	url = https://github.com/butterbase-ai/butterbase.git
+	shallow = true
+[submodule "stacks/backend-infra/supabase"]
+	path = stacks/backend-infra/supabase
+	url = https://github.com/supabase/supabase.git
+	shallow = true
+[submodule "stacks/backend-infra/pocketbase"]
+	path = stacks/backend-infra/pocketbase
+	url = https://github.com/pocketbase/pocketbase.git
+	shallow = true
+[submodule "stacks/app-templates/awesome-llm-apps"]
+	path = stacks/app-templates/awesome-llm-apps
+	url = https://github.com/Shubhamsaboo/awesome-llm-apps.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/OnePersonCompany"]
+	path = stacks/tashfeenahmed/OnePersonCompany
+	url = https://github.com/tashfeenahmed/OnePersonCompany.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/kinetic"]
+	path = stacks/tashfeenahmed/kinetic
+	url = https://github.com/tashfeenahmed/kinetic.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/circlechat"]
+	path = stacks/tashfeenahmed/circlechat
+	url = https://github.com/tashfeenahmed/circlechat.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/AgentDomains-web"]
+	path = stacks/tashfeenahmed/AgentDomains-web
+	url = https://github.com/tashfeenahmed/AgentDomains-web.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/AgentDomains-skill"]
+	path = stacks/tashfeenahmed/AgentDomains-skill
+	url = https://github.com/tashfeenahmed/AgentDomains-skill.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/AgentDomains"]
+	path = stacks/tashfeenahmed/AgentDomains
+	url = https://github.com/tashfeenahmed/AgentDomains.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/scallopbot"]
+	path = stacks/tashfeenahmed/scallopbot
+	url = https://github.com/tashfeenahmed/scallopbot.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/magictap"]
+	path = stacks/tashfeenahmed/magictap
+	url = https://github.com/tashfeenahmed/magictap.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/cashmaxx"]
+	path = stacks/tashfeenahmed/cashmaxx
+	url = https://github.com/tashfeenahmed/cashmaxx.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/AgentDomains-mcp"]
+	path = stacks/tashfeenahmed/AgentDomains-mcp
+	url = https://github.com/tashfeenahmed/AgentDomains-mcp.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/jev-deepresearch"]
+	path = stacks/tashfeenahmed/jev-deepresearch
+	url = https://github.com/tashfeenahmed/jev-deepresearch.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/tashfeenahmed"]
+	path = stacks/tashfeenahmed/tashfeenahmed
+	url = https://github.com/tashfeenahmed/tashfeenahmed.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/pyreality-website"]
+	path = stacks/tashfeenahmed/pyreality-website
+	url = https://github.com/tashfeenahmed/pyreality-website.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/3dvis"]
+	path = stacks/tashfeenahmed/3dvis
+	url = https://github.com/tashfeenahmed/3dvis.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/clawsfund-mcp"]
+	path = stacks/tashfeenahmed/clawsfund-mcp
+	url = https://github.com/tashfeenahmed/clawsfund-mcp.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/emotion-state"]
+	path = stacks/tashfeenahmed/emotion-state
+	url = https://github.com/tashfeenahmed/emotion-state.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/Data-Science-Project-Cambridge"]
+	path = stacks/tashfeenahmed/Data-Science-Project-Cambridge
+	url = https://github.com/tashfeenahmed/Data-Science-Project-Cambridge.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/Baby-Plus-App"]
+	path = stacks/tashfeenahmed/Baby-Plus-App
+	url = https://github.com/tashfeenahmed/Baby-Plus-App.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/html-email-template"]
+	path = stacks/tashfeenahmed/html-email-template
+	url = https://github.com/tashfeenahmed/html-email-template.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/pyreality"]
+	path = stacks/tashfeenahmed/pyreality
+	url = https://github.com/tashfeenahmed/pyreality.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/Twitter-Auto-Following-Bot"]
+	path = stacks/tashfeenahmed/Twitter-Auto-Following-Bot
+	url = https://github.com/tashfeenahmed/Twitter-Auto-Following-Bot.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/Twitter-Unfollower-Bot"]
+	path = stacks/tashfeenahmed/Twitter-Unfollower-Bot
+	url = https://github.com/tashfeenahmed/Twitter-Unfollower-Bot.git
+	shallow = true
+[submodule "stacks/tashfeenahmed/visit-lums-frontend"]
+	path = stacks/tashfeenahmed/visit-lums-frontend
+	url = https://github.com/tashfeenahmed/visit-lums-frontend.git
+	shallow = true
