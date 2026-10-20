@@ -14,7 +14,7 @@
 
 ## Requirements
 
-- Docker 24+ with Compose v2, Python 3.10+, Node.js 18+
+- Docker 24+ with Compose v2, Python 3.10+, Node.js 22.22+ (promptfoo 0.124 requirement)
 - 4 vCPU, 8 GB RAM, ~6 GB disk; no GPU needed. Cold start ~3–5 minutes (image + model pulls).
 
 ## Run
