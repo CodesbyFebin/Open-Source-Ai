@@ -1,0 +1,1634 @@
+{
+ "categories": [
+  {
+   "id": "gateways-routing",
+   "title": "Gateways & LLM Routing"
+  },
+  {
+   "id": "chat-ui",
+   "title": "Chat UIs"
+  },
+  {
+   "id": "local-models",
+   "title": "Local Models & Runtimes"
+  },
+  {
+   "id": "inference-serving",
+   "title": "Inference & Serving"
+  },
+  {
+   "id": "memory",
+   "title": "Memory"
+  },
+  {
+   "id": "agent-frameworks",
+   "title": "Agent Frameworks"
+  },
+  {
+   "id": "coding-agents",
+   "title": "Coding Agents"
+  },
+  {
+   "id": "code-review",
+   "title": "Code Review"
+  },
+  {
+   "id": "app-builders",
+   "title": "Low-code App Builders"
+  },
+  {
+   "id": "rag-vector-db",
+   "title": "RAG & Vector Databases"
+  },
+  {
+   "id": "eval-observability",
+   "title": "Evaluation & Observability"
+  },
+  {
+   "id": "backend-infra",
+   "title": "Backend & Infra"
+  },
+  {
+   "id": "app-templates",
+   "title": "App Templates & Examples"
+  },
+  {
+   "id": "codesbyfebin-collection",
+   "title": "CodesbyFebin Collection"
+  }
+ ],
+ "projects": [
+  {
+   "category": "gateways-routing",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Aggregates free LLM providers behind one /v1 endpoint with failover",
+   "hardware": "cpu-ok",
+   "id": "freellmapi",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "FreeLLMAPI",
+   "repo": "https://github.com/tashfeenahmed/freellmapi",
+   "status": "active",
+   "tasks": [
+    "routing",
+    "api-gateway"
+   ]
+  },
+  {
+   "category": "gateways-routing",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Routes coding-agent traffic to free model endpoints",
+   "hardware": "cpu-ok",
+   "id": "opencode-free-9router",
+   "languages": [
+    "JavaScript"
+   ],
+   "last_commit": "2026-10-17",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "OpenCode Free Router",
+   "repo": "https://github.com/0xgetz/opencode-free-9router",
+   "status": "active",
+   "tasks": [
+    "routing",
+    "api-gateway"
+   ]
+  },
+  {
+   "category": "gateways-routing",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "High-performance AI gateway with load balancing and fallbacks",
+   "hardware": "cpu-ok",
+   "id": "bifrost",
+   "languages": [
+    "Go"
+   ],
+   "last_commit": "2026-10-19",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Bifrost",
+   "repo": "https://github.com/maximhq/bifrost",
+   "status": "active",
+   "tasks": [
+    "routing",
+    "api-gateway"
+   ]
+  },
+  {
+   "category": "gateways-routing",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Self-hosted LLM firewall with guardrails",
+   "hardware": "cpu-ok",
+   "id": "trylon-gateway",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2025-06-25",
+   "license": "BUSL-1.1",
+   "license_reason": "Source-available, not OSI: Business Source License 1.1 with a use limitation (upstream LICENSE).",
+   "license_state": "needs-review",
+   "name": "Trylon Gateway",
+   "repo": "https://github.com/trylonai/gateway",
+   "status": "active",
+   "tasks": [
+    "routing",
+    "api-gateway"
+   ]
+  },
+  {
+   "category": "gateways-routing",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Proxy + SDK for 100+ LLM APIs in OpenAI format, cost tracking",
+   "hardware": "cpu-ok",
+   "id": "litellm",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT (enterprise/ dir separate)",
+   "license_reason": "Multiple licences: MIT for most code, separate licence for the enterprise/ directory (stated at top of upstream LICENSE).",
+   "license_state": "needs-review",
+   "name": "LiteLLM",
+   "repo": "https://github.com/BerriAI/litellm",
+   "status": "active",
+   "tasks": [
+    "routing",
+    "api-gateway"
+   ]
+  },
+  {
+   "category": "gateways-routing",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Fast AI gateway with routing, retries and caching",
+   "hardware": "cpu-ok",
+   "id": "portkey-gateway",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-05-25",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Portkey Gateway",
+   "repo": "https://github.com/Portkey-AI/gateway",
+   "status": "active",
+   "tasks": [
+    "routing",
+    "api-gateway"
+   ]
+  },
+  {
+   "category": "chat-ui",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Feature-rich web UI for Ollama and OpenAI-compatible APIs",
+   "hardware": "cpu-ok",
+   "id": "open-webui",
+   "languages": [
+    "Python",
+    "Svelte"
+   ],
+   "last_commit": "2026-10-16",
+   "license": "Open WebUI License (BSD-3 + branding clause)",
+   "license_reason": "Custom licence: BSD-3-style terms plus a clause forbidding removal or alteration of Open WebUI branding (upstream LICENSE).",
+   "license_state": "needs-review",
+   "name": "Open WebUI",
+   "repo": "https://github.com/open-webui/open-webui",
+   "status": "active",
+   "tasks": [
+    "chat"
+   ]
+  },
+  {
+   "category": "chat-ui",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Modern multi-provider chat and agent workspace",
+   "hardware": "cpu-ok",
+   "id": "lobe-chat",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "LobeHub Community License (Apache-2.0 based)",
+   "license_reason": "Custom licence: LobeHub Community License, Apache-2.0 based with additional commercial-use conditions (upstream LICENSE).",
+   "license_state": "needs-review",
+   "name": "Lobe Chat",
+   "repo": "https://github.com/lobehub/lobehub",
+   "status": "active",
+   "tasks": [
+    "chat"
+   ]
+  },
+  {
+   "category": "chat-ui",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Multi-provider chat with agents, auth and plugins",
+   "hardware": "cpu-ok",
+   "id": "librechat",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-17",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "LibreChat",
+   "repo": "https://github.com/LibreChat-AI/LibreChat",
+   "status": "active",
+   "tasks": [
+    "chat"
+   ]
+  },
+  {
+   "category": "chat-ui",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Minimal open-source chat front end",
+   "hardware": "cpu-ok",
+   "id": "chatbot-ui",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2024-06-22",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Chatbot UI",
+   "repo": "https://github.com/mckaywrigley/chatbot-ui",
+   "status": "active",
+   "tasks": [
+    "chat"
+   ]
+  },
+  {
+   "category": "local-models",
+   "deployment": [
+    "local"
+   ],
+   "description": "Desktop app for private local LLM chat",
+   "hardware": "cpu-ok",
+   "id": "gpt4all",
+   "languages": [
+    "C++"
+   ],
+   "last_commit": "2025-05-27",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "GPT4All",
+   "repo": "https://github.com/nomic-ai/gpt4all",
+   "status": "active",
+   "tasks": [
+    "local-inference"
+   ]
+  },
+  {
+   "category": "local-models",
+   "deployment": [
+    "local"
+   ],
+   "description": "One-command local model runner with OpenAI-compatible API",
+   "hardware": "cpu-ok",
+   "id": "ollama",
+   "languages": [
+    "Go"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Ollama",
+   "repo": "https://github.com/ollama/ollama",
+   "status": "active",
+   "tasks": [
+    "local-inference"
+   ]
+  },
+  {
+   "category": "local-models",
+   "deployment": [
+    "local"
+   ],
+   "description": "Portable C/C++ inference for GGUF models",
+   "hardware": "cpu-ok",
+   "id": "llama.cpp",
+   "languages": [
+    "C++"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "llama.cpp",
+   "repo": "https://github.com/ggml-org/llama.cpp",
+   "status": "active",
+   "tasks": [
+    "local-inference"
+   ]
+  },
+  {
+   "category": "local-models",
+   "deployment": [
+    "local"
+   ],
+   "description": "Single-file executable LLMs",
+   "hardware": "cpu-ok",
+   "id": "llamafile",
+   "languages": [
+    "C++"
+   ],
+   "last_commit": "2026-10-08",
+   "license": "Apache-2.0",
+   "license_reason": "LICENSE text is Apache-2.0 but GitHub's detector returns NOASSERTION; vendored third-party components not reviewed.",
+   "license_state": "needs-review",
+   "name": "llamafile",
+   "repo": "https://github.com/mozilla-ai/llamafile",
+   "status": "active",
+   "tasks": [
+    "local-inference"
+   ]
+  },
+  {
+   "category": "local-models",
+   "deployment": [
+    "local"
+   ],
+   "description": "Drop-in OpenAI API replacement for local models",
+   "hardware": "cpu-ok",
+   "id": "localai",
+   "languages": [
+    "Go"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "LocalAI",
+   "repo": "https://github.com/mudler/LocalAI",
+   "status": "active",
+   "tasks": [
+    "local-inference"
+   ]
+  },
+  {
+   "category": "local-models",
+   "deployment": [
+    "local"
+   ],
+   "description": "Gradio UI supporting many backends",
+   "hardware": "cpu-ok",
+   "id": "text-generation-webui",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-08-17",
+   "license": "AGPL-3.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Text Generation WebUI",
+   "repo": "https://github.com/oobabooga/textgen",
+   "status": "active",
+   "tasks": [
+    "local-inference"
+   ]
+  },
+  {
+   "category": "inference-serving",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "PagedAttention-based high-throughput server",
+   "hardware": "gpu-required",
+   "id": "vllm",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "vLLM",
+   "repo": "https://github.com/vllm-project/vllm",
+   "status": "active",
+   "tasks": [
+    "serving"
+   ]
+  },
+  {
+   "category": "inference-serving",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Fast serving with structured generation",
+   "hardware": "gpu-required",
+   "id": "sglang",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "SGLang",
+   "repo": "https://github.com/sgl-project/sglang",
+   "status": "active",
+   "tasks": [
+    "serving"
+   ]
+  },
+  {
+   "category": "inference-serving",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Production LLM server",
+   "hardware": "gpu-required",
+   "id": "text-generation-inference",
+   "languages": [
+    "Rust",
+    "Python"
+   ],
+   "last_commit": "2026-03-21",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Text Generation Inference",
+   "repo": "https://github.com/huggingface/text-generation-inference",
+   "status": "archived",
+   "tasks": [
+    "serving"
+   ]
+  },
+  {
+   "category": "inference-serving",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Multi-framework model server",
+   "hardware": "gpu-required",
+   "id": "triton-server",
+   "languages": [
+    "C++"
+   ],
+   "last_commit": "2026-10-15",
+   "license": "BSD-3-Clause",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Triton Inference Server",
+   "repo": "https://github.com/triton-inference-server/server",
+   "status": "active",
+   "tasks": [
+    "serving"
+   ]
+  },
+  {
+   "category": "memory",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Universal memory layer for AI agents",
+   "hardware": "cpu-ok",
+   "id": "mem0",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-14",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Mem0",
+   "repo": "https://github.com/mem0ai/mem0",
+   "status": "active",
+   "tasks": [
+    "memory"
+   ]
+  },
+  {
+   "category": "memory",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Local-first memory server (MCP) for AI tools",
+   "hardware": "cpu-ok",
+   "id": "openmemory",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-07-29",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "OpenMemory",
+   "repo": "https://github.com/mem0ai/openmemory",
+   "status": "active",
+   "tasks": [
+    "memory"
+   ]
+  },
+  {
+   "category": "memory",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Stateful agents with self-editing memory",
+   "hardware": "cpu-ok",
+   "id": "letta",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-18",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Letta",
+   "repo": "https://github.com/letta-ai/letta",
+   "status": "active",
+   "tasks": [
+    "memory"
+   ]
+  },
+  {
+   "category": "memory",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Temporal knowledge-graph memory",
+   "hardware": "cpu-ok",
+   "id": "graphiti",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Graphiti",
+   "repo": "https://github.com/getzep/graphiti",
+   "status": "active",
+   "tasks": [
+    "memory"
+   ]
+  },
+  {
+   "category": "agent-frameworks",
+   "deployment": [
+    "library"
+   ],
+   "description": "Composable LLM application framework",
+   "hardware": "not-applicable",
+   "id": "langchain",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "LangChain",
+   "repo": "https://github.com/langchain-ai/langchain",
+   "status": "active",
+   "tasks": [
+    "agents"
+   ]
+  },
+  {
+   "category": "agent-frameworks",
+   "deployment": [
+    "library"
+   ],
+   "description": "Graph-based stateful agent orchestration",
+   "hardware": "not-applicable",
+   "id": "langgraph",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "LangGraph",
+   "repo": "https://github.com/langchain-ai/langgraph",
+   "status": "active",
+   "tasks": [
+    "agents"
+   ]
+  },
+  {
+   "category": "agent-frameworks",
+   "deployment": [
+    "library"
+   ],
+   "description": "Role-based multi-agent crews",
+   "hardware": "not-applicable",
+   "id": "crewai",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "CrewAI",
+   "repo": "https://github.com/crewAIInc/crewAI",
+   "status": "active",
+   "tasks": [
+    "agents"
+   ]
+  },
+  {
+   "category": "agent-frameworks",
+   "deployment": [
+    "library"
+   ],
+   "description": "Conversational multi-agent framework",
+   "hardware": "not-applicable",
+   "id": "autogen",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-16",
+   "license": "CC-BY-4.0 (docs) / MIT (code)",
+   "license_reason": "Multiple licences: LICENSE is CC-BY-4.0 (docs) and LICENSE-CODE is MIT (code); GitHub reports only CC-BY-4.0.",
+   "license_state": "needs-review",
+   "name": "AutoGen",
+   "repo": "https://github.com/microsoft/autogen",
+   "status": "active",
+   "tasks": [
+    "agents"
+   ]
+  },
+  {
+   "category": "agent-frameworks",
+   "deployment": [
+    "library"
+   ],
+   "description": "Minimal code-writing agents",
+   "hardware": "not-applicable",
+   "id": "smolagents",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-06",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "smolagents",
+   "repo": "https://github.com/huggingface/smolagents",
+   "status": "active",
+   "tasks": [
+    "agents"
+   ]
+  },
+  {
+   "category": "agent-frameworks",
+   "deployment": [
+    "library"
+   ],
+   "description": "Fast agent framework with memory and tools",
+   "hardware": "not-applicable",
+   "id": "agno",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Agno",
+   "repo": "https://github.com/agno-agi/agno",
+   "status": "active",
+   "tasks": [
+    "agents"
+   ]
+  },
+  {
+   "category": "agent-frameworks",
+   "deployment": [
+    "library"
+   ],
+   "description": "Lightweight agent harness that runs hundreds of agents on a small VPS",
+   "hardware": "not-applicable",
+   "id": "openhuman",
+   "languages": [
+    "Rust"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "GPL-3.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "OpenHuman",
+   "repo": "https://github.com/tinyhumansai/openhuman",
+   "status": "active",
+   "tasks": [
+    "agents"
+   ]
+  },
+  {
+   "category": "coding-agents",
+   "deployment": [
+    "local"
+   ],
+   "description": "Autonomous software-engineering agent",
+   "hardware": "cpu-ok",
+   "id": "openhands",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "OpenHands",
+   "repo": "https://github.com/OpenHands/OpenHands",
+   "status": "active",
+   "tasks": [
+    "coding"
+   ]
+  },
+  {
+   "category": "coding-agents",
+   "deployment": [
+    "local"
+   ],
+   "description": "IDE assistant for VS Code and JetBrains",
+   "hardware": "cpu-ok",
+   "id": "continue",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-07-21",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Continue",
+   "repo": "https://github.com/continuedev/continue",
+   "status": "active",
+   "tasks": [
+    "coding"
+   ]
+  },
+  {
+   "category": "coding-agents",
+   "deployment": [
+    "local"
+   ],
+   "description": "Terminal pair programmer working on git repos",
+   "hardware": "cpu-ok",
+   "id": "aider",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-05-22",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Aider",
+   "repo": "https://github.com/Aider-AI/aider",
+   "status": "active",
+   "tasks": [
+    "coding"
+   ]
+  },
+  {
+   "category": "coding-agents",
+   "deployment": [
+    "local"
+   ],
+   "description": "Terminal coding agent",
+   "hardware": "cpu-ok",
+   "id": "opencode",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "OpenCode",
+   "repo": "https://github.com/anomalyco/opencode",
+   "status": "active",
+   "tasks": [
+    "coding"
+   ]
+  },
+  {
+   "category": "coding-agents",
+   "deployment": [
+    "local"
+   ],
+   "description": "Autonomous coding agent in VS Code",
+   "hardware": "cpu-ok",
+   "id": "cline",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Cline",
+   "repo": "https://github.com/cline/cline",
+   "status": "active",
+   "tasks": [
+    "coding"
+   ]
+  },
+  {
+   "category": "code-review",
+   "deployment": [
+    "ci"
+   ],
+   "description": "Hybrid deterministic + LLM agent code reviewer with line-level comments",
+   "hardware": "cpu-ok",
+   "id": "open-code-review",
+   "languages": [
+    "Go"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Open Code Review",
+   "repo": "https://github.com/alibaba/open-code-review",
+   "status": "active",
+   "tasks": [
+    "code-review"
+   ]
+  },
+  {
+   "category": "code-review",
+   "deployment": [
+    "ci"
+   ],
+   "description": "PR review, describe and improve commands",
+   "hardware": "cpu-ok",
+   "id": "pr-agent",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "PR-Agent",
+   "repo": "https://github.com/The-PR-Agent/pr-agent",
+   "status": "active",
+   "tasks": [
+    "code-review"
+   ]
+  },
+  {
+   "category": "app-builders",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "LLM app and agentic workflow platform",
+   "hardware": "cpu-ok",
+   "id": "dify",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Dify Open Source License (Apache-2.0 + conditions)",
+   "license_reason": "Custom licence: modified Apache-2.0 with additional conditions (upstream LICENSE).",
+   "license_state": "needs-review",
+   "name": "Dify",
+   "repo": "https://github.com/langgenius/dify",
+   "status": "active",
+   "tasks": [
+    "workflows",
+    "no-code"
+   ]
+  },
+  {
+   "category": "app-builders",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Drag-and-drop agent builder",
+   "hardware": "cpu-ok",
+   "id": "flowise",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-08-13",
+   "license": "Apache-2.0 (enterprise dir separate)",
+   "license_reason": "Multiple licences: Apache-2.0 except the enterprise directory, which has separate terms (upstream LICENSE.md).",
+   "license_state": "needs-review",
+   "name": "Flowise",
+   "repo": "https://github.com/FlowiseAI/Flowise",
+   "status": "archived",
+   "tasks": [
+    "workflows",
+    "no-code"
+   ]
+  },
+  {
+   "category": "app-builders",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Visual flow builder for agents and RAG",
+   "hardware": "cpu-ok",
+   "id": "langflow",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-16",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Langflow",
+   "repo": "https://github.com/langflow-ai/langflow",
+   "status": "active",
+   "tasks": [
+    "workflows",
+    "no-code"
+   ]
+  },
+  {
+   "category": "app-builders",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Workflow automation with AI nodes",
+   "hardware": "cpu-ok",
+   "id": "n8n",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Sustainable Use License (fair-code)",
+   "license_reason": "Source-available, not OSI: Sustainable Use License (fair-code) with portions under an enterprise licence (upstream LICENSE.md).",
+   "license_state": "needs-review",
+   "name": "n8n",
+   "repo": "https://github.com/n8n-io/n8n",
+   "status": "active",
+   "tasks": [
+    "workflows",
+    "no-code"
+   ]
+  },
+  {
+   "category": "rag-vector-db",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Data framework for RAG",
+   "hardware": "cpu-ok",
+   "id": "llama-index",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-14",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "LlamaIndex",
+   "repo": "https://github.com/run-llama/llama_index",
+   "status": "active",
+   "tasks": [
+    "rag"
+   ]
+  },
+  {
+   "category": "rag-vector-db",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Production RAG pipelines",
+   "hardware": "cpu-ok",
+   "id": "haystack",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Haystack",
+   "repo": "https://github.com/deepset-ai/haystack",
+   "status": "active",
+   "tasks": [
+    "rag"
+   ]
+  },
+  {
+   "category": "rag-vector-db",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Deep-document-understanding RAG engine",
+   "hardware": "cpu-ok",
+   "id": "ragflow",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "RAGFlow",
+   "repo": "https://github.com/infiniflow/ragflow",
+   "status": "active",
+   "tasks": [
+    "rag"
+   ]
+  },
+  {
+   "category": "rag-vector-db",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Vector search engine",
+   "hardware": "cpu-ok",
+   "id": "qdrant",
+   "languages": [
+    "Rust"
+   ],
+   "last_commit": "2026-10-05",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Qdrant",
+   "repo": "https://github.com/qdrant/qdrant",
+   "status": "active",
+   "tasks": [
+    "rag"
+   ]
+  },
+  {
+   "category": "rag-vector-db",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Embedding database",
+   "hardware": "cpu-ok",
+   "id": "chroma",
+   "languages": [
+    "Rust",
+    "Python"
+   ],
+   "last_commit": "2026-10-17",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Chroma",
+   "repo": "https://github.com/chroma-core/chroma",
+   "status": "active",
+   "tasks": [
+    "rag"
+   ]
+  },
+  {
+   "category": "rag-vector-db",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Cloud-native vector database",
+   "hardware": "cpu-ok",
+   "id": "milvus",
+   "languages": [
+    "Go"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Milvus",
+   "repo": "https://github.com/milvus-io/milvus",
+   "status": "active",
+   "tasks": [
+    "rag"
+   ]
+  },
+  {
+   "category": "rag-vector-db",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Vector DB with hybrid search",
+   "hardware": "cpu-ok",
+   "id": "weaviate",
+   "languages": [
+    "Go"
+   ],
+   "last_commit": "2026-10-16",
+   "license": "BSD-3-Clause (core)",
+   "license_reason": "Multiple licences: source is variously BSD-3-Clause or the Weaviate License (upstream LICENSE).",
+   "license_state": "needs-review",
+   "name": "Weaviate",
+   "repo": "https://github.com/weaviate/weaviate",
+   "status": "active",
+   "tasks": [
+    "rag"
+   ]
+  },
+  {
+   "category": "eval-observability",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "LLM tracing, evals and prompt management",
+   "hardware": "cpu-ok",
+   "id": "langfuse",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT (ee/ dirs separate)",
+   "license_reason": "Multiple licences: MIT except ee/ directories, which have separate terms (upstream LICENSE).",
+   "license_state": "needs-review",
+   "name": "Langfuse",
+   "repo": "https://github.com/langfuse/langfuse",
+   "status": "active",
+   "tasks": [
+    "evaluation",
+    "tracing"
+   ]
+  },
+  {
+   "category": "eval-observability",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "AI observability and evaluation",
+   "hardware": "cpu-ok",
+   "id": "phoenix",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Elastic-2.0",
+   "license_reason": "Source-available, not OSI: Elastic License 2.0 (upstream LICENSE).",
+   "license_state": "needs-review",
+   "name": "Phoenix",
+   "repo": "https://github.com/Arize-ai/phoenix",
+   "status": "active",
+   "tasks": [
+    "evaluation",
+    "tracing"
+   ]
+  },
+  {
+   "category": "eval-observability",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Prompt testing and red-teaming CLI",
+   "hardware": "cpu-ok",
+   "id": "promptfoo",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "promptfoo",
+   "repo": "https://github.com/promptfoo/promptfoo",
+   "status": "active",
+   "tasks": [
+    "evaluation",
+    "tracing"
+   ]
+  },
+  {
+   "category": "eval-observability",
+   "deployment": [
+    "library",
+    "self-hosted"
+   ],
+   "description": "Unit-test style LLM evaluation",
+   "hardware": "cpu-ok",
+   "id": "deepeval",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-19",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "DeepEval",
+   "repo": "https://github.com/confident-ai/deepeval",
+   "status": "active",
+   "tasks": [
+    "evaluation",
+    "tracing"
+   ]
+  },
+  {
+   "category": "backend-infra",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Open-source backend-as-a-service: Postgres, auth, storage, functions, AI gateway, MCP",
+   "hardware": "cpu-ok",
+   "id": "butterbase",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Butterbase",
+   "repo": "https://github.com/butterbase-ai/butterbase",
+   "status": "active",
+   "tasks": [
+    "backend"
+   ]
+  },
+  {
+   "category": "backend-infra",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Postgres platform with auth, storage, pgvector",
+   "hardware": "cpu-ok",
+   "id": "supabase",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-20",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Supabase",
+   "repo": "https://github.com/supabase/supabase",
+   "status": "active",
+   "tasks": [
+    "backend"
+   ]
+  },
+  {
+   "category": "backend-infra",
+   "deployment": [
+    "self-hosted"
+   ],
+   "description": "Single-file backend with realtime DB",
+   "hardware": "cpu-ok",
+   "id": "pocketbase",
+   "languages": [
+    "Go"
+   ],
+   "last_commit": "2026-10-08",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "PocketBase",
+   "repo": "https://github.com/pocketbase/pocketbase",
+   "status": "active",
+   "tasks": [
+    "backend"
+   ]
+  },
+  {
+   "category": "app-templates",
+   "deployment": [
+    "examples"
+   ],
+   "description": "100+ runnable LLM, RAG and agent example apps",
+   "hardware": "unknown",
+   "id": "awesome-llm-apps",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-18",
+   "license": "Apache-2.0",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Awesome LLM Apps",
+   "repo": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "status": "active",
+   "tasks": [
+    "examples"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "Operations dashboard for solo founders",
+   "hardware": "unknown",
+   "id": "one-person-company",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-06",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "One Person Company",
+   "repo": "https://github.com/tashfeenahmed/OnePersonCompany",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "GTM enrichment tables plus cold-email outreach",
+   "hardware": "unknown",
+   "id": "kinetic",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-15",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Kinetic",
+   "repo": "https://github.com/tashfeenahmed/kinetic",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "Team chat where humans and agents are members",
+   "hardware": "unknown",
+   "id": "circlechat",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-09-30",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "CircleChat",
+   "repo": "https://github.com/tashfeenahmed/circlechat",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "CLI to claim free subdomains and DNS for agents",
+   "hardware": "unknown",
+   "id": "agentdomains",
+   "languages": [
+    "Go"
+   ],
+   "last_commit": "2026-10-17",
+   "license": "FSL-1.1-Apache-2.0",
+   "license_reason": "Source-available, not OSI: Functional Source License 1.1 (Apache-2.0 future licence); GitHub returns NOASSERTION.",
+   "license_state": "needs-review",
+   "name": "AgentDomains",
+   "repo": "https://github.com/tashfeenahmed/AgentDomains",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "MCP server for subdomain/DNS management",
+   "hardware": "unknown",
+   "id": "agentdomains-mcp",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-09-30",
+   "license": "FSL-1.1-Apache-2.0",
+   "license_reason": "Source-available, not OSI: Functional Source License 1.1 (Apache-2.0 future licence); GitHub returns NOASSERTION.",
+   "license_state": "needs-review",
+   "name": "AgentDomains MCP",
+   "repo": "https://github.com/tashfeenahmed/AgentDomains-mcp",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "Coding-agent skill for subdomain/DNS",
+   "hardware": "unknown",
+   "id": "agentdomains-skill",
+   "languages": [
+    "Shell"
+   ],
+   "last_commit": "2026-10-17",
+   "license": "FSL-1.1-Apache-2.0",
+   "license_reason": "Source-available, not OSI: Functional Source License 1.1 (Apache-2.0 future licence); GitHub returns NOASSERTION.",
+   "license_state": "needs-review",
+   "name": "AgentDomains Skill",
+   "repo": "https://github.com/tashfeenahmed/AgentDomains-skill",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "Self-hosted assistant with MCP-native memory",
+   "hardware": "unknown",
+   "id": "scallopbot",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-10-16",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "ScallopBot",
+   "repo": "https://github.com/tashfeenahmed/scallopbot",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "Autonomous agent with guarded crypto wallet",
+   "hardware": "unknown",
+   "id": "cashmaxx",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-04",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Cashmaxx",
+   "repo": "https://github.com/tashfeenahmed/cashmaxx",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "Deep-research crawler with planner LLM",
+   "hardware": "unknown",
+   "id": "jev-deepresearch",
+   "languages": [
+    "JavaScript"
+   ],
+   "last_commit": "2026-09-22",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Jev Deep Research",
+   "repo": "https://github.com/tashfeenahmed/jev-deepresearch",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "Emotion state classification for agents",
+   "hardware": "unknown",
+   "id": "emotion-state",
+   "languages": [
+    "TypeScript"
+   ],
+   "last_commit": "2026-02-05",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "Emotion State",
+   "repo": "https://github.com/tashfeenahmed/emotion-state",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "Gaze + sound touch input for laptops",
+   "hardware": "unknown",
+   "id": "magictap",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2026-10-14",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "MagicTap",
+   "repo": "https://github.com/tashfeenahmed/magictap",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "Mixed-reality visualisations in notebooks",
+   "hardware": "unknown",
+   "id": "pyreality",
+   "languages": [
+    "Python"
+   ],
+   "last_commit": "2021-07-31",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "PyReality",
+   "repo": "https://github.com/tashfeenahmed/pyreality",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  },
+  {
+   "category": "codesbyfebin-collection",
+   "deployment": [
+    "unknown"
+   ],
+   "description": "Reusable HTML email template",
+   "hardware": "unknown",
+   "id": "html-email-template",
+   "languages": [
+    "HTML"
+   ],
+   "last_commit": "2021-09-19",
+   "license": "MIT",
+   "license_reason": "",
+   "license_state": "declared",
+   "name": "HTML Email Template",
+   "repo": "https://github.com/tashfeenahmed/html-email-template",
+   "status": "active",
+   "tasks": [
+    "experiments"
+   ]
+  }
+ ]
+}

@@ -17,9 +17,9 @@ Hand-picked agent tools, MCP servers and experiments.
 | [One Person Company](#one-person-company) | Operations dashboard for solo founders | Dashboard | unknown | unknown | MIT | active |
 | [Kinetic](#kinetic) | GTM enrichment tables plus cold-email outreach | Sales app | unknown | unknown | MIT | active |
 | [CircleChat](#circlechat) | Team chat where humans and agents are members | Chat + agent runtime | unknown | unknown | MIT | active |
-| [AgentDomains](#agentdomains) | CLI to claim free subdomains and DNS for agents | CLI | unknown | unknown | FSL-1.1-Apache-2.0 | active |
-| [AgentDomains MCP](#agentdomains-mcp) | MCP server for subdomain/DNS management | MCP server | unknown | unknown | FSL-1.1-Apache-2.0 | active |
-| [AgentDomains Skill](#agentdomains-skill) | Coding-agent skill for subdomain/DNS | Agent skill | unknown | unknown | FSL-1.1-Apache-2.0 | active |
+| [AgentDomains](#agentdomains) | CLI to claim free subdomains and DNS for agents | CLI | unknown | unknown | FSL-1.1-Apache-2.0 ⚠ needs review | active |
+| [AgentDomains MCP](#agentdomains-mcp) | MCP server for subdomain/DNS management | MCP server | unknown | unknown | FSL-1.1-Apache-2.0 ⚠ needs review | active |
+| [AgentDomains Skill](#agentdomains-skill) | Coding-agent skill for subdomain/DNS | Agent skill | unknown | unknown | FSL-1.1-Apache-2.0 ⚠ needs review | active |
 | [ScallopBot](#scallopbot) | Self-hosted assistant with MCP-native memory | Assistant | unknown | unknown | MIT | active |
 | [Cashmaxx](#cashmaxx) | Autonomous agent with guarded crypto wallet | Agent | unknown | unknown | MIT | active |
 | [Jev Deep Research](#jev-deepresearch) | Deep-research crawler with planner LLM | Research agent | unknown | unknown | MIT | active |
@@ -45,6 +45,8 @@ Operations dashboard for solo founders
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/OnePersonCompany/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-06 |
 | Latest release | none detected  |
 | Deployment | unknown |
@@ -63,6 +65,8 @@ GTM enrichment tables plus cold-email outreach
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/kinetic/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-15 |
 | Latest release | none detected  |
 | Deployment | unknown |
@@ -81,6 +85,8 @@ Team chat where humans and agents are members
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/circlechat/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-09-30 |
 | Latest release | none detected  |
 | Deployment | unknown |
@@ -96,9 +102,11 @@ CLI to claim free subdomains and DNS for agents
 |---|---|
 | Upstream repository | [AgentDomains on GitHub](https://github.com/tashfeenahmed/AgentDomains) |
 | Setup docs | [AgentDomains setup guide](https://github.com/tashfeenahmed/AgentDomains#readme) |
-| Licence | FSL-1.1-Apache-2.0 · [licence evidence](https://github.com/tashfeenahmed/AgentDomains/blob/main/LICENSE) · checked 2026-10-20 |
+| Licence | FSL-1.1-Apache-2.0 ⚠ needs review · [licence evidence](https://github.com/tashfeenahmed/AgentDomains/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | Source-available, not OSI: Functional Source License 1.1 (Apache-2.0 future licence); GitHub returns NOASSERTION. |
+| Last lookup | ok |
 | Last commit | 2026-10-17 |
 | Latest release | v0.1.8 (2026-10-17) |
 | Deployment | unknown |
@@ -114,9 +122,11 @@ MCP server for subdomain/DNS management
 |---|---|
 | Upstream repository | [AgentDomains MCP on GitHub](https://github.com/tashfeenahmed/AgentDomains-mcp) |
 | Setup docs | [AgentDomains MCP setup guide](https://github.com/tashfeenahmed/AgentDomains-mcp#readme) |
-| Licence | FSL-1.1-Apache-2.0 · [licence evidence](https://github.com/tashfeenahmed/AgentDomains-mcp/blob/main/LICENSE) · checked 2026-10-20 |
+| Licence | FSL-1.1-Apache-2.0 ⚠ needs review · [licence evidence](https://github.com/tashfeenahmed/AgentDomains-mcp/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | Source-available, not OSI: Functional Source License 1.1 (Apache-2.0 future licence); GitHub returns NOASSERTION. |
+| Last lookup | ok |
 | Last commit | 2026-09-30 |
 | Latest release | none detected  |
 | Deployment | unknown |
@@ -132,9 +142,11 @@ Coding-agent skill for subdomain/DNS
 |---|---|
 | Upstream repository | [AgentDomains Skill on GitHub](https://github.com/tashfeenahmed/AgentDomains-skill) |
 | Setup docs | [AgentDomains Skill setup guide](https://github.com/tashfeenahmed/AgentDomains-skill#readme) |
-| Licence | FSL-1.1-Apache-2.0 · [licence evidence](https://github.com/tashfeenahmed/AgentDomains-skill/blob/main/LICENSE) · checked 2026-10-20 |
+| Licence | FSL-1.1-Apache-2.0 ⚠ needs review · [licence evidence](https://github.com/tashfeenahmed/AgentDomains-skill/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | Source-available, not OSI: Functional Source License 1.1 (Apache-2.0 future licence); GitHub returns NOASSERTION. |
+| Last lookup | ok |
 | Last commit | 2026-10-17 |
 | Latest release | none detected  |
 | Deployment | unknown |
@@ -153,6 +165,8 @@ Self-hosted assistant with MCP-native memory
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/scallopbot/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-16 |
 | Latest release | v0.1.0 (2026-02-03) |
 | Deployment | unknown |
@@ -171,6 +185,8 @@ Autonomous agent with guarded crypto wallet
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/cashmaxx/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-04 |
 | Latest release | none detected  |
 | Deployment | unknown |
@@ -189,6 +205,8 @@ Deep-research crawler with planner LLM
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/jev-deepresearch/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-09-22 |
 | Latest release | v0.1.0 (2026-09-22) |
 | Deployment | unknown |
@@ -207,6 +225,8 @@ Emotion state classification for agents
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/emotion-state/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-02-05 |
 | Latest release | none detected  |
 | Deployment | unknown |
@@ -225,6 +245,8 @@ Gaze + sound touch input for laptops
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/magictap/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-14 |
 | Latest release | none detected  |
 | Deployment | unknown |
@@ -243,6 +265,8 @@ Mixed-reality visualisations in notebooks
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/pyreality/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2021-07-31 |
 | Latest release | none detected  |
 | Deployment | unknown |
@@ -261,6 +285,8 @@ Reusable HTML email template
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/html-email-template/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2021-09-19 |
 | Latest release | none detected  |
 | Deployment | unknown |

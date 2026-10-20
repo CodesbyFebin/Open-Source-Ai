@@ -4,6 +4,13 @@ Catalog changes are recorded here. Evidence refreshes are listed by their pull r
 
 ## Unreleased
 
+- Licences: 15 projects now `needs-review`, each with a recorded `review_reason` (adds Phoenix, Trylon Gateway, llamafile and three AgentDomains repos: source-available or undetected). OpenMemory and PR-Agent re-verified as MIT from their LICENSE files.
+- Collector: failed / rate-limited lookups are reported as failed and keep previous evidence; records `moved` and `fetch_status`. Validator: moved repo and GitHub licence mismatch are errors; zone-aware date checks.
+- Unit tests (collector, validator, build) and Playwright browser tests (Chromium + WebKit, desktop and iPhone 13 emulation, axe-core).
+- Search page: URL state (reload/back/forward), clear button, no-results message, archived badge, focus styles.
+- Recipes: pinned images; local-chat smoke test now proves the reply came from the model; agent-memory-eval end-to-end CI workflow.
+- Refresh workflow: optional GitHub App token, minimal permissions.
+
 - Merged first evidence refresh (PR #1): 70 projects collected, 2 archived upstream (Flowise, Text Generation Inference).
 - Corrected licences from upstream LICENSE files: OpenMemory Apache-2.0 → MIT, PR-Agent AGPL-3.0 → MIT.
 

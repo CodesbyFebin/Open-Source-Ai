@@ -20,6 +20,9 @@ def status(p):
     e = ev.get(p["id"])
     if not e: return "not yet collected"
     return e.get("state", "unknown")
+def badge(p):
+    s = status(p)
+    return {"archived": "⚠ **archived upstream**", "unknown": "❓ unknown (lookup failed)"}.get(s, s)
 def lic(p):
     l = p["license"]
     return l["label"] + ("" if l["state"] == "declared" else " ⚠ needs review")
@@ -31,7 +34,7 @@ def w(path, text):
 # ---- category pages
 for c in cats:
     ps = by_cat[c["id"]]
-    rows = "\n".join(f"| [{p['name']}](#{p['id'].replace('.', '')}) | {p['description']} | {p['editorial'].get('highlight','–')} | {', '.join(p['deployment'])} | {p['hardware']} | {lic(p)} | {status(p)} |" for p in ps)
+    rows = "\n".join(f"| [{p['name']}](#{p['id'].replace('.', '')}) | {p['description']} | {p['editorial'].get('highlight','–')} | {', '.join(p['deployment'])} | {p['hardware']} | {lic(p)} | {badge(p)} |" for p in ps)
     det = []
     for p in ps:
         e = ev.get(p["id"], {})
@@ -46,7 +49,9 @@ for c in cats:
 | Setup docs | [{p['name']} setup guide]({p['setup_url']}) |
 | Licence | {lic(p)} · [licence evidence]({p['license']['evidence_url']}) · checked {p['license']['checked']} |
 | Licence detected by GitHub | {e.get('license', {}).get('github_spdx') or 'not detected'} |
-| Repository state | {status(p)} |
+| Repository state | {badge(p)} |
+| Licence review reason | {p['license'].get('review_reason', '–')} |
+| Last lookup | {(e.get('fetch_status') or {}).get('result', '–')} |
 | Last commit | {d(e.get('last_commit'))} |
 | Latest release | {rel.get('tag') or 'none detected'} {('(' + d(rel.get('published_at')) + ')') if rel else ''} |
 | Deployment | {', '.join(p['deployment'])} |
@@ -85,7 +90,7 @@ for p in projects:
     e = ev.get(p["id"], {})
     data.append({"id": p["id"], "name": p["name"], "category": p["category"], "description": p["description"],
                  "tasks": p["tasks"], "deployment": p["deployment"], "hardware": p["hardware"], "languages": p["languages"],
-                 "license": p["license"]["label"], "license_state": p["license"]["state"], "repo": p["repo"],
+                 "license": p["license"]["label"], "license_state": p["license"]["state"], "license_reason": p["license"].get("review_reason", ""), "repo": p["repo"],
                  "status": status(p), "last_commit": d(e.get("last_commit"))})
 w("docs/assets/catalog.json", json.dumps({"categories": [{"id": c["id"], "title": c["title"]} for c in cats], "projects": data}, indent=1, sort_keys=True) + "\n")
 
@@ -99,8 +104,9 @@ for p in projects:
     if status(p) == "archived": flags.append("archived")
     if e.get("canonical_repo") and e["canonical_repo"].lower() != p["repo"].lower(): flags.append("moved")
     if p["license"]["state"] != "declared" or gl in ("NOASSERTION", "not detected"): flags.append("licence review")
-    if e.get("last_attempt"): flags.append("last fetch failed")
-    fr.append(f"| [{p['name']}](stacks/{p['category']}.md#{p['id'].replace('.', '')}) | {status(p)} | {d(e.get('last_commit'))} | {rel} | {p['license']['label']} | {gl} | {d(e.get('retrieved_at'))} | {', '.join(flags) or '–'} |")
+    fs = (e.get("fetch_status") or {}).get("result", "ok")
+    if fs != "ok": flags.append(f"lookup: {fs}")
+    fr.append(f"| [{p['name']}](stacks/{p['category']}.md#{p['id'].replace('.', '')}) | {badge(p)} | {d(e.get('last_commit'))} | {rel} | {p['license']['label']} | {gl} | {d(e.get('retrieved_at'))} | {', '.join(flags) or '–'} |")
 st = [status(p) for p in projects]
 w("docs/freshness.md", f"""---
 title: Freshness Report – Open Source Ai
@@ -110,6 +116,13 @@ description: Weekly evidence for every catalogued project – repository state, 
 # Freshness Report
 
 Evidence is collected from the public GitHub REST API by a **weekly** scheduled workflow (Mondays 03:00 UTC, also runnable manually). Changes arrive as a pull request for human review; nothing is rewritten on `main` automatically. This is not real-time monitoring.
+
+**How to read this page**
+
+- *State* and dates are collected facts with a source URL and retrieval time in `catalog/evidence/<id>.json`.
+- *Declared licence* is curated by humans in `catalog/projects.yaml`; *needs review* entries list a reason on their project page.
+- *Flags*: `archived` (upstream archived, kept and labelled), `moved` (canonical URL changed), `licence review`, `lookup: …` (last request failed – previous evidence kept, treat as possibly stale).
+- To correct anything, edit `catalog/projects.yaml` (never this generated page) – see CONTRIBUTING.md.
 
 **Summary:** {st.count('active')} active · {st.count('archived')} archived · {sum(1 for s in st if s not in ('active','archived'))} unknown/not collected · {total} total.
 
@@ -180,6 +193,7 @@ w("CREDITS.md", cr); w("docs/credits.md", cr.replace("](", "]("))
 m = open("mkdocs.yml").read().split("nav:")[0]
 nav = "\n".join(f"      - {c['title']}: stacks/{c['id']}.md" for c in cats)
 recipes = "\n".join(f"      - {yaml.safe_load(open(f))['title']}: recipes/{os.path.basename(os.path.dirname(f))}.md" for f in sorted(glob.glob("recipes/*/recipe.yaml")))
+tail = "\nexclude_docs: |\n  wiki/\n"
 w("mkdocs.yml", m + f"""nav:
   - Home: index.md
   - Search & Filter: catalog.md
@@ -194,7 +208,7 @@ w("mkdocs.yml", m + f"""nav:
   - Freshness Report: freshness.md
   - Selection Criteria: selection-criteria.md
   - Credits & Licences: credits.md
-""")
+""" + tail)
 
 # ---- recipe pages
 rows = []

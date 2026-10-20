@@ -75,9 +75,10 @@ projects:
   license:
     spdx: BUSL-1.1
     label: BUSL-1.1
-    state: declared
+    state: needs-review
     evidence_url: https://github.com/trylonai/gateway/blob/main/LICENSE
     checked: '2026-10-20'
+    review_reason: 'Source-available, not OSI: Business Source License 1.1 with a use limitation (upstream LICENSE).'
   setup_url: https://github.com/trylonai/gateway#readme
   editorial:
     highlight: Guardrails / security
@@ -98,6 +99,7 @@ projects:
     state: needs-review
     evidence_url: https://github.com/BerriAI/litellm/blob/main/LICENSE
     checked: '2026-10-20'
+    review_reason: 'Multiple licences: MIT for most code, separate licence for the enterprise/ directory (stated at top of upstream LICENSE).'
   setup_url: https://github.com/BerriAI/litellm#readme
   editorial:
     highlight: Broadest provider coverage
@@ -141,6 +143,7 @@ projects:
     state: needs-review
     evidence_url: https://github.com/open-webui/open-webui/blob/main/LICENSE
     checked: '2026-10-20'
+    review_reason: 'Custom licence: BSD-3-style terms plus a clause forbidding removal or alteration of Open WebUI branding (upstream LICENSE).'
   setup_url: https://github.com/open-webui/open-webui#readme
   editorial:
     highlight: RAG, multi-user, plugins
@@ -161,6 +164,7 @@ projects:
     state: needs-review
     evidence_url: https://github.com/lobehub/lobehub/blob/canary/LICENSE
     checked: '2026-10-20'
+    review_reason: 'Custom licence: LobeHub Community License, Apache-2.0 based with additional commercial-use conditions (upstream LICENSE).'
   setup_url: https://github.com/lobehub/lobehub#readme
   editorial:
     highlight: Agents marketplace
@@ -280,9 +284,10 @@ projects:
   license:
     spdx: Apache-2.0
     label: Apache-2.0
-    state: declared
+    state: needs-review
     evidence_url: https://github.com/mozilla-ai/llamafile/blob/main/LICENSE
     checked: '2026-10-20'
+    review_reason: LICENSE text is Apache-2.0 but GitHub's detector returns NOASSERTION; vendored third-party components not reviewed.
   setup_url: https://github.com/mozilla-ai/llamafile#readme
   editorial:
     highlight: Zero-install distribution
@@ -448,7 +453,8 @@ projects:
     label: MIT
     state: declared
     evidence_url: https://github.com/mem0ai/openmemory/blob/main/LICENSE
-    checked: '2026-10-20'
+    checked: '2026-10-21'
+    verified_note: 'Upstream LICENSE file read 2026-10-21: standard MIT License text.'
   setup_url: https://github.com/mem0ai/openmemory#readme
   editorial:
     highlight: MCP memory server
@@ -571,6 +577,7 @@ projects:
     state: needs-review
     evidence_url: https://github.com/microsoft/autogen/blob/main/LICENSE
     checked: '2026-10-20'
+    review_reason: 'Multiple licences: LICENSE is CC-BY-4.0 (docs) and LICENSE-CODE is MIT (code); GitHub reports only CC-BY-4.0.'
   setup_url: https://github.com/microsoft/autogen#readme
   editorial:
     highlight: Agent conversations
@@ -774,7 +781,8 @@ projects:
     label: MIT
     state: declared
     evidence_url: https://github.com/The-PR-Agent/pr-agent/blob/main/LICENSE
-    checked: '2026-10-20'
+    checked: '2026-10-21'
+    verified_note: 'Upstream LICENSE file read 2026-10-21: standard MIT License text.'
   setup_url: https://github.com/The-PR-Agent/pr-agent#readme
   editorial:
     highlight: GitHub Action / app
@@ -798,6 +806,7 @@ projects:
     state: needs-review
     evidence_url: https://github.com/langgenius/dify/blob/main/LICENSE
     checked: '2026-10-20'
+    review_reason: 'Custom licence: modified Apache-2.0 with additional conditions (upstream LICENSE).'
   setup_url: https://github.com/langgenius/dify#readme
   editorial:
     highlight: Multi-tenant SaaS restricted
@@ -818,6 +827,7 @@ projects:
     state: needs-review
     evidence_url: https://github.com/FlowiseAI/Flowise/blob/main/LICENSE.md
     checked: '2026-10-20'
+    review_reason: 'Multiple licences: Apache-2.0 except the enterprise directory, which has separate terms (upstream LICENSE.md).'
   setup_url: https://github.com/FlowiseAI/Flowise#readme
   editorial:
     highlight: Core Apache-2.0
@@ -858,6 +868,7 @@ projects:
     state: needs-review
     evidence_url: https://github.com/n8n-io/n8n/blob/master/LICENSE.md
     checked: '2026-10-20'
+    review_reason: 'Source-available, not OSI: Sustainable Use License (fair-code) with portions under an enterprise licence (upstream LICENSE.md).'
   setup_url: https://github.com/n8n-io/n8n#readme
   editorial:
     highlight: Source-available
@@ -1002,6 +1013,7 @@ projects:
     state: needs-review
     evidence_url: https://github.com/weaviate/weaviate/blob/main/LICENSE
     checked: '2026-10-20'
+    review_reason: 'Multiple licences: source is variously BSD-3-Clause or the Weaviate License (upstream LICENSE).'
   setup_url: https://github.com/weaviate/weaviate#readme
   editorial:
     highlight: Vector DB (hybrid)
@@ -1026,6 +1038,7 @@ projects:
     state: needs-review
     evidence_url: https://github.com/langfuse/langfuse/blob/main/LICENSE
     checked: '2026-10-20'
+    review_reason: 'Multiple licences: MIT except ee/ directories, which have separate terms (upstream LICENSE).'
   setup_url: https://github.com/langfuse/langfuse#readme
   editorial:
     highlight: Tracing platform
@@ -1043,9 +1056,10 @@ projects:
   license:
     spdx: Elastic-2.0
     label: Elastic-2.0
-    state: declared
+    state: needs-review
     evidence_url: https://github.com/Arize-ai/phoenix/blob/main/LICENSE
     checked: '2026-10-20'
+    review_reason: 'Source-available, not OSI: Elastic License 2.0 (upstream LICENSE).'
   setup_url: https://github.com/Arize-ai/phoenix#readme
   editorial:
     highlight: Notebook + server
@@ -1249,9 +1263,10 @@ projects:
   license:
     spdx: FSL-1.1-Apache-2.0
     label: FSL-1.1-Apache-2.0
-    state: declared
+    state: needs-review
     evidence_url: https://github.com/tashfeenahmed/AgentDomains/blob/main/LICENSE
     checked: '2026-10-20'
+    review_reason: 'Source-available, not OSI: Functional Source License 1.1 (Apache-2.0 future licence); GitHub returns NOASSERTION.'
   setup_url: https://github.com/tashfeenahmed/AgentDomains#readme
   editorial:
     highlight: CLI
@@ -1269,9 +1284,10 @@ projects:
   license:
     spdx: FSL-1.1-Apache-2.0
     label: FSL-1.1-Apache-2.0
-    state: declared
+    state: needs-review
     evidence_url: https://github.com/tashfeenahmed/AgentDomains-mcp/blob/main/LICENSE
     checked: '2026-10-20'
+    review_reason: 'Source-available, not OSI: Functional Source License 1.1 (Apache-2.0 future licence); GitHub returns NOASSERTION.'
   setup_url: https://github.com/tashfeenahmed/AgentDomains-mcp#readme
   editorial:
     highlight: MCP server
@@ -1289,9 +1305,10 @@ projects:
   license:
     spdx: FSL-1.1-Apache-2.0
     label: FSL-1.1-Apache-2.0
-    state: declared
+    state: needs-review
     evidence_url: https://github.com/tashfeenahmed/AgentDomains-skill/blob/main/LICENSE
     checked: '2026-10-20'
+    review_reason: 'Source-available, not OSI: Functional Source License 1.1 (Apache-2.0 future licence); GitHub returns NOASSERTION.'
   setup_url: https://github.com/tashfeenahmed/AgentDomains-skill#readme
   editorial:
     highlight: Agent skill

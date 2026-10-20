@@ -4,3 +4,8 @@
 .osa-filters input:focus,.osa-filters select:focus{outline:3px solid var(--md-accent-fg-color);outline-offset:1px}
 .osa-table-wrap{overflow-x:auto}
 #osa-results caption{text-align:left;font-weight:600}
+.osa-archived{color:#9a3412}
+[data-md-color-scheme="slate"] .osa-archived{color:#fdba74}
+#f-clear{align-self:end;margin:0;padding:.35rem .8rem;font-size:.75rem}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--md-accent-fg-color);outline-offset:2px}
+.md-copyright,.md-copyright__highlight{color:#e5e7eb}

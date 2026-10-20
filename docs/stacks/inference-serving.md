@@ -16,7 +16,7 @@ High-throughput production model serving on GPUs.
 |---|---|---|---|---|---|---|
 | [vLLM](#vllm) | PagedAttention-based high-throughput server | Throughput | self-hosted | gpu-required | Apache-2.0 | active |
 | [SGLang](#sglang) | Fast serving with structured generation | Structured outputs | self-hosted | gpu-required | Apache-2.0 | active |
-| [Text Generation Inference](#text-generation-inference) | Production LLM server | HF Hub integration | self-hosted | gpu-required | Apache-2.0 | archived |
+| [Text Generation Inference](#text-generation-inference) | Production LLM server | HF Hub integration | self-hosted | gpu-required | Apache-2.0 | ⚠ **archived upstream** |
 | [Triton Inference Server](#triton-server) | Multi-framework model server | Mixed model fleets | self-hosted | gpu-required | BSD-3-Clause | active |
 
 ## Quick start
@@ -40,6 +40,8 @@ PagedAttention-based high-throughput server
 | Licence | Apache-2.0 · [licence evidence](https://github.com/vllm-project/vllm/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v0.32.0 (2026-10-18) |
 | Deployment | self-hosted |
@@ -58,6 +60,8 @@ Fast serving with structured generation
 | Licence | Apache-2.0 · [licence evidence](https://github.com/sgl-project/sglang/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v0.5.22 (2026-10-19) |
 | Deployment | self-hosted |
@@ -75,7 +79,9 @@ Production LLM server
 | Setup docs | [Text Generation Inference setup guide](https://github.com/huggingface/text-generation-inference#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/huggingface/text-generation-inference/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
-| Repository state | archived |
+| Repository state | ⚠ **archived upstream** |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-03-21 |
 | Latest release | v3.3.7 (2025-12-19) |
 | Deployment | self-hosted |
@@ -94,6 +100,8 @@ Multi-framework model server
 | Licence | BSD-3-Clause · [licence evidence](https://github.com/triton-inference-server/server/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | BSD-3-Clause |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-15 |
 | Latest release | v2.73.0 (2026-09-30) |
 | Deployment | self-hosted |

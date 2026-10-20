@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/mudler/LocalAI",
   "default_branch": "master",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "localai",
   "last_commit": "2026-10-20T16:09:02Z",
   "latest_release": {
@@ -12,9 +16,10 @@
     "source": "https://api.github.com/repos/mudler/LocalAI/license",
     "state": "detected"
   },
+  "moved": false,
   "pushed_at": "2026-10-20T17:23:06Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/mudler/LocalAI",
-  "stars": 49788,
+  "stars": 49791,
   "state": "active"
 }

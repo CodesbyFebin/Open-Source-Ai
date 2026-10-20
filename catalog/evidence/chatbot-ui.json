@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/mckaywrigley/chatbot-ui",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "chatbot-ui",
   "last_commit": "2024-06-22T17:14:46Z",
   "latest_release": null,
@@ -9,8 +13,9 @@
     "source": "https://api.github.com/repos/mckaywrigley/chatbot-ui/license",
     "state": "detected"
   },
+  "moved": false,
   "pushed_at": "2024-08-03T00:38:07Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/mckaywrigley/chatbot-ui",
   "stars": 33323,
   "state": "active"

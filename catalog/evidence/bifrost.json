@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/maximhq/bifrost",
   "default_branch": "dev",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "bifrost",
   "last_commit": "2026-10-19T12:11:40Z",
   "latest_release": {
@@ -12,9 +16,10 @@
     "source": "https://api.github.com/repos/maximhq/bifrost/license",
     "state": "detected"
   },
+  "moved": false,
   "pushed_at": "2026-10-20T18:52:39Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/maximhq/bifrost",
-  "stars": 8965,
+  "stars": 8966,
   "state": "active"
 }

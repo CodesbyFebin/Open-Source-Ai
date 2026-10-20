@@ -40,6 +40,8 @@ Universal memory layer for AI agents
 | Licence | Apache-2.0 · [licence evidence](https://github.com/mem0ai/mem0/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-14 |
 | Latest release | ts-v3.3.1 (2026-09-25) |
 | Deployment | library, self-hosted |
@@ -55,9 +57,11 @@ Local-first memory server (MCP) for AI tools
 |---|---|
 | Upstream repository | [OpenMemory on GitHub](https://github.com/mem0ai/openmemory) |
 | Setup docs | [OpenMemory setup guide](https://github.com/mem0ai/openmemory#readme) |
-| Licence | MIT · [licence evidence](https://github.com/mem0ai/openmemory/blob/main/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/mem0ai/openmemory/blob/main/LICENSE) · checked 2026-10-21 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-07-29 |
 | Latest release | none detected  |
 | Deployment | library, self-hosted |
@@ -76,6 +80,8 @@ Stateful agents with self-editing memory
 | Licence | Apache-2.0 · [licence evidence](https://github.com/letta-ai/letta/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-18 |
 | Latest release | 0.16.8 (2026-05-14) |
 | Deployment | library, self-hosted |
@@ -94,6 +100,8 @@ Temporal knowledge-graph memory
 | Licence | Apache-2.0 · [licence evidence](https://github.com/getzep/graphiti/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v0.31.2 (2026-10-20) |
 | Deployment | library, self-hosted |

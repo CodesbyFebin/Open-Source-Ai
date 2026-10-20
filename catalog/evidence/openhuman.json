@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/tinyhumansai/openhuman",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "openhuman",
   "last_commit": "2026-10-20T17:27:42Z",
   "latest_release": {
@@ -12,9 +16,10 @@
     "source": "https://api.github.com/repos/tinyhumansai/openhuman/license",
     "state": "detected"
   },
+  "moved": false,
   "pushed_at": "2026-10-20T17:27:42Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/tinyhumansai/openhuman",
-  "stars": 42189,
+  "stars": 42190,
   "state": "active"
 }

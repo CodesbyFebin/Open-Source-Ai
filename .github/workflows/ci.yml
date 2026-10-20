@@ -15,6 +15,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Schema, duplicates, licences, evidence, no submodules
         run: python scripts/validate.py
+      - name: Unit tests (collector, validator, build)
+        run: python -m pytest -q tests
       - name: Generated files match catalog (and generation is deterministic)
         run: |
           python scripts/build.py && git diff --exit-code
@@ -33,6 +35,30 @@ jobs:
         with:
           args: --offline --no-progress --index-files index.html --root-dir ${{ github.workspace }}/_check --remap 'https://codesbyfebin.github.io/Open-Source-Ai file://${{ github.workspace }}/_check/Open-Source-Ai' --exclude-path _check/Open-Source-Ai/404.html '_check/**/*.html'
           fail: true
+  browser:
+    name: Browser tests (Playwright, desktop + iPhone 13 emulation)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/setup-node@v4
+        with: {node-version: '20'}
+      - run: pip install -r requirements.txt
+      - run: mkdocs build --strict -d _site/Open-Source-Ai
+      - working-directory: tests/browser
+        run: npm ci && npx playwright install --with-deps chromium webkit
+      - working-directory: tests/browser
+        run: npx playwright test
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-results
+          if-no-files-found: ignore
+          path: |
+            tests/browser/results.json
+            tests/browser/test-results
   upstream-links:
     name: Upstream links (non-blocking)
     runs-on: ubuntu-latest
@@ -54,5 +80,3 @@ jobs:
           docker compose -f recipes/local-chat/docker-compose.yml config --quiet
           docker compose -f recipes/agent-memory-eval/docker-compose.yml config --quiet
       - run: ./recipes/local-chat/smoke.sh
-      - if: always()
-        run: docker compose -f recipes/local-chat/docker-compose.yml down -v

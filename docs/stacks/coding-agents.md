@@ -40,6 +40,8 @@ Autonomous software-engineering agent
 | Licence | MIT · [licence evidence](https://github.com/OpenHands/OpenHands/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v1.28.1 (2026-10-19) |
 | Deployment | local |
@@ -58,6 +60,8 @@ IDE assistant for VS Code and JetBrains
 | Licence | Apache-2.0 · [licence evidence](https://github.com/continuedev/continue/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-07-21 |
 | Latest release | v2.0.0-vscode (2026-06-19) |
 | Deployment | local |
@@ -76,6 +80,8 @@ Terminal pair programmer working on git repos
 | Licence | Apache-2.0 · [licence evidence](https://github.com/Aider-AI/aider/blob/main/LICENSE.txt) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-05-22 |
 | Latest release | v0.86.0 (2025-08-09) |
 | Deployment | local |
@@ -94,6 +100,8 @@ Terminal coding agent
 | Licence | MIT · [licence evidence](https://github.com/anomalyco/opencode/blob/dev/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v1.19.3 (2026-10-16) |
 | Deployment | local |
@@ -112,6 +120,8 @@ Autonomous coding agent in VS Code
 | Licence | Apache-2.0 · [licence evidence](https://github.com/cline/cline/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | desktop-v0.0.48 (2026-10-17) |
 | Deployment | local |

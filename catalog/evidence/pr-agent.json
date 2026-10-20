@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/The-PR-Agent/pr-agent",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "pr-agent",
   "last_commit": "2026-10-20T12:31:35Z",
   "latest_release": {
@@ -12,9 +16,10 @@
     "source": "https://api.github.com/repos/The-PR-Agent/pr-agent/license",
     "state": "detected"
   },
+  "moved": false,
   "pushed_at": "2026-10-20T12:31:35Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/The-PR-Agent/pr-agent",
-  "stars": 13502,
+  "stars": 13505,
   "state": "active"
 }

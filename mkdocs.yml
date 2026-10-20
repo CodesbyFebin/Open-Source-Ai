@@ -23,7 +23,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/CodesbyFebin
 plugins: [search]
-extra_javascript: [javascripts/catalog.js]
+extra_javascript: [javascripts/a11y.js, javascripts/catalog.js]
 extra_css: [stylesheets/extra.css]
 markdown_extensions: [attr_list, admonition, tables, toc, pymdownx.superfences, pymdownx.highlight]
 nav:
@@ -54,3 +54,6 @@ nav:
   - Freshness Report: freshness.md
   - Selection Criteria: selection-criteria.md
   - Credits & Licences: credits.md
+
+exclude_docs: |
+  wiki/

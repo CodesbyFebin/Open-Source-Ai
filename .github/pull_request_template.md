@@ -11,3 +11,5 @@
 - [ ] Descriptions are original, factual and free of marketing claims
 - [ ] Recipe changes: test status updated honestly (`tested` only with a passing smoke test)
 - [ ] Added an entry under *Unreleased* in `CHANGELOG.md`
+- [ ] Facts come from upstream sources (LICENSE file, repo, release); no unverified claims
+- [ ] `python -m pytest -q tests` passes; browser tests pass if `docs/catalog.md` or `docs/javascripts/` changed

@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/oobabooga/textgen",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "text-generation-webui",
   "last_commit": "2026-08-17T17:38:15Z",
   "latest_release": {
@@ -12,8 +16,9 @@
     "source": "https://api.github.com/repos/oobabooga/textgen/license",
     "state": "detected"
   },
+  "moved": false,
   "pushed_at": "2026-08-17T17:38:16Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/oobabooga/textgen",
   "stars": 47737,
   "state": "active"

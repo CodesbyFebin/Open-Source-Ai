@@ -8,6 +8,13 @@ description: Weekly evidence for every catalogued project – repository state, 
 
 Evidence is collected from the public GitHub REST API by a **weekly** scheduled workflow (Mondays 03:00 UTC, also runnable manually). Changes arrive as a pull request for human review; nothing is rewritten on `main` automatically. This is not real-time monitoring.
 
+**How to read this page**
+
+- *State* and dates are collected facts with a source URL and retrieval time in `catalog/evidence/<id>.json`.
+- *Declared licence* is curated by humans in `catalog/projects.yaml`; *needs review* entries list a reason on their project page.
+- *Flags*: `archived` (upstream archived, kept and labelled), `moved` (canonical URL changed), `licence review`, `lookup: …` (last request failed – previous evidence kept, treat as possibly stale).
+- To correct anything, edit `catalog/projects.yaml` (never this generated page) – see CONTRIBUTING.md.
+
 **Summary:** 68 active · 2 archived · 0 unknown/not collected · 70 total.
 
 "Declared licence" is the curated value; "GitHub detected" is GitHub's automatic detection (`NOASSERTION` means GitHub could not identify a single licence). A failed request never marks a project deleted.
@@ -18,7 +25,7 @@ Evidence is collected from the public GitHub REST API by a **weekly** scheduled 
 | [OpenCode Free Router](stacks/gateways-routing.md#opencode-free-9router) | active | 2026-10-17 | – | MIT | MIT | 2026-10-20 | – |
 | [Bifrost](stacks/gateways-routing.md#bifrost) | active | 2026-10-19 | ent-v2.3.1-base | Apache-2.0 | Apache-2.0 | 2026-10-20 | – |
 | [Trylon Gateway](stacks/gateways-routing.md#trylon-gateway) | active | 2025-06-25 | – | BUSL-1.1 | NOASSERTION | 2026-10-20 | licence review |
-| [LiteLLM](stacks/gateways-routing.md#litellm) | active | 2026-10-20 | v1.106.0 | MIT (enterprise/ dir separate) | NOASSERTION | 2026-10-20 | licence review |
+| [LiteLLM](stacks/gateways-routing.md#litellm) | active | 2026-10-20 | v1.106.1 | MIT (enterprise/ dir separate) | NOASSERTION | 2026-10-20 | licence review |
 | [Portkey Gateway](stacks/gateways-routing.md#portkey-gateway) | active | 2026-05-25 | v1.15.2 | MIT | MIT | 2026-10-20 | – |
 | [Open WebUI](stacks/chat-ui.md#open-webui) | active | 2026-10-16 | v0.12.3 | Open WebUI License (BSD-3 + branding clause) | NOASSERTION | 2026-10-20 | licence review |
 | [Lobe Chat](stacks/chat-ui.md#lobe-chat) | active | 2026-10-20 | v2.2.20 | LobeHub Community License (Apache-2.0 based) | NOASSERTION | 2026-10-20 | licence review |
@@ -32,7 +39,7 @@ Evidence is collected from the public GitHub REST API by a **weekly** scheduled 
 | [Text Generation WebUI](stacks/local-models.md#text-generation-webui) | active | 2026-08-17 | v4.9 | AGPL-3.0 | AGPL-3.0 | 2026-10-20 | – |
 | [vLLM](stacks/inference-serving.md#vllm) | active | 2026-10-20 | v0.32.0 | Apache-2.0 | Apache-2.0 | 2026-10-20 | – |
 | [SGLang](stacks/inference-serving.md#sglang) | active | 2026-10-20 | v0.5.22 | Apache-2.0 | Apache-2.0 | 2026-10-20 | – |
-| [Text Generation Inference](stacks/inference-serving.md#text-generation-inference) | archived | 2026-03-21 | v3.3.7 | Apache-2.0 | Apache-2.0 | 2026-10-20 | archived |
+| [Text Generation Inference](stacks/inference-serving.md#text-generation-inference) | ⚠ **archived upstream** | 2026-03-21 | v3.3.7 | Apache-2.0 | Apache-2.0 | 2026-10-20 | archived |
 | [Triton Inference Server](stacks/inference-serving.md#triton-server) | active | 2026-10-15 | v2.73.0 | BSD-3-Clause | BSD-3-Clause | 2026-10-20 | – |
 | [Mem0](stacks/memory.md#mem0) | active | 2026-10-14 | ts-v3.3.1 | Apache-2.0 | Apache-2.0 | 2026-10-20 | – |
 | [OpenMemory](stacks/memory.md#openmemory) | active | 2026-07-29 | – | MIT | MIT | 2026-10-20 | – |
@@ -53,7 +60,7 @@ Evidence is collected from the public GitHub REST API by a **weekly** scheduled 
 | [Open Code Review](stacks/code-review.md#open-code-review) | active | 2026-10-20 | v1.13.2 | Apache-2.0 | Apache-2.0 | 2026-10-20 | – |
 | [PR-Agent](stacks/code-review.md#pr-agent) | active | 2026-10-20 | v0.48.0 | MIT | MIT | 2026-10-20 | – |
 | [Dify](stacks/app-builders.md#dify) | active | 2026-10-20 | 1.17.1 | Dify Open Source License (Apache-2.0 + conditions) | NOASSERTION | 2026-10-20 | licence review |
-| [Flowise](stacks/app-builders.md#flowise) | archived | 2026-08-13 | flowise@3.1.4 | Apache-2.0 (enterprise dir separate) | NOASSERTION | 2026-10-20 | archived, licence review |
+| [Flowise](stacks/app-builders.md#flowise) | ⚠ **archived upstream** | 2026-08-13 | flowise@3.1.4 | Apache-2.0 (enterprise dir separate) | NOASSERTION | 2026-10-20 | archived, licence review |
 | [Langflow](stacks/app-builders.md#langflow) | active | 2026-10-16 | v1.12.6 | MIT | MIT | 2026-10-20 | – |
 | [n8n](stacks/app-builders.md#n8n) | active | 2026-10-20 | n8n@2.44.4 | Sustainable Use License (fair-code) | NOASSERTION | 2026-10-20 | licence review |
 | [LlamaIndex](stacks/rag-vector-db.md#llama-index) | active | 2026-10-14 | v0.14.25 | MIT | MIT | 2026-10-20 | – |

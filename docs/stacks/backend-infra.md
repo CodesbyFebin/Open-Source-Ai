@@ -39,6 +39,8 @@ Open-source backend-as-a-service: Postgres, auth, storage, functions, AI gateway
 | Licence | Apache-2.0 · [licence evidence](https://github.com/butterbase-ai/butterbase/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | none detected  |
 | Deployment | self-hosted |
@@ -57,6 +59,8 @@ Postgres platform with auth, storage, pgvector
 | Licence | Apache-2.0 · [licence evidence](https://github.com/supabase/supabase/blob/master/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v1.26.08 (2026-08-07) |
 | Deployment | self-hosted |
@@ -75,6 +79,8 @@ Single-file backend with realtime DB
 | Licence | MIT · [licence evidence](https://github.com/pocketbase/pocketbase/blob/master/LICENSE.md) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-08 |
 | Latest release | v0.40.5 (2026-10-08) |
 | Deployment | self-hosted |

@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/cline/cline",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "cline",
   "last_commit": "2026-10-20T12:01:16Z",
   "latest_release": {
@@ -12,9 +16,10 @@
     "source": "https://api.github.com/repos/cline/cline/license",
     "state": "detected"
   },
-  "pushed_at": "2026-10-20T18:46:30Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "moved": false,
+  "pushed_at": "2026-10-20T19:51:36Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/cline/cline",
-  "stars": 70847,
+  "stars": 70722,
   "state": "active"
 }

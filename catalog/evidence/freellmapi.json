@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/tashfeenahmed/freellmapi",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "freellmapi",
   "last_commit": "2026-10-20T12:53:36Z",
   "latest_release": {
@@ -12,9 +16,10 @@
     "source": "https://api.github.com/repos/tashfeenahmed/freellmapi/license",
     "state": "detected"
   },
+  "moved": false,
   "pushed_at": "2026-10-20T17:51:09Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/tashfeenahmed/freellmapi",
-  "stars": 38195,
+  "stars": 38219,
   "state": "active"
 }
