@@ -18,7 +18,7 @@ Projects must have a licence file, be maintained or widely used, be self-hostabl
 | Recipe | Status |
 |---|---|
 | Local private chat (Ollama + LiteLLM + Open WebUI) | tested in CI on every push |
-| Agent with memory and evaluation (Ollama + Mem0 + Qdrant + promptfoo) | see https://codesbyfebin.github.io/Open-Source-Ai/recipes/ for current status |
+| Agent with memory and evaluation (Ollama + Mem0 + Qdrant + promptfoo) | tested in CI (non-required workflow; runs on recipe changes and weekly) |
 
 ## Contributing
 

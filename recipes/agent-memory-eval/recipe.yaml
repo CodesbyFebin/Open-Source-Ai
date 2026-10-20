@@ -2,5 +2,5 @@ title: Agent with persistent memory and evaluation
 summary: A small Python agent uses a local model via Ollama, stores long-term memory with Mem0 (Qdrant backend), and is regression-tested with promptfoo.
 components: [ollama, mem0, qdrant, promptfoo]
 test:
-  status: unverified
-  details: "Not yet run end-to-end. Missing evidence: a successful run of agent.py with Mem0's Ollama provider and a passing promptfoo eval. Treat the commands as a starting point."
+  status: tested
+  details: "Workflow `Recipe – agent-memory-eval` (run 39490869588, 2026-10-20 UTC, GitHub-hosted ubuntu-latest, 4 vCPU, 16 GB, no GPU, ~156 s) ran smoke.sh: stored two facts, restarted Qdrant, recalled 'Rust' from a new process, and promptfoo passed 2/2 assertions (answers contained 'rust' and 'lisbon', words absent from the questions). Pinned: Ollama 0.40.6, Qdrant v1.19.2, mem0ai 2.2.1, promptfoo 0.124.1, qwen2.5:1.5b, nomic-embed-text:v1.5. Runs on recipe changes, weekly and on demand; not a required check. Not tested: Mem0 LLM fact extraction (infer=True), tool use, multi-user isolation."
