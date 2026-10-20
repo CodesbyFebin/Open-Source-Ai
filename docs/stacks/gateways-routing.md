@@ -1,16 +1,34 @@
 ---
 title: Gateways & LLM Routing – Open Source Ai
-description: Unified OpenAI-compatible gateways, routers and free LLM API aggregators. Curated open-source gateways & llm routing stacks in CodesbyFebin Open Source Ai.
+description: OpenAI-compatible gateways, routers, guardrail firewalls and free-LLM aggregators. Open-source gateways & llm routing compared, with install guides – CodesbyFebin Open Source Ai.
 ---
 # Gateways & LLM Routing
 
-Unified OpenAI-compatible gateways, routers and free LLM API aggregators.
+OpenAI-compatible gateways, routers, guardrail firewalls and free-LLM aggregators.
+
+*Last checked: 2026-10-20*
+
+## Comparison
+
+| Project | What it does | Focus | Language | Licence |
+|---|---|---|---|---|
+| FreeLLMAPI | Aggregates free LLM providers behind one /v1 endpoint with failover | Free-tier aggregation | TypeScript | MIT |
+| OpenCode Free Router | Routes coding-agent traffic to free model endpoints | Free routing for coding agents | JavaScript | MIT |
+| Bifrost | High-performance AI gateway with load balancing and fallbacks | Low-latency gateway | Go | Apache-2.0 |
+| Trylon Gateway | Self-hosted LLM firewall with guardrails | Guardrails / security | Python | BUSL-1.1 |
+| LiteLLM | Proxy + SDK for 100+ LLM APIs in OpenAI format, cost tracking | Broadest provider coverage | Python | MIT (enterprise/ dir separate) |
+| Portkey Gateway | Fast AI gateway with routing, retries and caching | Edge-friendly gateway | TypeScript | MIT |
 
 ## Quick start
 
-Run a gateway (e.g. LiteLLM: `pip install litellm[proxy] && litellm --model ollama/llama3`) and point any OpenAI SDK at `http://localhost:4000/v1`.
+```bash
+pip install 'litellm[proxy]'
+litellm --model ollama/llama3.2 --port 4000
+curl http://localhost:4000/v1/models
+```
+Point any OpenAI SDK at `http://localhost:4000/v1`.
 
-## Get the code
+## Get the source
 
 ```bash
 git clone https://github.com/CodesbyFebin/Open-Source-Ai
@@ -18,13 +36,11 @@ cd Open-Source-Ai
 git submodule update --init --depth 1 stacks/gateways-routing
 ```
 
-## Stacks
+Paths:
 
-| Project | Path | License |
-|---|---|---|
-| [freellmapi](https://github.com/tashfeenahmed/freellmapi) | `stacks/gateways-routing/freellmapi` | MIT |
-| [opencode-free-9router](https://github.com/0xgetz/opencode-free-9router) | `stacks/gateways-routing/opencode-free-9router` | MIT |
-| [bifrost](https://github.com/maximhq/bifrost) | `stacks/gateways-routing/bifrost` | Apache-2.0 |
-| [gateway](https://github.com/trylonai/gateway) | `stacks/gateways-routing/gateway` | NOASSERTION |
-| [litellm](https://github.com/BerriAI/litellm) | `stacks/gateways-routing/litellm` | NOASSERTION |
-| [gateway](https://github.com/Portkey-AI/gateway) | `stacks/gateways-routing/gateway` | MIT |
+- `stacks/gateways-routing/freellmapi`
+- `stacks/gateways-routing/opencode-free-9router`
+- `stacks/gateways-routing/bifrost`
+- `stacks/gateways-routing/trylon-gateway`
+- `stacks/gateways-routing/litellm`
+- `stacks/gateways-routing/portkey-gateway`

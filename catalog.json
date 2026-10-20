@@ -1,0 +1,789 @@
+{
+ "last_checked": "2026-10-20",
+ "categories": [
+  {
+   "id": "gateways-routing",
+   "title": "Gateways & LLM Routing",
+   "desc": "OpenAI-compatible gateways, routers, guardrail firewalls and free-LLM aggregators.",
+   "cols": [
+    "Focus",
+    "Language"
+   ],
+   "items": [
+    [
+     "tashfeenahmed/freellmapi",
+     "freellmapi",
+     "FreeLLMAPI",
+     "Aggregates free LLM providers behind one /v1 endpoint with failover",
+     "MIT",
+     "Free-tier aggregation",
+     "TypeScript"
+    ],
+    [
+     "0xgetz/opencode-free-9router",
+     "opencode-free-9router",
+     "OpenCode Free Router",
+     "Routes coding-agent traffic to free model endpoints",
+     "MIT",
+     "Free routing for coding agents",
+     "JavaScript"
+    ],
+    [
+     "maximhq/bifrost",
+     "bifrost",
+     "Bifrost",
+     "High-performance AI gateway with load balancing and fallbacks",
+     "Apache-2.0",
+     "Low-latency gateway",
+     "Go"
+    ],
+    [
+     "trylonai/gateway",
+     "trylon-gateway",
+     "Trylon Gateway",
+     "Self-hosted LLM firewall with guardrails",
+     "BUSL-1.1",
+     "Guardrails / security",
+     "Python"
+    ],
+    [
+     "BerriAI/litellm",
+     "litellm",
+     "LiteLLM",
+     "Proxy + SDK for 100+ LLM APIs in OpenAI format, cost tracking",
+     "MIT (enterprise/ dir separate)",
+     "Broadest provider coverage",
+     "Python"
+    ],
+    [
+     "Portkey-AI/gateway",
+     "portkey-gateway",
+     "Portkey Gateway",
+     "Fast AI gateway with routing, retries and caching",
+     "MIT",
+     "Edge-friendly gateway",
+     "TypeScript"
+    ]
+   ]
+  },
+  {
+   "id": "chat-ui",
+   "title": "Chat UIs",
+   "desc": "Self-hosted ChatGPT-style interfaces.",
+   "cols": [
+    "Highlights",
+    "Language"
+   ],
+   "items": [
+    [
+     "open-webui/open-webui",
+     "open-webui",
+     "Open WebUI",
+     "Feature-rich web UI for Ollama and OpenAI-compatible APIs",
+     "Open WebUI License (BSD-3 + branding clause)",
+     "RAG, multi-user, plugins",
+     "Python/Svelte"
+    ],
+    [
+     "lobehub/lobe-chat",
+     "lobe-chat",
+     "Lobe Chat",
+     "Modern multi-provider chat and agent workspace",
+     "LobeHub Community License (Apache-2.0 based)",
+     "Agents marketplace",
+     "TypeScript"
+    ],
+    [
+     "danny-avila/LibreChat",
+     "librechat",
+     "LibreChat",
+     "Multi-provider chat with agents, auth and plugins",
+     "MIT",
+     "Enterprise auth",
+     "TypeScript"
+    ],
+    [
+     "mckaywrigley/chatbot-ui",
+     "chatbot-ui",
+     "Chatbot UI",
+     "Minimal open-source chat front end",
+     "MIT",
+     "Simple, hackable",
+     "TypeScript"
+    ]
+   ]
+  },
+  {
+   "id": "local-models",
+   "title": "Local Models & Runtimes",
+   "desc": "Run LLMs on your own laptop or server.",
+   "cols": [
+    "Best for",
+    "Language"
+   ],
+   "items": [
+    [
+     "nomic-ai/gpt4all",
+     "gpt4all",
+     "GPT4All",
+     "Desktop app for private local LLM chat",
+     "MIT",
+     "Non-technical desktop users",
+     "C++"
+    ],
+    [
+     "ollama/ollama",
+     "ollama",
+     "Ollama",
+     "One-command local model runner with OpenAI-compatible API",
+     "MIT",
+     "Easiest local API",
+     "Go"
+    ],
+    [
+     "ggml-org/llama.cpp",
+     "llama.cpp",
+     "llama.cpp",
+     "Portable C/C++ inference for GGUF models",
+     "MIT",
+     "CPU / Apple Silicon",
+     "C++"
+    ],
+    [
+     "Mozilla-Ocho/llamafile",
+     "llamafile",
+     "llamafile",
+     "Single-file executable LLMs",
+     "Apache-2.0",
+     "Zero-install distribution",
+     "C++"
+    ],
+    [
+     "mudler/LocalAI",
+     "localai",
+     "LocalAI",
+     "Drop-in OpenAI API replacement for local models",
+     "MIT",
+     "Multi-modal local API",
+     "Go"
+    ],
+    [
+     "oobabooga/text-generation-webui",
+     "text-generation-webui",
+     "Text Generation WebUI",
+     "Gradio UI supporting many backends",
+     "AGPL-3.0",
+     "Experimenting with backends",
+     "Python"
+    ]
+   ]
+  },
+  {
+   "id": "inference-serving",
+   "title": "Inference & Serving",
+   "desc": "High-throughput production model serving on GPUs.",
+   "cols": [
+    "Strength",
+    "Language"
+   ],
+   "items": [
+    [
+     "vllm-project/vllm",
+     "vllm",
+     "vLLM",
+     "PagedAttention-based high-throughput server",
+     "Apache-2.0",
+     "Throughput",
+     "Python"
+    ],
+    [
+     "sgl-project/sglang",
+     "sglang",
+     "SGLang",
+     "Fast serving with structured generation",
+     "Apache-2.0",
+     "Structured outputs",
+     "Python"
+    ],
+    [
+     "huggingface/text-generation-inference",
+     "text-generation-inference",
+     "Text Generation Inference",
+     "Production LLM server",
+     "Apache-2.0",
+     "HF Hub integration",
+     "Rust/Python"
+    ],
+    [
+     "triton-inference-server/server",
+     "triton-server",
+     "Triton Inference Server",
+     "Multi-framework model server",
+     "BSD-3-Clause",
+     "Mixed model fleets",
+     "C++"
+    ]
+   ]
+  },
+  {
+   "id": "memory",
+   "title": "Memory",
+   "desc": "Long-term memory layers for agents and assistants.",
+   "cols": [
+    "Approach",
+    "Language"
+   ],
+   "items": [
+    [
+     "mem0ai/mem0",
+     "mem0",
+     "Mem0",
+     "Universal memory layer for AI agents",
+     "Apache-2.0",
+     "Extract-and-retrieve facts",
+     "Python"
+    ],
+    [
+     "mem0ai/openmemory",
+     "openmemory",
+     "OpenMemory",
+     "Local-first memory server (MCP) for AI tools",
+     "Apache-2.0",
+     "MCP memory server",
+     "Python"
+    ],
+    [
+     "letta-ai/letta",
+     "letta",
+     "Letta",
+     "Stateful agents with self-editing memory",
+     "Apache-2.0",
+     "Agent OS with memory",
+     "Python"
+    ],
+    [
+     "getzep/graphiti",
+     "graphiti",
+     "Graphiti",
+     "Temporal knowledge-graph memory",
+     "Apache-2.0",
+     "Knowledge graph",
+     "Python"
+    ]
+   ]
+  },
+  {
+   "id": "agent-frameworks",
+   "title": "Agent Frameworks",
+   "desc": "Libraries for building single and multi-agent systems.",
+   "cols": [
+    "Style",
+    "Language"
+   ],
+   "items": [
+    [
+     "langchain-ai/langchain",
+     "langchain",
+     "LangChain",
+     "Composable LLM application framework",
+     "MIT",
+     "Broad integrations",
+     "Python"
+    ],
+    [
+     "langchain-ai/langgraph",
+     "langgraph",
+     "LangGraph",
+     "Graph-based stateful agent orchestration",
+     "MIT",
+     "Controllable workflows",
+     "Python"
+    ],
+    [
+     "crewAIInc/crewAI",
+     "crewai",
+     "CrewAI",
+     "Role-based multi-agent crews",
+     "MIT",
+     "Multi-agent teams",
+     "Python"
+    ],
+    [
+     "microsoft/autogen",
+     "autogen",
+     "AutoGen",
+     "Conversational multi-agent framework",
+     "CC-BY-4.0 (docs) / MIT (code)",
+     "Agent conversations",
+     "Python"
+    ],
+    [
+     "huggingface/smolagents",
+     "smolagents",
+     "smolagents",
+     "Minimal code-writing agents",
+     "Apache-2.0",
+     "Lightweight",
+     "Python"
+    ],
+    [
+     "agno-agi/agno",
+     "agno",
+     "Agno",
+     "Fast agent framework with memory and tools",
+     "Apache-2.0",
+     "Performance",
+     "Python"
+    ],
+    [
+     "tinyhumansai/openhuman",
+     "openhuman",
+     "OpenHuman",
+     "Lightweight agent harness that runs hundreds of agents on a small VPS",
+     "GPL-3.0",
+     "-",
+     "Rust"
+    ]
+   ]
+  },
+  {
+   "id": "coding-agents",
+   "title": "Coding Agents",
+   "desc": "AI pair programmers and autonomous software agents.",
+   "cols": [
+    "Interface",
+    "Language"
+   ],
+   "items": [
+    [
+     "All-Hands-AI/OpenHands",
+     "openhands",
+     "OpenHands",
+     "Autonomous software-engineering agent",
+     "MIT",
+     "Web / headless",
+     "Python"
+    ],
+    [
+     "continuedev/continue",
+     "continue",
+     "Continue",
+     "IDE assistant for VS Code and JetBrains",
+     "Apache-2.0",
+     "IDE extension",
+     "TypeScript"
+    ],
+    [
+     "Aider-AI/aider",
+     "aider",
+     "Aider",
+     "Terminal pair programmer working on git repos",
+     "Apache-2.0",
+     "CLI",
+     "Python"
+    ],
+    [
+     "sst/opencode",
+     "opencode",
+     "OpenCode",
+     "Terminal coding agent",
+     "MIT",
+     "TUI",
+     "TypeScript"
+    ],
+    [
+     "cline/cline",
+     "cline",
+     "Cline",
+     "Autonomous coding agent in VS Code",
+     "Apache-2.0",
+     "IDE extension",
+     "TypeScript"
+    ]
+   ]
+  },
+  {
+   "id": "code-review",
+   "title": "Code Review",
+   "desc": "Automated AI pull-request review.",
+   "cols": [
+    "Runs as",
+    "Language"
+   ],
+   "items": [
+    [
+     "alibaba/open-code-review",
+     "open-code-review",
+     "Open Code Review",
+     "Hybrid deterministic + LLM agent code reviewer with line-level comments",
+     "Apache-2.0",
+     "CLI / CI",
+     "Go"
+    ],
+    [
+     "qodo-ai/pr-agent",
+     "pr-agent",
+     "PR-Agent",
+     "PR review, describe and improve commands",
+     "AGPL-3.0",
+     "GitHub Action / app",
+     "Python"
+    ]
+   ]
+  },
+  {
+   "id": "app-builders",
+   "title": "Low-code App Builders",
+   "desc": "Visual builders for LLM apps, agents and workflows.",
+   "cols": [
+    "Licence note",
+    "Language"
+   ],
+   "items": [
+    [
+     "langgenius/dify",
+     "dify",
+     "Dify",
+     "LLM app and agentic workflow platform",
+     "Dify Open Source License (Apache-2.0 + conditions)",
+     "Multi-tenant SaaS restricted",
+     "Python"
+    ],
+    [
+     "FlowiseAI/Flowise",
+     "flowise",
+     "Flowise",
+     "Drag-and-drop agent builder",
+     "Apache-2.0 (enterprise dir separate)",
+     "Core Apache-2.0",
+     "TypeScript"
+    ],
+    [
+     "langflow-ai/langflow",
+     "langflow",
+     "Langflow",
+     "Visual flow builder for agents and RAG",
+     "MIT",
+     "Permissive",
+     "Python"
+    ],
+    [
+     "n8n-io/n8n",
+     "n8n",
+     "n8n",
+     "Workflow automation with AI nodes",
+     "Sustainable Use License (fair-code)",
+     "Source-available",
+     "TypeScript"
+    ]
+   ]
+  },
+  {
+   "id": "rag-vector-db",
+   "title": "RAG & Vector Databases",
+   "desc": "Retrieval frameworks, document pipelines and vector stores.",
+   "cols": [
+    "Type",
+    "Language"
+   ],
+   "items": [
+    [
+     "run-llama/llama_index",
+     "llama-index",
+     "LlamaIndex",
+     "Data framework for RAG",
+     "MIT",
+     "Framework",
+     "Python"
+    ],
+    [
+     "deepset-ai/haystack",
+     "haystack",
+     "Haystack",
+     "Production RAG pipelines",
+     "Apache-2.0",
+     "Framework",
+     "Python"
+    ],
+    [
+     "infiniflow/ragflow",
+     "ragflow",
+     "RAGFlow",
+     "Deep-document-understanding RAG engine",
+     "Apache-2.0",
+     "Engine + UI",
+     "Python"
+    ],
+    [
+     "qdrant/qdrant",
+     "qdrant",
+     "Qdrant",
+     "Vector search engine",
+     "Apache-2.0",
+     "Vector DB",
+     "Rust"
+    ],
+    [
+     "chroma-core/chroma",
+     "chroma",
+     "Chroma",
+     "Embedding database",
+     "Apache-2.0",
+     "Vector DB (embedded)",
+     "Rust/Python"
+    ],
+    [
+     "milvus-io/milvus",
+     "milvus",
+     "Milvus",
+     "Cloud-native vector database",
+     "Apache-2.0",
+     "Vector DB (scale)",
+     "Go"
+    ],
+    [
+     "weaviate/weaviate",
+     "weaviate",
+     "Weaviate",
+     "Vector DB with hybrid search",
+     "BSD-3-Clause (core)",
+     "Vector DB (hybrid)",
+     "Go"
+    ]
+   ]
+  },
+  {
+   "id": "eval-observability",
+   "title": "Evaluation & Observability",
+   "desc": "Tracing, evaluations and prompt management.",
+   "cols": [
+    "Focus",
+    "Language"
+   ],
+   "items": [
+    [
+     "langfuse/langfuse",
+     "langfuse",
+     "Langfuse",
+     "LLM tracing, evals and prompt management",
+     "MIT (ee/ dirs separate)",
+     "Tracing platform",
+     "TypeScript"
+    ],
+    [
+     "Arize-ai/phoenix",
+     "phoenix",
+     "Phoenix",
+     "AI observability and evaluation",
+     "Elastic-2.0",
+     "Notebook + server",
+     "Python"
+    ],
+    [
+     "promptfoo/promptfoo",
+     "promptfoo",
+     "promptfoo",
+     "Prompt testing and red-teaming CLI",
+     "MIT",
+     "CI evals",
+     "TypeScript"
+    ],
+    [
+     "confident-ai/deepeval",
+     "deepeval",
+     "DeepEval",
+     "Unit-test style LLM evaluation",
+     "Apache-2.0",
+     "pytest-style",
+     "Python"
+    ]
+   ]
+  },
+  {
+   "id": "backend-infra",
+   "title": "Backend & Infra",
+   "desc": "Backends, databases and auth for AI products.",
+   "cols": [
+    "Type",
+    "Language"
+   ],
+   "items": [
+    [
+     "butterbase-ai/butterbase",
+     "butterbase",
+     "Butterbase",
+     "Open-source backend-as-a-service: Postgres, auth, storage, functions, AI gateway, MCP",
+     "Apache-2.0",
+     "BaaS + AI gateway",
+     "TypeScript"
+    ],
+    [
+     "supabase/supabase",
+     "supabase",
+     "Supabase",
+     "Postgres platform with auth, storage, pgvector",
+     "Apache-2.0",
+     "BaaS",
+     "TypeScript"
+    ],
+    [
+     "pocketbase/pocketbase",
+     "pocketbase",
+     "PocketBase",
+     "Single-file backend with realtime DB",
+     "MIT",
+     "Embedded BaaS",
+     "Go"
+    ]
+   ]
+  },
+  {
+   "id": "app-templates",
+   "title": "App Templates & Examples",
+   "desc": "Ready-made AI apps and examples to copy.",
+   "cols": [
+    "Contents",
+    "Language"
+   ],
+   "items": [
+    [
+     "Shubhamsaboo/awesome-llm-apps",
+     "awesome-llm-apps",
+     "Awesome LLM Apps",
+     "100+ runnable LLM, RAG and agent example apps",
+     "Apache-2.0",
+     "Examples",
+     "Python"
+    ]
+   ]
+  },
+  {
+   "id": "codesbyfebin-collection",
+   "title": "CodesbyFebin Collection",
+   "desc": "Hand-picked agent tools, MCP servers and experiments.",
+   "cols": [
+    "Type",
+    "Language"
+   ],
+   "items": [
+    [
+     "tashfeenahmed/OnePersonCompany",
+     "one-person-company",
+     "One Person Company",
+     "Operations dashboard for solo founders",
+     "MIT",
+     "Dashboard",
+     "TypeScript"
+    ],
+    [
+     "tashfeenahmed/kinetic",
+     "kinetic",
+     "Kinetic",
+     "GTM enrichment tables plus cold-email outreach",
+     "MIT",
+     "Sales app",
+     "TypeScript"
+    ],
+    [
+     "tashfeenahmed/circlechat",
+     "circlechat",
+     "CircleChat",
+     "Team chat where humans and agents are members",
+     "MIT",
+     "Chat + agent runtime",
+     "TypeScript"
+    ],
+    [
+     "tashfeenahmed/AgentDomains",
+     "agentdomains",
+     "AgentDomains",
+     "CLI to claim free subdomains and DNS for agents",
+     "FSL-1.1-Apache-2.0",
+     "CLI",
+     "Go"
+    ],
+    [
+     "tashfeenahmed/AgentDomains-mcp",
+     "agentdomains-mcp",
+     "AgentDomains MCP",
+     "MCP server for subdomain/DNS management",
+     "FSL-1.1-Apache-2.0",
+     "MCP server",
+     "TypeScript"
+    ],
+    [
+     "tashfeenahmed/AgentDomains-skill",
+     "agentdomains-skill",
+     "AgentDomains Skill",
+     "Coding-agent skill for subdomain/DNS",
+     "FSL-1.1-Apache-2.0",
+     "Agent skill",
+     "Shell"
+    ],
+    [
+     "tashfeenahmed/scallopbot",
+     "scallopbot",
+     "ScallopBot",
+     "Self-hosted assistant with MCP-native memory",
+     "MIT",
+     "Assistant",
+     "TypeScript"
+    ],
+    [
+     "tashfeenahmed/cashmaxx",
+     "cashmaxx",
+     "Cashmaxx",
+     "Autonomous agent with guarded crypto wallet",
+     "MIT",
+     "Agent",
+     "Python"
+    ],
+    [
+     "tashfeenahmed/jev-deepresearch",
+     "jev-deepresearch",
+     "Jev Deep Research",
+     "Deep-research crawler with planner LLM",
+     "MIT",
+     "Research agent",
+     "JavaScript"
+    ],
+    [
+     "tashfeenahmed/emotion-state",
+     "emotion-state",
+     "Emotion State",
+     "Emotion state classification for agents",
+     "MIT",
+     "Library",
+     "TypeScript"
+    ],
+    [
+     "tashfeenahmed/magictap",
+     "magictap",
+     "MagicTap",
+     "Gaze + sound touch input for laptops",
+     "MIT",
+     "HCI experiment",
+     "Python"
+    ],
+    [
+     "tashfeenahmed/pyreality",
+     "pyreality",
+     "PyReality",
+     "Mixed-reality visualisations in notebooks",
+     "MIT",
+     "Library",
+     "Python"
+    ],
+    [
+     "tashfeenahmed/html-email-template",
+     "html-email-template",
+     "HTML Email Template",
+     "Reusable HTML email template",
+     "MIT",
+     "Template",
+     "HTML"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "gateways-routing": "```bash\npip install 'litellm[proxy]'\nlitellm --model ollama/llama3.2 --port 4000\ncurl http://localhost:4000/v1/models\n```\nPoint any OpenAI SDK at `http://localhost:4000/v1`.",
+ "chat-ui": "```bash\ndocker run -d -p 3000:8080 -v open-webui:/app/backend/data ghcr.io/open-webui/open-webui:main\n```\nOpen http://localhost:3000 and add your gateway as an OpenAI-compatible connection.",
+ "local-models": "```bash\ncurl -fsSL https://ollama.com/install.sh | sh\nollama run llama3.2\n```\nServes an OpenAI-compatible API on port 11434. Needs about 8 GB RAM for 3B models.",
+ "inference-serving": "```bash\npip install vllm\nvllm serve Qwen/Qwen2.5-1.5B-Instruct --port 8000\n```\nNeeds an NVIDIA GPU (8 GB+ VRAM for small models).",
+ "memory": "```bash\npip install mem0ai\npython -c \"from mem0 import Memory; m=Memory(); m.add('I like Python', user_id='me'); print(m.search('language?', user_id='me'))\"\n```\nUses `OPENAI_API_KEY`/`OPENAI_BASE_URL`; point it at your gateway.",
+ "agent-frameworks": "```bash\npip install smolagents\nexport OPENAI_BASE_URL=http://localhost:4000/v1 OPENAI_API_KEY=sk-local\n```\nThen create an agent with an OpenAI-compatible model class from your chosen framework.",
+ "coding-agents": "```bash\npip install aider-chat\naider --openai-api-base http://localhost:4000/v1 --model openai/llama3.2\n```",
+ "code-review": "Run a reviewer in CI on `pull_request` events, storing your gateway key as a repository secret. Each project's README shows the GitHub Action snippet.",
+ "app-builders": "```bash\ngit submodule update --init --depth 1 stacks/app-builders/dify\ncd stacks/app-builders/dify/docker && cp .env.example .env && docker compose up -d\n```\nAdd your gateway as a custom OpenAI-compatible model provider.",
+ "rag-vector-db": "```bash\ndocker run -d -p 6333:6333 qdrant/qdrant\npip install llama-index llama-index-vector-stores-qdrant\n```\nIndex documents with LlamaIndex or Haystack into the vector store.",
+ "eval-observability": "```bash\nnpx promptfoo@latest init\nnpx promptfoo@latest eval\n```\nFor tracing, self-host Langfuse or Phoenix and add their SDK callback.",
+ "backend-infra": "```bash\n# single-binary backend\n./pocketbase serve\n```\nUse Postgres + pgvector (Supabase) when you need SQL and vectors together.",
+ "app-templates": "```bash\ngit submodule update --init --depth 1 stacks/app-templates\n```\nPick an example folder, install its requirements and swap the model endpoint for your gateway.",
+ "codesbyfebin-collection": "```bash\ngit submodule update --init --depth 1 stacks/codesbyfebin-collection\n```\nEach project has its own README with setup steps."
+}

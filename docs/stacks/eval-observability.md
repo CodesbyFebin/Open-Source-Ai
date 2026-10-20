@@ -1,16 +1,31 @@
 ---
 title: Evaluation & Observability – Open Source Ai
-description: Tracing, evals and prompt management. Curated open-source evaluation & observability stacks in CodesbyFebin Open Source Ai.
+description: Tracing, evaluations and prompt management. Open-source evaluation & observability compared, with install guides – CodesbyFebin Open Source Ai.
 ---
 # Evaluation & Observability
 
-Tracing, evals and prompt management.
+Tracing, evaluations and prompt management.
+
+*Last checked: 2026-10-20*
+
+## Comparison
+
+| Project | What it does | Focus | Language | Licence |
+|---|---|---|---|---|
+| Langfuse | LLM tracing, evals and prompt management | Tracing platform | TypeScript | MIT (ee/ dirs separate) |
+| Phoenix | AI observability and evaluation | Notebook + server | Python | Elastic-2.0 |
+| promptfoo | Prompt testing and red-teaming CLI | CI evals | TypeScript | MIT |
+| DeepEval | Unit-test style LLM evaluation | pytest-style | Python | Apache-2.0 |
 
 ## Quick start
 
-Self-host Langfuse or Phoenix and add their SDK callback to trace every LLM call; use promptfoo for regression evals.
+```bash
+npx promptfoo@latest init
+npx promptfoo@latest eval
+```
+For tracing, self-host Langfuse or Phoenix and add their SDK callback.
 
-## Get the code
+## Get the source
 
 ```bash
 git clone https://github.com/CodesbyFebin/Open-Source-Ai
@@ -18,11 +33,9 @@ cd Open-Source-Ai
 git submodule update --init --depth 1 stacks/eval-observability
 ```
 
-## Stacks
+Paths:
 
-| Project | Path | License |
-|---|---|---|
-| [langfuse](https://github.com/langfuse/langfuse) | `stacks/eval-observability/langfuse` | NOASSERTION |
-| [phoenix](https://github.com/Arize-ai/phoenix) | `stacks/eval-observability/phoenix` | NOASSERTION |
-| [promptfoo](https://github.com/promptfoo/promptfoo) | `stacks/eval-observability/promptfoo` | MIT |
-| [deepeval](https://github.com/confident-ai/deepeval) | `stacks/eval-observability/deepeval` | Apache-2.0 |
+- `stacks/eval-observability/langfuse`
+- `stacks/eval-observability/phoenix`
+- `stacks/eval-observability/promptfoo`
+- `stacks/eval-observability/deepeval`

@@ -1,16 +1,31 @@
 ---
 title: Low-code App Builders – Open Source Ai
-description: Visual builders for LLM apps and workflows. Curated open-source low-code app builders stacks in CodesbyFebin Open Source Ai.
+description: Visual builders for LLM apps, agents and workflows. Open-source low-code app builders compared, with install guides – CodesbyFebin Open Source Ai.
 ---
 # Low-code App Builders
 
-Visual builders for LLM apps and workflows.
+Visual builders for LLM apps, agents and workflows.
+
+*Last checked: 2026-10-20*
+
+## Comparison
+
+| Project | What it does | Licence note | Language | Licence |
+|---|---|---|---|---|
+| Dify | LLM app and agentic workflow platform | Multi-tenant SaaS restricted | Python | Dify Open Source License (Apache-2.0 + conditions) |
+| Flowise | Drag-and-drop agent builder | Core Apache-2.0 | TypeScript | Apache-2.0 (enterprise dir separate) |
+| Langflow | Visual flow builder for agents and RAG | Permissive | Python | MIT |
+| n8n | Workflow automation with AI nodes | Source-available | TypeScript | Sustainable Use License (fair-code) |
 
 ## Quick start
 
-Self-host a visual builder with Docker Compose (Dify, Flowise, Langflow, n8n) and add your gateway as a custom OpenAI provider.
+```bash
+git submodule update --init --depth 1 stacks/app-builders/dify
+cd stacks/app-builders/dify/docker && cp .env.example .env && docker compose up -d
+```
+Add your gateway as a custom OpenAI-compatible model provider.
 
-## Get the code
+## Get the source
 
 ```bash
 git clone https://github.com/CodesbyFebin/Open-Source-Ai
@@ -18,11 +33,9 @@ cd Open-Source-Ai
 git submodule update --init --depth 1 stacks/app-builders
 ```
 
-## Stacks
+Paths:
 
-| Project | Path | License |
-|---|---|---|
-| [dify](https://github.com/langgenius/dify) | `stacks/app-builders/dify` | NOASSERTION |
-| [Flowise](https://github.com/FlowiseAI/Flowise) | `stacks/app-builders/Flowise` | NOASSERTION |
-| [langflow](https://github.com/langflow-ai/langflow) | `stacks/app-builders/langflow` | MIT |
-| [n8n](https://github.com/n8n-io/n8n) | `stacks/app-builders/n8n` | NOASSERTION |
+- `stacks/app-builders/dify`
+- `stacks/app-builders/flowise`
+- `stacks/app-builders/langflow`
+- `stacks/app-builders/n8n`

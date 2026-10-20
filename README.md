@@ -2,34 +2,42 @@
 
 # Open Source Ai by CodesbyFebin
 
-**All open-source AI agent & LLM stacks in one repository** – LLM gateways and routers, free LLM APIs, chat UIs, local models, inference servers, memory, agent frameworks, coding agents, AI code review, RAG and vector databases, evaluation and observability, backends and app templates.
+**All open-source AI agent & LLM stacks in one repository**: LLM gateways and routers, free LLM APIs, chat UIs, local models, inference servers, memory, agent frameworks, coding agents, AI code review, RAG and vector databases, evaluation and observability, backends and app templates.
 
-📖 **Docs (GitBook-style):** https://codesbyfebin.github.io/Open-Source-Ai/
+📖 **Docs:** https://codesbyfebin.github.io/Open-Source-Ai/ · 70 projects · 14 categories · last checked 2026-10-20
 
-| Category | What it covers | Stacks |
+| Category | What it covers | Projects |
 |---|---|---|
-| [Gateways & LLM Routing](stacks/gateways-routing) | Unified OpenAI-compatible gateways, routers and free LLM API aggregators. | 6 |
-| [Chat UIs](stacks/chat-ui) | Self-hosted ChatGPT-style interfaces. | 4 |
-| [Local Models & Runtimes](stacks/local-models) | Run LLMs on your own laptop or server. | 6 |
-| [Inference & Serving](stacks/inference-serving) | High-throughput production model serving. | 4 |
-| [Memory](stacks/memory) | Long-term memory layers for agents. | 4 |
-| [Agent Frameworks](stacks/agent-frameworks) | Libraries for building single and multi-agent systems. | 8 |
-| [Coding Agents](stacks/coding-agents) | AI pair programmers and autonomous coding agents. | 5 |
-| [Code Review](stacks/code-review) | Automated AI code review. | 2 |
-| [Low-code App Builders](stacks/app-builders) | Visual builders for LLM apps and workflows. | 4 |
-| [RAG & Vector Databases](stacks/rag-vector-db) | Retrieval, indexing and vector stores. | 7 |
-| [Evaluation & Observability](stacks/eval-observability) | Tracing, evals and prompt management. | 4 |
-| [Backend & Infra](stacks/backend-infra) | Backends and infrastructure for AI products. | 3 |
-| [App Templates & Examples](stacks/app-templates) | Ready-made AI apps and examples. | 1 |
-| [Tashfeen Ahmed Collection](stacks/tashfeenahmed) | Original projects from tashfeenahmed. | 23 |
+| [Gateways & LLM Routing](docs/stacks/gateways-routing.md) | OpenAI-compatible gateways, routers, guardrail firewalls and free-LLM aggregators. | 6 |
+| [Chat UIs](docs/stacks/chat-ui.md) | Self-hosted ChatGPT-style interfaces. | 4 |
+| [Local Models & Runtimes](docs/stacks/local-models.md) | Run LLMs on your own laptop or server. | 6 |
+| [Inference & Serving](docs/stacks/inference-serving.md) | High-throughput production model serving on GPUs. | 4 |
+| [Memory](docs/stacks/memory.md) | Long-term memory layers for agents and assistants. | 4 |
+| [Agent Frameworks](docs/stacks/agent-frameworks.md) | Libraries for building single and multi-agent systems. | 7 |
+| [Coding Agents](docs/stacks/coding-agents.md) | AI pair programmers and autonomous software agents. | 5 |
+| [Code Review](docs/stacks/code-review.md) | Automated AI pull-request review. | 2 |
+| [Low-code App Builders](docs/stacks/app-builders.md) | Visual builders for LLM apps, agents and workflows. | 4 |
+| [RAG & Vector Databases](docs/stacks/rag-vector-db.md) | Retrieval frameworks, document pipelines and vector stores. | 7 |
+| [Evaluation & Observability](docs/stacks/eval-observability.md) | Tracing, evaluations and prompt management. | 4 |
+| [Backend & Infra](docs/stacks/backend-infra.md) | Backends, databases and auth for AI products. | 3 |
+| [App Templates & Examples](docs/stacks/app-templates.md) | Ready-made AI apps and examples to copy. | 1 |
+| [CodesbyFebin Collection](docs/stacks/codesbyfebin-collection.md) | Hand-picked agent tools, MCP servers and experiments. | 13 |
 
 ## Quick start
+
 ```bash
 git clone https://github.com/CodesbyFebin/Open-Source-Ai
 cd Open-Source-Ai
-git submodule update --init --depth 1 stacks/gateways-routing   # one category
+git submodule update --init --depth 1 stacks/code-review   # one category
+docker compose -f examples/full-stack/docker-compose.yml up -d   # local AI stack
 ```
-See the [Getting Started guide](docs/guides/getting-started.md) and [Build a Full Stack](docs/guides/full-stack.md).
+
+Guides: [Getting Started](docs/guides/getting-started.md) · [Build a Full Stack](docs/guides/full-stack.md) · [Selection Criteria](docs/selection-criteria.md)
+
+## Contributing
+
+Edit `catalog.json`, run `python scripts/build.py` and `python scripts/sync_gitlinks.py`, then open a PR. CI checks catalog, `.gitmodules` and gitlinks agree.
 
 ## License
-Hub content: [MIT](LICENSE) © CodesbyFebin. Bundled stacks keep their own licenses – see [CREDITS.md](CREDITS.md).
+
+Hub content: [MIT](LICENSE) © CodesbyFebin. Each project under `stacks/` keeps its own licence – see [CREDITS.md](CREDITS.md).

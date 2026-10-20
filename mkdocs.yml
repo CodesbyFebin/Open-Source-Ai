@@ -30,6 +30,7 @@ nav:
       - Getting Started: guides/getting-started.md
       - Build a Full Stack: guides/full-stack.md
       - Connect to a Gateway: guides/connect-gateway.md
+  - Selection Criteria: selection-criteria.md
   - Stacks:
       - Gateways & LLM Routing: stacks/gateways-routing.md
       - Chat UIs: stacks/chat-ui.md
@@ -44,5 +45,5 @@ nav:
       - Evaluation & Observability: stacks/eval-observability.md
       - Backend & Infra: stacks/backend-infra.md
       - App Templates & Examples: stacks/app-templates.md
-      - Tashfeen Ahmed Collection: stacks/tashfeenahmed.md
-  - Credits & Licenses: credits.md
+      - CodesbyFebin Collection: stacks/codesbyfebin-collection.md
+  - Credits & Licences: credits.md

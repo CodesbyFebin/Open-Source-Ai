@@ -1,0 +1,33 @@
+# Open Source Ai – local full stack: Ollama (models) -> LiteLLM (gateway) -> Open WebUI (chat)
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes: [ollama:/root/.ollama]
+    ports: ["11434:11434"]
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      retries: 12
+  model-pull:
+    image: ollama/ollama:latest
+    depends_on: {ollama: {condition: service_healthy}}
+    environment: {OLLAMA_HOST: "http://ollama:11434"}
+    entrypoint: ["ollama", "pull", "${MODEL:-llama3.2:1b}"]
+    restart: "no"
+  litellm:
+    image: ghcr.io/berriai/litellm:main-stable
+    command: ["--config", "/app/config.yaml", "--port", "4000"]
+    volumes: ["./litellm-config.yaml:/app/config.yaml:ro"]
+    environment: {LITELLM_MASTER_KEY: "${LITELLM_MASTER_KEY:-sk-local-change-me}"}
+    ports: ["4000:4000"]
+    depends_on: [ollama]
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    environment:
+      OPENAI_API_BASE_URL: "http://litellm:4000/v1"
+      OPENAI_API_KEY: "${LITELLM_MASTER_KEY:-sk-local-change-me}"
+      ENABLE_OLLAMA_API: "false"
+    volumes: [open-webui:/app/backend/data]
+    ports: ["3000:8080"]
+    depends_on: [litellm]
+volumes: {ollama: {}, open-webui: {}}

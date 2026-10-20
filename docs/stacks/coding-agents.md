@@ -1,16 +1,31 @@
 ---
 title: Coding Agents – Open Source Ai
-description: AI pair programmers and autonomous coding agents. Curated open-source coding agents stacks in CodesbyFebin Open Source Ai.
+description: AI pair programmers and autonomous software agents. Open-source coding agents compared, with install guides – CodesbyFebin Open Source Ai.
 ---
 # Coding Agents
 
-AI pair programmers and autonomous coding agents.
+AI pair programmers and autonomous software agents.
+
+*Last checked: 2026-10-20*
+
+## Comparison
+
+| Project | What it does | Interface | Language | Licence |
+|---|---|---|---|---|
+| OpenHands | Autonomous software-engineering agent | Web / headless | Python | MIT |
+| Continue | IDE assistant for VS Code and JetBrains | IDE extension | TypeScript | Apache-2.0 |
+| Aider | Terminal pair programmer working on git repos | CLI | Python | Apache-2.0 |
+| OpenCode | Terminal coding agent | TUI | TypeScript | MIT |
+| Cline | Autonomous coding agent in VS Code | IDE extension | TypeScript | Apache-2.0 |
 
 ## Quick start
 
-Install a coding agent (`pip install aider-chat`, or the Continue/Cline IDE extension) and point it at your gateway or local model.
+```bash
+pip install aider-chat
+aider --openai-api-base http://localhost:4000/v1 --model openai/llama3.2
+```
 
-## Get the code
+## Get the source
 
 ```bash
 git clone https://github.com/CodesbyFebin/Open-Source-Ai
@@ -18,12 +33,10 @@ cd Open-Source-Ai
 git submodule update --init --depth 1 stacks/coding-agents
 ```
 
-## Stacks
+Paths:
 
-| Project | Path | License |
-|---|---|---|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | `stacks/coding-agents/OpenHands` | MIT |
-| [continue](https://github.com/continuedev/continue) | `stacks/coding-agents/continue` | Apache-2.0 |
-| [aider](https://github.com/Aider-AI/aider) | `stacks/coding-agents/aider` | Apache-2.0 |
-| [opencode](https://github.com/sst/opencode) | `stacks/coding-agents/opencode` | MIT |
-| [cline](https://github.com/cline/cline) | `stacks/coding-agents/cline` | Apache-2.0 |
+- `stacks/coding-agents/openhands`
+- `stacks/coding-agents/continue`
+- `stacks/coding-agents/aider`
+- `stacks/coding-agents/opencode`
+- `stacks/coding-agents/cline`

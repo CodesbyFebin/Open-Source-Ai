@@ -1,16 +1,30 @@
 ---
 title: Backend & Infra – Open Source Ai
-description: Backends and infrastructure for AI products. Curated open-source backend & infra stacks in CodesbyFebin Open Source Ai.
+description: Backends, databases and auth for AI products. Open-source backend & infra compared, with install guides – CodesbyFebin Open Source Ai.
 ---
 # Backend & Infra
 
-Backends and infrastructure for AI products.
+Backends, databases and auth for AI products.
+
+*Last checked: 2026-10-20*
+
+## Comparison
+
+| Project | What it does | Type | Language | Licence |
+|---|---|---|---|---|
+| Butterbase | Open-source backend-as-a-service: Postgres, auth, storage, functions, AI gateway, MCP | BaaS + AI gateway | TypeScript | Apache-2.0 |
+| Supabase | Postgres platform with auth, storage, pgvector | BaaS | TypeScript | Apache-2.0 |
+| PocketBase | Single-file backend with realtime DB | Embedded BaaS | Go | MIT |
 
 ## Quick start
 
-Use a backend (Supabase with pgvector, PocketBase) for auth, storage and vectors behind your AI app.
+```bash
+# single-binary backend
+./pocketbase serve
+```
+Use Postgres + pgvector (Supabase) when you need SQL and vectors together.
 
-## Get the code
+## Get the source
 
 ```bash
 git clone https://github.com/CodesbyFebin/Open-Source-Ai
@@ -18,10 +32,8 @@ cd Open-Source-Ai
 git submodule update --init --depth 1 stacks/backend-infra
 ```
 
-## Stacks
+Paths:
 
-| Project | Path | License |
-|---|---|---|
-| [butterbase](https://github.com/butterbase-ai/butterbase) | `stacks/backend-infra/butterbase` | Apache-2.0 |
-| [supabase](https://github.com/supabase/supabase) | `stacks/backend-infra/supabase` | Apache-2.0 |
-| [pocketbase](https://github.com/pocketbase/pocketbase) | `stacks/backend-infra/pocketbase` | MIT |
+- `stacks/backend-infra/butterbase`
+- `stacks/backend-infra/supabase`
+- `stacks/backend-infra/pocketbase`
