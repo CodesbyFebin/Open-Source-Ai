@@ -1,0 +1,17 @@
+{
+  "canonical_repo": "https://github.com/tashfeenahmed/magictap",
+  "default_branch": "main",
+  "id": "magictap",
+  "last_commit": "2026-10-14T11:06:50Z",
+  "latest_release": null,
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/tashfeenahmed/magictap/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-14T11:06:51Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/tashfeenahmed/magictap",
+  "stars": 1,
+  "state": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/anomalyco/opencode",
+  "default_branch": "dev",
+  "id": "opencode",
+  "last_commit": "2026-10-20T18:19:00Z",
+  "latest_release": {
+    "published_at": "2026-10-16T12:31:52Z",
+    "tag": "v1.19.3"
+  },
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/anomalyco/opencode/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T18:49:02Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/anomalyco/opencode",
+  "stars": 218703,
+  "state": "active"
+}

@@ -14,10 +14,10 @@ Self-hosted ChatGPT-style interfaces.
 
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
-| [Open WebUI](#open-webui) | Feature-rich web UI for Ollama and OpenAI-compatible APIs | RAG, multi-user, plugins | self-hosted | cpu-ok | Open WebUI License (BSD-3 + branding clause) ⚠ needs review | not yet collected |
-| [Lobe Chat](#lobe-chat) | Modern multi-provider chat and agent workspace | Agents marketplace | self-hosted | cpu-ok | LobeHub Community License (Apache-2.0 based) ⚠ needs review | not yet collected |
-| [LibreChat](#librechat) | Multi-provider chat with agents, auth and plugins | Enterprise auth | self-hosted | cpu-ok | MIT | not yet collected |
-| [Chatbot UI](#chatbot-ui) | Minimal open-source chat front end | Simple, hackable | self-hosted | cpu-ok | MIT | not yet collected |
+| [Open WebUI](#open-webui) | Feature-rich web UI for Ollama and OpenAI-compatible APIs | RAG, multi-user, plugins | self-hosted | cpu-ok | Open WebUI License (BSD-3 + branding clause) ⚠ needs review | active |
+| [Lobe Chat](#lobe-chat) | Modern multi-provider chat and agent workspace | Agents marketplace | self-hosted | cpu-ok | LobeHub Community License (Apache-2.0 based) ⚠ needs review | active |
+| [LibreChat](#librechat) | Multi-provider chat with agents, auth and plugins | Enterprise auth | self-hosted | cpu-ok | MIT | active |
+| [Chatbot UI](#chatbot-ui) | Minimal open-source chat front end | Simple, hackable | self-hosted | cpu-ok | MIT | active |
 
 ## Quick start
 
@@ -37,14 +37,14 @@ Feature-rich web UI for Ollama and OpenAI-compatible APIs
 | Upstream repository | [Open WebUI on GitHub](https://github.com/open-webui/open-webui) |
 | Setup docs | [Open WebUI setup guide](https://github.com/open-webui/open-webui#readme) |
 | Licence | Open WebUI License (BSD-3 + branding clause) ⚠ needs review · [licence evidence](https://github.com/open-webui/open-webui/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2026-10-16 |
+| Latest release | v0.12.3 (2026-10-16) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | Python, Svelte |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Lobe Chat {#lobe-chat}
 
@@ -55,14 +55,14 @@ Modern multi-provider chat and agent workspace
 | Upstream repository | [Lobe Chat on GitHub](https://github.com/lobehub/lobehub) |
 | Setup docs | [Lobe Chat setup guide](https://github.com/lobehub/lobehub#readme) |
 | Licence | LobeHub Community License (Apache-2.0 based) ⚠ needs review · [licence evidence](https://github.com/lobehub/lobehub/blob/canary/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v2.2.20 (2026-10-18) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### LibreChat {#librechat}
 
@@ -73,14 +73,14 @@ Multi-provider chat with agents, auth and plugins
 | Upstream repository | [LibreChat on GitHub](https://github.com/LibreChat-AI/LibreChat) |
 | Setup docs | [LibreChat setup guide](https://github.com/LibreChat-AI/LibreChat#readme) |
 | Licence | MIT · [licence evidence](https://github.com/LibreChat-AI/LibreChat/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-17 |
 | Latest release | none detected  |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Chatbot UI {#chatbot-ui}
 
@@ -91,11 +91,11 @@ Minimal open-source chat front end
 | Upstream repository | [Chatbot UI on GitHub](https://github.com/mckaywrigley/chatbot-ui) |
 | Setup docs | [Chatbot UI setup guide](https://github.com/mckaywrigley/chatbot-ui#readme) |
 | Licence | MIT · [licence evidence](https://github.com/mckaywrigley/chatbot-ui/blob/main/license) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2024-06-22 |
 | Latest release | none detected  |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |

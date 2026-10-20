@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/agno-agi/agno",
+  "default_branch": "main",
+  "id": "agno",
+  "last_commit": "2026-10-20T16:30:55Z",
+  "latest_release": {
+    "published_at": "2026-10-20T16:31:37Z",
+    "tag": "v3.1.7"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/agno-agi/agno/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T16:31:36Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/agno-agi/agno",
+  "stars": 42836,
+  "state": "active"
+}

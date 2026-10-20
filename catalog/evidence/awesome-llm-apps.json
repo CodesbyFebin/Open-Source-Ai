@@ -1,0 +1,17 @@
+{
+  "canonical_repo": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "default_branch": "main",
+  "id": "awesome-llm-apps",
+  "last_commit": "2026-10-18T16:28:46Z",
+  "latest_release": null,
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/Shubhamsaboo/awesome-llm-apps/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-18T16:28:46Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/Shubhamsaboo/awesome-llm-apps",
+  "stars": 142403,
+  "state": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/cline/cline",
+  "default_branch": "main",
+  "id": "cline",
+  "last_commit": "2026-10-20T12:01:16Z",
+  "latest_release": {
+    "published_at": "2026-10-17T04:34:20Z",
+    "tag": "desktop-v0.0.48"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/cline/cline/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T18:46:30Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/cline/cline",
+  "stars": 70847,
+  "state": "active"
+}

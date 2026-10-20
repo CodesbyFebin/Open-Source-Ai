@@ -14,10 +14,10 @@ Visual builders for LLM apps, agents and workflows.
 
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
-| [Dify](#dify) | LLM app and agentic workflow platform | Multi-tenant SaaS restricted | self-hosted | cpu-ok | Dify Open Source License (Apache-2.0 + conditions) ⚠ needs review | not yet collected |
-| [Flowise](#flowise) | Drag-and-drop agent builder | Core Apache-2.0 | self-hosted | cpu-ok | Apache-2.0 (enterprise dir separate) ⚠ needs review | not yet collected |
-| [Langflow](#langflow) | Visual flow builder for agents and RAG | Permissive | self-hosted | cpu-ok | MIT | not yet collected |
-| [n8n](#n8n) | Workflow automation with AI nodes | Source-available | self-hosted | cpu-ok | Sustainable Use License (fair-code) ⚠ needs review | not yet collected |
+| [Dify](#dify) | LLM app and agentic workflow platform | Multi-tenant SaaS restricted | self-hosted | cpu-ok | Dify Open Source License (Apache-2.0 + conditions) ⚠ needs review | active |
+| [Flowise](#flowise) | Drag-and-drop agent builder | Core Apache-2.0 | self-hosted | cpu-ok | Apache-2.0 (enterprise dir separate) ⚠ needs review | archived |
+| [Langflow](#langflow) | Visual flow builder for agents and RAG | Permissive | self-hosted | cpu-ok | MIT | active |
+| [n8n](#n8n) | Workflow automation with AI nodes | Source-available | self-hosted | cpu-ok | Sustainable Use License (fair-code) ⚠ needs review | active |
 
 ## Quick start
 
@@ -38,14 +38,14 @@ LLM app and agentic workflow platform
 | Upstream repository | [Dify on GitHub](https://github.com/langgenius/dify) |
 | Setup docs | [Dify setup guide](https://github.com/langgenius/dify#readme) |
 | Licence | Dify Open Source License (Apache-2.0 + conditions) ⚠ needs review · [licence evidence](https://github.com/langgenius/dify/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | 1.17.1 (2026-09-10) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Flowise {#flowise}
 
@@ -56,14 +56,14 @@ Drag-and-drop agent builder
 | Upstream repository | [Flowise on GitHub](https://github.com/FlowiseAI/Flowise) |
 | Setup docs | [Flowise setup guide](https://github.com/FlowiseAI/Flowise#readme) |
 | Licence | Apache-2.0 (enterprise dir separate) ⚠ needs review · [licence evidence](https://github.com/FlowiseAI/Flowise/blob/main/LICENSE.md) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | archived |
+| Last commit | 2026-08-13 |
+| Latest release | flowise@3.1.4 (2026-07-29) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Langflow {#langflow}
 
@@ -74,14 +74,14 @@ Visual flow builder for agents and RAG
 | Upstream repository | [Langflow on GitHub](https://github.com/langflow-ai/langflow) |
 | Setup docs | [Langflow setup guide](https://github.com/langflow-ai/langflow#readme) |
 | Licence | MIT · [licence evidence](https://github.com/langflow-ai/langflow/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-16 |
+| Latest release | v1.12.6 (2026-10-13) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### n8n {#n8n}
 
@@ -92,11 +92,11 @@ Workflow automation with AI nodes
 | Upstream repository | [n8n on GitHub](https://github.com/n8n-io/n8n) |
 | Setup docs | [n8n setup guide](https://github.com/n8n-io/n8n#readme) |
 | Licence | Sustainable Use License (fair-code) ⚠ needs review · [licence evidence](https://github.com/n8n-io/n8n/blob/master/LICENSE.md) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | NOASSERTION |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | n8n@2.44.4 (2026-10-19) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |

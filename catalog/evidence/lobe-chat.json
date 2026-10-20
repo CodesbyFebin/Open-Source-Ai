@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/lobehub/lobehub",
+  "default_branch": "canary",
+  "id": "lobe-chat",
+  "last_commit": "2026-10-20T18:14:50Z",
+  "latest_release": {
+    "published_at": "2026-10-18T03:18:40Z",
+    "tag": "v2.2.20"
+  },
+  "license": {
+    "github_spdx": "NOASSERTION",
+    "source": "https://api.github.com/repos/lobehub/lobehub/license",
+    "state": "needs-review"
+  },
+  "pushed_at": "2026-10-20T18:44:38Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/lobehub/lobehub",
+  "stars": 83357,
+  "state": "active"
+}

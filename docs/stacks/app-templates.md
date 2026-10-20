@@ -14,7 +14,7 @@ Ready-made AI apps and examples to copy.
 
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
-| [Awesome LLM Apps](#awesome-llm-apps) | 100+ runnable LLM, RAG and agent example apps | Examples | examples | unknown | Apache-2.0 | not yet collected |
+| [Awesome LLM Apps](#awesome-llm-apps) | 100+ runnable LLM, RAG and agent example apps | Examples | examples | unknown | Apache-2.0 | active |
 
 ## Quick start
 
@@ -31,11 +31,11 @@ Browse the upstream examples repository, clone only the example you need, instal
 | Upstream repository | [Awesome LLM Apps on GitHub](https://github.com/Shubhamsaboo/awesome-llm-apps) |
 | Setup docs | [Awesome LLM Apps setup guide](https://github.com/Shubhamsaboo/awesome-llm-apps#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-18 |
 | Latest release | none detected  |
 | Deployment | examples |
 | Hardware | unknown |
 | Languages | Python |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |

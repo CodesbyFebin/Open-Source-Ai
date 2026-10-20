@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/nomic-ai/gpt4all",
+  "default_branch": "main",
+  "id": "gpt4all",
+  "last_commit": "2025-05-27T19:46:52Z",
+  "latest_release": {
+    "published_at": "2025-02-25T00:41:39Z",
+    "tag": "v3.10.0"
+  },
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/nomic-ai/gpt4all/license",
+    "state": "detected"
+  },
+  "pushed_at": "2025-05-27T20:05:19Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/nomic-ai/gpt4all",
+  "stars": 77350,
+  "state": "active"
+}

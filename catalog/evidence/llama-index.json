@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/run-llama/llama_index",
+  "default_branch": "main",
+  "id": "llama-index",
+  "last_commit": "2026-10-14T15:29:28Z",
+  "latest_release": {
+    "published_at": "2026-09-21T16:22:27Z",
+    "tag": "v0.14.25"
+  },
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/run-llama/llama_index/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T07:12:17Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/run-llama/llama_index",
+  "stars": 52582,
+  "state": "active"
+}

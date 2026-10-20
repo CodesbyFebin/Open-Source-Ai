@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/mem0ai/mem0",
+  "default_branch": "main",
+  "id": "mem0",
+  "last_commit": "2026-10-14T15:39:50Z",
+  "latest_release": {
+    "published_at": "2026-09-25T17:36:35Z",
+    "tag": "ts-v3.3.1"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/mem0ai/mem0/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T01:47:59Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/mem0ai/mem0",
+  "stars": 67527,
+  "state": "active"
+}

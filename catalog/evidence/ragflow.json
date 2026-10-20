@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/infiniflow/ragflow",
+  "default_branch": "main",
+  "id": "ragflow",
+  "last_commit": "2026-10-20T11:43:57Z",
+  "latest_release": {
+    "published_at": "2026-10-16T09:49:48Z",
+    "tag": "v1.0.0-rc2"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/infiniflow/ragflow/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T13:15:28Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/infiniflow/ragflow",
+  "stars": 92544,
+  "state": "active"
+}

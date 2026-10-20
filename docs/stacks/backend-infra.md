@@ -14,9 +14,9 @@ Backends, databases and auth for AI products.
 
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
-| [Butterbase](#butterbase) | Open-source backend-as-a-service: Postgres, auth, storage, functions, AI gateway, MCP | BaaS + AI gateway | self-hosted | cpu-ok | Apache-2.0 | not yet collected |
-| [Supabase](#supabase) | Postgres platform with auth, storage, pgvector | BaaS | self-hosted | cpu-ok | Apache-2.0 | not yet collected |
-| [PocketBase](#pocketbase) | Single-file backend with realtime DB | Embedded BaaS | self-hosted | cpu-ok | MIT | not yet collected |
+| [Butterbase](#butterbase) | Open-source backend-as-a-service: Postgres, auth, storage, functions, AI gateway, MCP | BaaS + AI gateway | self-hosted | cpu-ok | Apache-2.0 | active |
+| [Supabase](#supabase) | Postgres platform with auth, storage, pgvector | BaaS | self-hosted | cpu-ok | Apache-2.0 | active |
+| [PocketBase](#pocketbase) | Single-file backend with realtime DB | Embedded BaaS | self-hosted | cpu-ok | MIT | active |
 
 ## Quick start
 
@@ -37,14 +37,14 @@ Open-source backend-as-a-service: Postgres, auth, storage, functions, AI gateway
 | Upstream repository | [Butterbase on GitHub](https://github.com/butterbase-ai/butterbase) |
 | Setup docs | [Butterbase setup guide](https://github.com/butterbase-ai/butterbase#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/butterbase-ai/butterbase/blob/main/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-20 |
 | Latest release | none detected  |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### Supabase {#supabase}
 
@@ -55,14 +55,14 @@ Postgres platform with auth, storage, pgvector
 | Upstream repository | [Supabase on GitHub](https://github.com/supabase/supabase) |
 | Setup docs | [Supabase setup guide](https://github.com/supabase/supabase#readme) |
 | Licence | Apache-2.0 · [licence evidence](https://github.com/supabase/supabase/blob/master/LICENSE) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | Apache-2.0 |
+| Repository state | active |
+| Last commit | 2026-10-20 |
+| Latest release | v1.26.08 (2026-08-07) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | TypeScript |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |
 
 ### PocketBase {#pocketbase}
 
@@ -73,11 +73,11 @@ Single-file backend with realtime DB
 | Upstream repository | [PocketBase on GitHub](https://github.com/pocketbase/pocketbase) |
 | Setup docs | [PocketBase setup guide](https://github.com/pocketbase/pocketbase#readme) |
 | Licence | MIT · [licence evidence](https://github.com/pocketbase/pocketbase/blob/master/LICENSE.md) · checked 2026-10-20 |
-| Licence detected by GitHub | not detected |
-| Repository state | not yet collected |
-| Last commit | – |
-| Latest release | none detected  |
+| Licence detected by GitHub | MIT |
+| Repository state | active |
+| Last commit | 2026-10-08 |
+| Latest release | v0.40.5 (2026-10-08) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | Go |
-| Evidence collected | – |
+| Evidence collected | 2026-10-20 |

@@ -1,0 +1,17 @@
+{
+  "canonical_repo": "https://github.com/butterbase-ai/butterbase",
+  "default_branch": "main",
+  "id": "butterbase",
+  "last_commit": "2026-10-20T04:36:50Z",
+  "latest_release": null,
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/butterbase-ai/butterbase/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T04:36:50Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/butterbase-ai/butterbase",
+  "stars": 3112,
+  "state": "active"
+}

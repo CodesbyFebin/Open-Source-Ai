@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/tashfeenahmed/AgentDomains",
+  "default_branch": "main",
+  "id": "agentdomains",
+  "last_commit": "2026-10-17T19:16:41Z",
+  "latest_release": {
+    "published_at": "2026-10-17T20:24:11Z",
+    "tag": "v0.1.8"
+  },
+  "license": {
+    "github_spdx": "NOASSERTION",
+    "source": "https://api.github.com/repos/tashfeenahmed/AgentDomains/license",
+    "state": "needs-review"
+  },
+  "pushed_at": "2026-10-17T20:24:07Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/tashfeenahmed/AgentDomains",
+  "stars": 39,
+  "state": "active"
+}

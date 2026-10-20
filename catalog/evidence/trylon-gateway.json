@@ -1,0 +1,17 @@
+{
+  "canonical_repo": "https://github.com/trylonai/gateway",
+  "default_branch": "main",
+  "id": "trylon-gateway",
+  "last_commit": "2025-06-25T10:01:42Z",
+  "latest_release": null,
+  "license": {
+    "github_spdx": "NOASSERTION",
+    "source": "https://api.github.com/repos/trylonai/gateway/license",
+    "state": "needs-review"
+  },
+  "pushed_at": "2025-06-25T10:01:46Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/trylonai/gateway",
+  "stars": 179,
+  "state": "active"
+}

@@ -1,0 +1,17 @@
+{
+  "canonical_repo": "https://github.com/tashfeenahmed/AgentDomains-mcp",
+  "default_branch": "main",
+  "id": "agentdomains-mcp",
+  "last_commit": "2026-09-30T13:17:04Z",
+  "latest_release": null,
+  "license": {
+    "github_spdx": "NOASSERTION",
+    "source": "https://api.github.com/repos/tashfeenahmed/AgentDomains-mcp/license",
+    "state": "needs-review"
+  },
+  "pushed_at": "2026-09-30T13:17:04Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/tashfeenahmed/AgentDomains-mcp",
+  "stars": 2,
+  "state": "active"
+}

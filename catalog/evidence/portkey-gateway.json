@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/Portkey-AI/gateway",
+  "default_branch": "main",
+  "id": "portkey-gateway",
+  "last_commit": "2026-05-25T13:54:51Z",
+  "latest_release": {
+    "published_at": "2026-01-12T08:46:07Z",
+    "tag": "v1.15.2"
+  },
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/Portkey-AI/gateway/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-05-25T13:54:51Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/Portkey-AI/gateway",
+  "stars": 13233,
+  "state": "active"
+}

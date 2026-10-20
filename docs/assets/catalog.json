@@ -69,12 +69,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "MIT",
    "license_state": "declared",
    "name": "FreeLLMAPI",
    "repo": "https://github.com/tashfeenahmed/freellmapi",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "routing",
     "api-gateway"
@@ -91,12 +91,12 @@
    "languages": [
     "JavaScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-17",
    "license": "MIT",
    "license_state": "declared",
    "name": "OpenCode Free Router",
    "repo": "https://github.com/0xgetz/opencode-free-9router",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "routing",
     "api-gateway"
@@ -113,12 +113,12 @@
    "languages": [
     "Go"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-19",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Bifrost",
    "repo": "https://github.com/maximhq/bifrost",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "routing",
     "api-gateway"
@@ -135,12 +135,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2025-06-25",
    "license": "BUSL-1.1",
    "license_state": "declared",
    "name": "Trylon Gateway",
    "repo": "https://github.com/trylonai/gateway",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "routing",
     "api-gateway"
@@ -157,12 +157,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "MIT (enterprise/ dir separate)",
    "license_state": "needs-review",
    "name": "LiteLLM",
    "repo": "https://github.com/BerriAI/litellm",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "routing",
     "api-gateway"
@@ -179,12 +179,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-05-25",
    "license": "MIT",
    "license_state": "declared",
    "name": "Portkey Gateway",
    "repo": "https://github.com/Portkey-AI/gateway",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "routing",
     "api-gateway"
@@ -202,12 +202,12 @@
     "Python",
     "Svelte"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-16",
    "license": "Open WebUI License (BSD-3 + branding clause)",
    "license_state": "needs-review",
    "name": "Open WebUI",
    "repo": "https://github.com/open-webui/open-webui",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "chat"
    ]
@@ -223,12 +223,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "LobeHub Community License (Apache-2.0 based)",
    "license_state": "needs-review",
    "name": "Lobe Chat",
    "repo": "https://github.com/lobehub/lobehub",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "chat"
    ]
@@ -244,12 +244,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-17",
    "license": "MIT",
    "license_state": "declared",
    "name": "LibreChat",
    "repo": "https://github.com/LibreChat-AI/LibreChat",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "chat"
    ]
@@ -265,12 +265,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2024-06-22",
    "license": "MIT",
    "license_state": "declared",
    "name": "Chatbot UI",
    "repo": "https://github.com/mckaywrigley/chatbot-ui",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "chat"
    ]
@@ -286,12 +286,12 @@
    "languages": [
     "C++"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2025-05-27",
    "license": "MIT",
    "license_state": "declared",
    "name": "GPT4All",
    "repo": "https://github.com/nomic-ai/gpt4all",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "local-inference"
    ]
@@ -307,12 +307,12 @@
    "languages": [
     "Go"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "MIT",
    "license_state": "declared",
    "name": "Ollama",
    "repo": "https://github.com/ollama/ollama",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "local-inference"
    ]
@@ -328,12 +328,12 @@
    "languages": [
     "C++"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "MIT",
    "license_state": "declared",
    "name": "llama.cpp",
    "repo": "https://github.com/ggml-org/llama.cpp",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "local-inference"
    ]
@@ -349,12 +349,12 @@
    "languages": [
     "C++"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-08",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "llamafile",
    "repo": "https://github.com/mozilla-ai/llamafile",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "local-inference"
    ]
@@ -370,12 +370,12 @@
    "languages": [
     "Go"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "MIT",
    "license_state": "declared",
    "name": "LocalAI",
    "repo": "https://github.com/mudler/LocalAI",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "local-inference"
    ]
@@ -391,12 +391,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-08-17",
    "license": "AGPL-3.0",
    "license_state": "declared",
    "name": "Text Generation WebUI",
    "repo": "https://github.com/oobabooga/textgen",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "local-inference"
    ]
@@ -412,12 +412,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "vLLM",
    "repo": "https://github.com/vllm-project/vllm",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "serving"
    ]
@@ -433,12 +433,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "SGLang",
    "repo": "https://github.com/sgl-project/sglang",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "serving"
    ]
@@ -455,12 +455,12 @@
     "Rust",
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-03-21",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Text Generation Inference",
    "repo": "https://github.com/huggingface/text-generation-inference",
-   "status": "not yet collected",
+   "status": "archived",
    "tasks": [
     "serving"
    ]
@@ -476,12 +476,12 @@
    "languages": [
     "C++"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-15",
    "license": "BSD-3-Clause",
    "license_state": "declared",
    "name": "Triton Inference Server",
    "repo": "https://github.com/triton-inference-server/server",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "serving"
    ]
@@ -498,12 +498,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-14",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Mem0",
    "repo": "https://github.com/mem0ai/mem0",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "memory"
    ]
@@ -520,12 +520,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-07-29",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "OpenMemory",
    "repo": "https://github.com/mem0ai/openmemory",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "memory"
    ]
@@ -542,12 +542,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-18",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Letta",
    "repo": "https://github.com/letta-ai/letta",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "memory"
    ]
@@ -564,12 +564,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Graphiti",
    "repo": "https://github.com/getzep/graphiti",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "memory"
    ]
@@ -585,12 +585,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "MIT",
    "license_state": "declared",
    "name": "LangChain",
    "repo": "https://github.com/langchain-ai/langchain",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "agents"
    ]
@@ -606,12 +606,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "MIT",
    "license_state": "declared",
    "name": "LangGraph",
    "repo": "https://github.com/langchain-ai/langgraph",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "agents"
    ]
@@ -627,12 +627,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "MIT",
    "license_state": "declared",
    "name": "CrewAI",
    "repo": "https://github.com/crewAIInc/crewAI",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "agents"
    ]
@@ -648,12 +648,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-16",
    "license": "CC-BY-4.0 (docs) / MIT (code)",
    "license_state": "needs-review",
    "name": "AutoGen",
    "repo": "https://github.com/microsoft/autogen",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "agents"
    ]
@@ -669,12 +669,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-06",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "smolagents",
    "repo": "https://github.com/huggingface/smolagents",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "agents"
    ]
@@ -690,12 +690,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Agno",
    "repo": "https://github.com/agno-agi/agno",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "agents"
    ]
@@ -711,12 +711,12 @@
    "languages": [
     "Rust"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "GPL-3.0",
    "license_state": "declared",
    "name": "OpenHuman",
    "repo": "https://github.com/tinyhumansai/openhuman",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "agents"
    ]
@@ -732,12 +732,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "MIT",
    "license_state": "declared",
    "name": "OpenHands",
    "repo": "https://github.com/OpenHands/OpenHands",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "coding"
    ]
@@ -753,12 +753,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-07-21",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Continue",
    "repo": "https://github.com/continuedev/continue",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "coding"
    ]
@@ -774,12 +774,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-05-22",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Aider",
    "repo": "https://github.com/Aider-AI/aider",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "coding"
    ]
@@ -795,12 +795,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "MIT",
    "license_state": "declared",
    "name": "OpenCode",
    "repo": "https://github.com/anomalyco/opencode",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "coding"
    ]
@@ -816,12 +816,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Cline",
    "repo": "https://github.com/cline/cline",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "coding"
    ]
@@ -837,12 +837,12 @@
    "languages": [
     "Go"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Open Code Review",
    "repo": "https://github.com/alibaba/open-code-review",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "code-review"
    ]
@@ -858,12 +858,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "AGPL-3.0",
    "license_state": "declared",
    "name": "PR-Agent",
    "repo": "https://github.com/The-PR-Agent/pr-agent",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "code-review"
    ]
@@ -879,12 +879,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Dify Open Source License (Apache-2.0 + conditions)",
    "license_state": "needs-review",
    "name": "Dify",
    "repo": "https://github.com/langgenius/dify",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "workflows",
     "no-code"
@@ -901,12 +901,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-08-13",
    "license": "Apache-2.0 (enterprise dir separate)",
    "license_state": "needs-review",
    "name": "Flowise",
    "repo": "https://github.com/FlowiseAI/Flowise",
-   "status": "not yet collected",
+   "status": "archived",
    "tasks": [
     "workflows",
     "no-code"
@@ -923,12 +923,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-16",
    "license": "MIT",
    "license_state": "declared",
    "name": "Langflow",
    "repo": "https://github.com/langflow-ai/langflow",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "workflows",
     "no-code"
@@ -945,12 +945,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Sustainable Use License (fair-code)",
    "license_state": "needs-review",
    "name": "n8n",
    "repo": "https://github.com/n8n-io/n8n",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "workflows",
     "no-code"
@@ -968,12 +968,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-14",
    "license": "MIT",
    "license_state": "declared",
    "name": "LlamaIndex",
    "repo": "https://github.com/run-llama/llama_index",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "rag"
    ]
@@ -990,12 +990,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Haystack",
    "repo": "https://github.com/deepset-ai/haystack",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "rag"
    ]
@@ -1012,12 +1012,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "RAGFlow",
    "repo": "https://github.com/infiniflow/ragflow",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "rag"
    ]
@@ -1034,12 +1034,12 @@
    "languages": [
     "Rust"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-05",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Qdrant",
    "repo": "https://github.com/qdrant/qdrant",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "rag"
    ]
@@ -1057,12 +1057,12 @@
     "Rust",
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-17",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Chroma",
    "repo": "https://github.com/chroma-core/chroma",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "rag"
    ]
@@ -1079,12 +1079,12 @@
    "languages": [
     "Go"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Milvus",
    "repo": "https://github.com/milvus-io/milvus",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "rag"
    ]
@@ -1101,12 +1101,12 @@
    "languages": [
     "Go"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-16",
    "license": "BSD-3-Clause (core)",
    "license_state": "needs-review",
    "name": "Weaviate",
    "repo": "https://github.com/weaviate/weaviate",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "rag"
    ]
@@ -1123,12 +1123,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "MIT (ee/ dirs separate)",
    "license_state": "needs-review",
    "name": "Langfuse",
    "repo": "https://github.com/langfuse/langfuse",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "evaluation",
     "tracing"
@@ -1146,12 +1146,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Elastic-2.0",
    "license_state": "declared",
    "name": "Phoenix",
    "repo": "https://github.com/Arize-ai/phoenix",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "evaluation",
     "tracing"
@@ -1169,12 +1169,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "MIT",
    "license_state": "declared",
    "name": "promptfoo",
    "repo": "https://github.com/promptfoo/promptfoo",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "evaluation",
     "tracing"
@@ -1192,12 +1192,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-19",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "DeepEval",
    "repo": "https://github.com/confident-ai/deepeval",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "evaluation",
     "tracing"
@@ -1214,12 +1214,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Butterbase",
    "repo": "https://github.com/butterbase-ai/butterbase",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "backend"
    ]
@@ -1235,12 +1235,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-20",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Supabase",
    "repo": "https://github.com/supabase/supabase",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "backend"
    ]
@@ -1256,12 +1256,12 @@
    "languages": [
     "Go"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-08",
    "license": "MIT",
    "license_state": "declared",
    "name": "PocketBase",
    "repo": "https://github.com/pocketbase/pocketbase",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "backend"
    ]
@@ -1277,12 +1277,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-18",
    "license": "Apache-2.0",
    "license_state": "declared",
    "name": "Awesome LLM Apps",
    "repo": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "examples"
    ]
@@ -1298,12 +1298,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-06",
    "license": "MIT",
    "license_state": "declared",
    "name": "One Person Company",
    "repo": "https://github.com/tashfeenahmed/OnePersonCompany",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]
@@ -1319,12 +1319,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-15",
    "license": "MIT",
    "license_state": "declared",
    "name": "Kinetic",
    "repo": "https://github.com/tashfeenahmed/kinetic",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]
@@ -1340,12 +1340,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-09-30",
    "license": "MIT",
    "license_state": "declared",
    "name": "CircleChat",
    "repo": "https://github.com/tashfeenahmed/circlechat",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]
@@ -1361,12 +1361,12 @@
    "languages": [
     "Go"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-17",
    "license": "FSL-1.1-Apache-2.0",
    "license_state": "declared",
    "name": "AgentDomains",
    "repo": "https://github.com/tashfeenahmed/AgentDomains",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]
@@ -1382,12 +1382,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-09-30",
    "license": "FSL-1.1-Apache-2.0",
    "license_state": "declared",
    "name": "AgentDomains MCP",
    "repo": "https://github.com/tashfeenahmed/AgentDomains-mcp",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]
@@ -1403,12 +1403,12 @@
    "languages": [
     "Shell"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-17",
    "license": "FSL-1.1-Apache-2.0",
    "license_state": "declared",
    "name": "AgentDomains Skill",
    "repo": "https://github.com/tashfeenahmed/AgentDomains-skill",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]
@@ -1424,12 +1424,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-16",
    "license": "MIT",
    "license_state": "declared",
    "name": "ScallopBot",
    "repo": "https://github.com/tashfeenahmed/scallopbot",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]
@@ -1445,12 +1445,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-04",
    "license": "MIT",
    "license_state": "declared",
    "name": "Cashmaxx",
    "repo": "https://github.com/tashfeenahmed/cashmaxx",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]
@@ -1466,12 +1466,12 @@
    "languages": [
     "JavaScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-09-22",
    "license": "MIT",
    "license_state": "declared",
    "name": "Jev Deep Research",
    "repo": "https://github.com/tashfeenahmed/jev-deepresearch",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]
@@ -1487,12 +1487,12 @@
    "languages": [
     "TypeScript"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-02-05",
    "license": "MIT",
    "license_state": "declared",
    "name": "Emotion State",
    "repo": "https://github.com/tashfeenahmed/emotion-state",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]
@@ -1508,12 +1508,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2026-10-14",
    "license": "MIT",
    "license_state": "declared",
    "name": "MagicTap",
    "repo": "https://github.com/tashfeenahmed/magictap",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]
@@ -1529,12 +1529,12 @@
    "languages": [
     "Python"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2021-07-31",
    "license": "MIT",
    "license_state": "declared",
    "name": "PyReality",
    "repo": "https://github.com/tashfeenahmed/pyreality",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]
@@ -1550,12 +1550,12 @@
    "languages": [
     "HTML"
    ],
-   "last_commit": "\u2013",
+   "last_commit": "2021-09-19",
    "license": "MIT",
    "license_state": "declared",
    "name": "HTML Email Template",
    "repo": "https://github.com/tashfeenahmed/html-email-template",
-   "status": "not yet collected",
+   "status": "active",
    "tasks": [
     "experiments"
    ]

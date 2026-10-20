@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/maximhq/bifrost",
+  "default_branch": "dev",
+  "id": "bifrost",
+  "last_commit": "2026-10-19T12:11:40Z",
+  "latest_release": {
+    "published_at": "2026-10-19T14:56:18Z",
+    "tag": "ent-v2.3.1-base"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/maximhq/bifrost/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T18:52:39Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/maximhq/bifrost",
+  "stars": 8965,
+  "state": "active"
+}

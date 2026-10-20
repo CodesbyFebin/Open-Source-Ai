@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/alibaba/open-code-review",
+  "default_branch": "main",
+  "id": "open-code-review",
+  "last_commit": "2026-10-20T09:50:03Z",
+  "latest_release": {
+    "published_at": "2026-10-20T03:17:00Z",
+    "tag": "v1.13.2"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/alibaba/open-code-review/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T09:50:03Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/alibaba/open-code-review",
+  "stars": 47720,
+  "state": "active"
+}

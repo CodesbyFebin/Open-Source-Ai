@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/deepset-ai/haystack",
+  "default_branch": "main",
+  "id": "haystack",
+  "last_commit": "2026-10-20T14:21:50Z",
+  "latest_release": {
+    "published_at": "2026-10-15T09:26:37Z",
+    "tag": "v3.4.0"
+  },
+  "license": {
+    "github_spdx": "Apache-2.0",
+    "source": "https://api.github.com/repos/deepset-ai/haystack/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T14:22:40Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/deepset-ai/haystack",
+  "stars": 26792,
+  "state": "active"
+}

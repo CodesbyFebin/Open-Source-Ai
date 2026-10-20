@@ -1,0 +1,17 @@
+{
+  "canonical_repo": "https://github.com/mem0ai/openmemory",
+  "default_branch": "main",
+  "id": "openmemory",
+  "last_commit": "2026-07-29T09:40:39Z",
+  "latest_release": null,
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/mem0ai/openmemory/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-07-29T09:40:39Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/mem0ai/openmemory",
+  "stars": 98,
+  "state": "active"
+}

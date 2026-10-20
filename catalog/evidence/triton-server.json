@@ -1,0 +1,20 @@
+{
+  "canonical_repo": "https://github.com/triton-inference-server/server",
+  "default_branch": "main",
+  "id": "triton-server",
+  "last_commit": "2026-10-15T11:04:01Z",
+  "latest_release": {
+    "published_at": "2026-09-30T22:26:40Z",
+    "tag": "v2.73.0"
+  },
+  "license": {
+    "github_spdx": "BSD-3-Clause",
+    "source": "https://api.github.com/repos/triton-inference-server/server/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-19T18:43:09Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/triton-inference-server/server",
+  "stars": 11099,
+  "state": "active"
+}

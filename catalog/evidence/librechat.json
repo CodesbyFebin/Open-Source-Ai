@@ -1,0 +1,17 @@
+{
+  "canonical_repo": "https://github.com/LibreChat-AI/LibreChat",
+  "default_branch": "main",
+  "id": "librechat",
+  "last_commit": "2026-10-17T04:30:44Z",
+  "latest_release": null,
+  "license": {
+    "github_spdx": "MIT",
+    "source": "https://api.github.com/repos/LibreChat-AI/LibreChat/license",
+    "state": "detected"
+  },
+  "pushed_at": "2026-10-20T17:22:59Z",
+  "retrieved_at": "2026-10-20T18:52:53Z",
+  "source": "https://api.github.com/repos/LibreChat-AI/LibreChat",
+  "stars": 46072,
+  "state": "active"
+}
