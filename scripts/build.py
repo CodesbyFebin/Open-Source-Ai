@@ -76,14 +76,6 @@ description: {c['description']} Compare {len(ps)} open-source projects by licenc
 |---|---|---|---|---|---|---|
 {rows}
 
-## What this repository includes
-
-- A searchable, filterable catalogue of AI infrastructure and agent projects.
-- Category comparison pages with upstream links, licence details, deployment options, hardware notes, and evidence dates.
-- Tested recipes that combine selected open-source components into documented workflows.
-- A freshness report that makes repository changes and review-needed metadata visible.
-- Human-maintained catalogue data with generated documentation and search pages.
-
 ## Quick start
 
 {quick[c['id']]}
@@ -194,6 +186,14 @@ Browse the catalogue by stack category. Each category page links to upstream pro
 | Category | What it covers | Projects |
 |---|---|---|
 {rt}
+
+## What this repository includes
+
+- A searchable, filterable catalogue of AI infrastructure and agent projects.
+- Category comparison pages with upstream links, licence details, deployment options, hardware notes, and evidence dates.
+- Tested recipes that combine selected open-source components into documented workflows.
+- A freshness report that makes repository changes and review-needed metadata visible.
+- Human-maintained catalogue data with generated documentation and search pages.
 
 ## Quick start
 
