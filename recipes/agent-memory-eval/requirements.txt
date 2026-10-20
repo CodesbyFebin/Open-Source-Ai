@@ -1,0 +1,4 @@
+mem0ai==2.2.1
+ollama==0.6.3
+openai==3.35.1
+qdrant-client==1.19.1

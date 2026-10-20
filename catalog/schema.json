@@ -2,7 +2,9 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Open Source Ai catalog",
   "type": "object",
-  "required": ["projects"],
+  "required": [
+    "projects"
+  ],
   "additionalProperties": false,
   "properties": {
     "projects": {
@@ -10,31 +12,168 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id","name","repo","category","description","tasks","deployment","hardware","languages","license","setup_url","last_checked"],
+        "required": [
+          "id",
+          "name",
+          "repo",
+          "category",
+          "description",
+          "tasks",
+          "deployment",
+          "hardware",
+          "languages",
+          "license",
+          "setup_url",
+          "last_checked"
+        ],
         "properties": {
-          "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9.-]*$"},
-          "name": {"type": "string", "minLength": 1},
-          "repo": {"type": "string", "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"},
-          "category": {"type": "string"},
-          "description": {"type": "string", "minLength": 10, "maxLength": 200},
-          "tasks": {"type": "array", "minItems": 1, "items": {"enum": ["routing","api-gateway","chat","local-inference","serving","memory","agents","coding","code-review","workflows","no-code","rag","evaluation","tracing","backend","examples","experiments"]}},
-          "deployment": {"type": "array", "minItems": 1, "items": {"enum": ["local","self-hosted","library","ci","examples","cloud","unknown"]}},
-          "hardware": {"enum": ["cpu-ok","gpu-recommended","gpu-required","not-applicable","unknown"]},
-          "languages": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-          "license": {
-            "type": "object", "additionalProperties": false,
-            "required": ["spdx","label","state","evidence_url","checked"],
-            "properties": {
-              "spdx": {"type": ["string","null"]},
-              "label": {"type": "string"},
-              "state": {"enum": ["declared","needs-review","none"]},
-              "evidence_url": {"type": "string", "pattern": "^https://"},
-              "checked": {"type": "string", "pattern": "^20[0-9]{2}-[01][0-9]-[0-3][0-9]$"}
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9.-]*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "repo": {
+            "type": "string",
+            "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+          },
+          "category": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 200
+          },
+          "tasks": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "enum": [
+                "routing",
+                "api-gateway",
+                "chat",
+                "local-inference",
+                "serving",
+                "memory",
+                "agents",
+                "coding",
+                "code-review",
+                "workflows",
+                "no-code",
+                "rag",
+                "evaluation",
+                "tracing",
+                "backend",
+                "examples",
+                "experiments"
+              ]
             }
           },
-          "setup_url": {"type": "string", "pattern": "^https://"},
-          "editorial": {"type": "object"},
-          "last_checked": {"type": "string", "pattern": "^20[0-9]{2}-[01][0-9]-[0-3][0-9]$"}
+          "deployment": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "enum": [
+                "local",
+                "self-hosted",
+                "library",
+                "ci",
+                "examples",
+                "cloud",
+                "unknown"
+              ]
+            }
+          },
+          "hardware": {
+            "enum": [
+              "cpu-ok",
+              "gpu-recommended",
+              "gpu-required",
+              "not-applicable",
+              "unknown"
+            ]
+          },
+          "languages": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "license": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "spdx",
+              "label",
+              "state",
+              "evidence_url",
+              "checked"
+            ],
+            "properties": {
+              "spdx": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "label": {
+                "type": "string"
+              },
+              "state": {
+                "enum": [
+                  "declared",
+                  "needs-review",
+                  "none"
+                ]
+              },
+              "evidence_url": {
+                "type": "string",
+                "pattern": "^https://"
+              },
+              "checked": {
+                "type": "string",
+                "pattern": "^20[0-9]{2}-[01][0-9]-[0-3][0-9]$"
+              },
+              "review_reason": {
+                "type": "string",
+                "minLength": 20
+              },
+              "verified_note": {
+                "type": "string"
+              }
+            },
+            "allOf": [
+              {
+                "if": {
+                  "properties": {
+                    "state": {
+                      "const": "needs-review"
+                    }
+                  }
+                },
+                "then": {
+                  "required": [
+                    "review_reason"
+                  ]
+                }
+              }
+            ]
+          },
+          "setup_url": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "editorial": {
+            "type": "object"
+          },
+          "last_checked": {
+            "type": "string",
+            "pattern": "^20[0-9]{2}-[01][0-9]-[0-3][0-9]$"
+          }
         }
       }
     }

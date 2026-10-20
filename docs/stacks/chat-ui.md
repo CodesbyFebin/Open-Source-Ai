@@ -39,6 +39,8 @@ Feature-rich web UI for Ollama and OpenAI-compatible APIs
 | Licence | Open WebUI License (BSD-3 + branding clause) ⚠ needs review · [licence evidence](https://github.com/open-webui/open-webui/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | Custom licence: BSD-3-style terms plus a clause forbidding removal or alteration of Open WebUI branding (upstream LICENSE). |
+| Last lookup | ok |
 | Last commit | 2026-10-16 |
 | Latest release | v0.12.3 (2026-10-16) |
 | Deployment | self-hosted |
@@ -57,6 +59,8 @@ Modern multi-provider chat and agent workspace
 | Licence | LobeHub Community License (Apache-2.0 based) ⚠ needs review · [licence evidence](https://github.com/lobehub/lobehub/blob/canary/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | Custom licence: LobeHub Community License, Apache-2.0 based with additional commercial-use conditions (upstream LICENSE). |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v2.2.20 (2026-10-18) |
 | Deployment | self-hosted |
@@ -75,6 +79,8 @@ Multi-provider chat with agents, auth and plugins
 | Licence | MIT · [licence evidence](https://github.com/LibreChat-AI/LibreChat/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-17 |
 | Latest release | none detected  |
 | Deployment | self-hosted |
@@ -93,6 +99,8 @@ Minimal open-source chat front end
 | Licence | MIT · [licence evidence](https://github.com/mckaywrigley/chatbot-ui/blob/main/license) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2024-06-22 |
 | Latest release | none detected  |
 | Deployment | self-hosted |

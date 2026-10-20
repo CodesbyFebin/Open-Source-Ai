@@ -1,9 +1,13 @@
-description: Memory recall regression test (untested recipe)
+description: Agent answers from long-term memory stored in a previous session
+prompts: ["{{question}}"]
 providers:
-  - id: exec:python agent.py
+  - id: "exec: python agent.py ask"
 tests:
-  - vars: {prompt: "What is my favourite language?"}
+  - vars: {question: "Which programming language does the user prefer?"}
     assert:
       - type: icontains
-        value: python
-prompts: ["{{prompt}}"]
+        value: rust
+  - vars: {question: "What city does the user live in?"}
+    assert:
+      - type: icontains
+        value: lisbon

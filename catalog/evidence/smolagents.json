@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/huggingface/smolagents",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "smolagents",
   "last_commit": "2026-10-06T09:38:53Z",
   "latest_release": {
@@ -12,8 +16,9 @@
     "source": "https://api.github.com/repos/huggingface/smolagents/license",
     "state": "detected"
   },
+  "moved": false,
   "pushed_at": "2026-10-06T18:35:07Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/huggingface/smolagents",
   "stars": 29949,
   "state": "active"

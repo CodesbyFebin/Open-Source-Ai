@@ -17,7 +17,7 @@ Run LLMs on your own laptop or server.
 | [GPT4All](#gpt4all) | Desktop app for private local LLM chat | Non-technical desktop users | local | cpu-ok | MIT | active |
 | [Ollama](#ollama) | One-command local model runner with OpenAI-compatible API | Easiest local API | local | cpu-ok | MIT | active |
 | [llama.cpp](#llamacpp) | Portable C/C++ inference for GGUF models | CPU / Apple Silicon | local | cpu-ok | MIT | active |
-| [llamafile](#llamafile) | Single-file executable LLMs | Zero-install distribution | local | cpu-ok | Apache-2.0 | active |
+| [llamafile](#llamafile) | Single-file executable LLMs | Zero-install distribution | local | cpu-ok | Apache-2.0 ⚠ needs review | active |
 | [LocalAI](#localai) | Drop-in OpenAI API replacement for local models | Multi-modal local API | local | cpu-ok | MIT | active |
 | [Text Generation WebUI](#text-generation-webui) | Gradio UI supporting many backends | Experimenting with backends | local | cpu-ok | AGPL-3.0 | active |
 
@@ -42,6 +42,8 @@ Desktop app for private local LLM chat
 | Licence | MIT · [licence evidence](https://github.com/nomic-ai/gpt4all/blob/main/LICENSE.txt) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2025-05-27 |
 | Latest release | v3.10.0 (2025-02-25) |
 | Deployment | local |
@@ -60,6 +62,8 @@ One-command local model runner with OpenAI-compatible API
 | Licence | MIT · [licence evidence](https://github.com/ollama/ollama/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v0.40.6 (2026-10-16) |
 | Deployment | local |
@@ -78,6 +82,8 @@ Portable C/C++ inference for GGUF models
 | Licence | MIT · [licence evidence](https://github.com/ggml-org/llama.cpp/blob/master/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v0.7.0 (2026-10-15) |
 | Deployment | local |
@@ -93,9 +99,11 @@ Single-file executable LLMs
 |---|---|
 | Upstream repository | [llamafile on GitHub](https://github.com/mozilla-ai/llamafile) |
 | Setup docs | [llamafile setup guide](https://github.com/mozilla-ai/llamafile#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/mozilla-ai/llamafile/blob/main/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 ⚠ needs review · [licence evidence](https://github.com/mozilla-ai/llamafile/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | LICENSE text is Apache-2.0 but GitHub's detector returns NOASSERTION; vendored third-party components not reviewed. |
+| Last lookup | ok |
 | Last commit | 2026-10-08 |
 | Latest release | 0.10.6 (2026-09-15) |
 | Deployment | local |
@@ -114,6 +122,8 @@ Drop-in OpenAI API replacement for local models
 | Licence | MIT · [licence evidence](https://github.com/mudler/LocalAI/blob/master/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v4.11.0 (2026-10-02) |
 | Deployment | local |
@@ -132,6 +142,8 @@ Gradio UI supporting many backends
 | Licence | AGPL-3.0 · [licence evidence](https://github.com/oobabooga/textgen/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | AGPL-3.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-08-17 |
 | Latest release | v4.9 (2026-05-20) |
 | Deployment | local |

@@ -3,4 +3,4 @@ summary: Ollama serves a small local model, LiteLLM exposes it as an OpenAI-comp
 components: [ollama, litellm, open-webui]
 test:
   status: tested
-  details: "CI job `recipe-local-chat` runs recipes/local-chat/smoke.sh on GitHub-hosted ubuntu-latest (4 vCPU, 16 GB, no GPU) on every push to main: compose validation, model pull (qwen2.5:0.5b), a chat completion through the gateway and the Open WebUI health endpoint. Image digests are printed in the job log. Not tested: GPUs, larger models, the browser UI flow."
+  details: "CI job `recipe-local-chat` runs recipes/local-chat/smoke.sh on GitHub-hosted ubuntu-latest (4 vCPU, 16 GB RAM, no GPU) on every push and PR. It validates the compose file, pulls qwen2.5:0.5b, asks the gateway 17+25 and asserts the reply contains 42 with non-zero completion tokens, checks `ollama ps` shows the model loaded and Ollama's log shows the chat request, and checks the Open WebUI health endpoint. Pinned: Ollama 0.40.6, LiteLLM v1.106.1, Open WebUI v0.12.3. Not tested: GPUs, larger models, the browser chat flow in Open WebUI."

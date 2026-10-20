@@ -1,8 +1,12 @@
 {
   "canonical_repo": "https://github.com/vllm-project/vllm",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "vllm",
-  "last_commit": "2026-10-20T18:29:35Z",
+  "last_commit": "2026-10-20T19:48:27Z",
   "latest_release": {
     "published_at": "2026-10-18T06:50:48Z",
     "tag": "v0.32.0"
@@ -12,9 +16,10 @@
     "source": "https://api.github.com/repos/vllm-project/vllm/license",
     "state": "detected"
   },
-  "pushed_at": "2026-10-20T18:47:33Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "moved": false,
+  "pushed_at": "2026-10-20T19:48:28Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/vllm-project/vllm",
-  "stars": 94371,
+  "stars": 94384,
   "state": "active"
 }

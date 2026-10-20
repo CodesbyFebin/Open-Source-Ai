@@ -17,7 +17,7 @@ OpenAI-compatible gateways, routers, guardrail firewalls and free-LLM aggregator
 | [FreeLLMAPI](#freellmapi) | Aggregates free LLM providers behind one /v1 endpoint with failover | Free-tier aggregation | self-hosted | cpu-ok | MIT | active |
 | [OpenCode Free Router](#opencode-free-9router) | Routes coding-agent traffic to free model endpoints | Free routing for coding agents | self-hosted | cpu-ok | MIT | active |
 | [Bifrost](#bifrost) | High-performance AI gateway with load balancing and fallbacks | Low-latency gateway | self-hosted | cpu-ok | Apache-2.0 | active |
-| [Trylon Gateway](#trylon-gateway) | Self-hosted LLM firewall with guardrails | Guardrails / security | self-hosted | cpu-ok | BUSL-1.1 | active |
+| [Trylon Gateway](#trylon-gateway) | Self-hosted LLM firewall with guardrails | Guardrails / security | self-hosted | cpu-ok | BUSL-1.1 ⚠ needs review | active |
 | [LiteLLM](#litellm) | Proxy + SDK for 100+ LLM APIs in OpenAI format, cost tracking | Broadest provider coverage | self-hosted | cpu-ok | MIT (enterprise/ dir separate) ⚠ needs review | active |
 | [Portkey Gateway](#portkey-gateway) | Fast AI gateway with routing, retries and caching | Edge-friendly gateway | self-hosted | cpu-ok | MIT | active |
 
@@ -43,6 +43,8 @@ Aggregates free LLM providers behind one /v1 endpoint with failover
 | Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/freellmapi/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v0.16.6 (2026-10-20) |
 | Deployment | self-hosted |
@@ -61,6 +63,8 @@ Routes coding-agent traffic to free model endpoints
 | Licence | MIT · [licence evidence](https://github.com/0xgetz/opencode-free-9router/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-17 |
 | Latest release | none detected  |
 | Deployment | self-hosted |
@@ -79,6 +83,8 @@ High-performance AI gateway with load balancing and fallbacks
 | Licence | Apache-2.0 · [licence evidence](https://github.com/maximhq/bifrost/blob/dev/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-19 |
 | Latest release | ent-v2.3.1-base (2026-10-19) |
 | Deployment | self-hosted |
@@ -94,9 +100,11 @@ Self-hosted LLM firewall with guardrails
 |---|---|
 | Upstream repository | [Trylon Gateway on GitHub](https://github.com/trylonai/gateway) |
 | Setup docs | [Trylon Gateway setup guide](https://github.com/trylonai/gateway#readme) |
-| Licence | BUSL-1.1 · [licence evidence](https://github.com/trylonai/gateway/blob/main/LICENSE) · checked 2026-10-20 |
+| Licence | BUSL-1.1 ⚠ needs review · [licence evidence](https://github.com/trylonai/gateway/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | Source-available, not OSI: Business Source License 1.1 with a use limitation (upstream LICENSE). |
+| Last lookup | ok |
 | Last commit | 2025-06-25 |
 | Latest release | none detected  |
 | Deployment | self-hosted |
@@ -115,8 +123,10 @@ Proxy + SDK for 100+ LLM APIs in OpenAI format, cost tracking
 | Licence | MIT (enterprise/ dir separate) ⚠ needs review · [licence evidence](https://github.com/BerriAI/litellm/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | Multiple licences: MIT for most code, separate licence for the enterprise/ directory (stated at top of upstream LICENSE). |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
-| Latest release | v1.106.0 (2026-10-18) |
+| Latest release | v1.106.1 (2026-10-20) |
 | Deployment | self-hosted |
 | Hardware | cpu-ok |
 | Languages | Python |
@@ -133,6 +143,8 @@ Fast AI gateway with routing, retries and caching
 | Licence | MIT · [licence evidence](https://github.com/Portkey-AI/gateway/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-05-25 |
 | Latest release | v1.15.2 (2026-01-12) |
 | Deployment | self-hosted |

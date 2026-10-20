@@ -43,6 +43,8 @@ Data framework for RAG
 | Licence | MIT · [licence evidence](https://github.com/run-llama/llama_index/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-14 |
 | Latest release | v0.14.25 (2026-09-21) |
 | Deployment | library, self-hosted |
@@ -61,6 +63,8 @@ Production RAG pipelines
 | Licence | Apache-2.0 · [licence evidence](https://github.com/deepset-ai/haystack/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v3.4.0 (2026-10-15) |
 | Deployment | library, self-hosted |
@@ -79,6 +83,8 @@ Deep-document-understanding RAG engine
 | Licence | Apache-2.0 · [licence evidence](https://github.com/infiniflow/ragflow/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v1.0.0-rc2 (2026-10-16) |
 | Deployment | library, self-hosted |
@@ -97,6 +103,8 @@ Vector search engine
 | Licence | Apache-2.0 · [licence evidence](https://github.com/qdrant/qdrant/blob/master/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-05 |
 | Latest release | v1.19.2 (2026-10-05) |
 | Deployment | library, self-hosted |
@@ -115,6 +123,8 @@ Embedding database
 | Licence | Apache-2.0 · [licence evidence](https://github.com/chroma-core/chroma/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-17 |
 | Latest release | 1.5.9 (2026-05-05) |
 | Deployment | library, self-hosted |
@@ -133,6 +143,8 @@ Cloud-native vector database
 | Licence | Apache-2.0 · [licence evidence](https://github.com/milvus-io/milvus/blob/master/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v3.0.3 (2026-10-14) |
 | Deployment | library, self-hosted |
@@ -151,6 +163,8 @@ Vector DB with hybrid search
 | Licence | BSD-3-Clause (core) ⚠ needs review · [licence evidence](https://github.com/weaviate/weaviate/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | Multiple licences: source is variously BSD-3-Clause or the Weaviate License (upstream LICENSE). |
+| Last lookup | ok |
 | Last commit | 2026-10-16 |
 | Latest release | v1.40.1 (2026-10-13) |
 | Deployment | library, self-hosted |

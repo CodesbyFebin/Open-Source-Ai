@@ -5,5 +5,5 @@ Recipes compose a few catalogued projects into a working stack. Each states exac
 
 | Recipe | What you get | Test status |
 |---|---|---|
-| [Agent with persistent memory and evaluation](agent-memory-eval.md) | A small Python agent uses a local model via Ollama, stores long-term memory with Mem0 (Qdrant backend), and is regression-tested with promptfoo. | **unverified** |
+| [Agent with persistent memory and evaluation](agent-memory-eval.md) | A small Python agent uses a local model via Ollama, stores long-term memory with Mem0 (Qdrant backend), and is regression-tested with promptfoo. | **tested** |
 | [Local private chat (model + gateway + chat UI)](local-chat.md) | Ollama serves a small local model, LiteLLM exposes it as an OpenAI-compatible gateway, Open WebUI provides the chat interface. | **tested** |

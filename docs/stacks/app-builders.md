@@ -15,7 +15,7 @@ Visual builders for LLM apps, agents and workflows.
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
 | [Dify](#dify) | LLM app and agentic workflow platform | Multi-tenant SaaS restricted | self-hosted | cpu-ok | Dify Open Source License (Apache-2.0 + conditions) ⚠ needs review | active |
-| [Flowise](#flowise) | Drag-and-drop agent builder | Core Apache-2.0 | self-hosted | cpu-ok | Apache-2.0 (enterprise dir separate) ⚠ needs review | archived |
+| [Flowise](#flowise) | Drag-and-drop agent builder | Core Apache-2.0 | self-hosted | cpu-ok | Apache-2.0 (enterprise dir separate) ⚠ needs review | ⚠ **archived upstream** |
 | [Langflow](#langflow) | Visual flow builder for agents and RAG | Permissive | self-hosted | cpu-ok | MIT | active |
 | [n8n](#n8n) | Workflow automation with AI nodes | Source-available | self-hosted | cpu-ok | Sustainable Use License (fair-code) ⚠ needs review | active |
 
@@ -40,6 +40,8 @@ LLM app and agentic workflow platform
 | Licence | Dify Open Source License (Apache-2.0 + conditions) ⚠ needs review · [licence evidence](https://github.com/langgenius/dify/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | Custom licence: modified Apache-2.0 with additional conditions (upstream LICENSE). |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | 1.17.1 (2026-09-10) |
 | Deployment | self-hosted |
@@ -57,7 +59,9 @@ Drag-and-drop agent builder
 | Setup docs | [Flowise setup guide](https://github.com/FlowiseAI/Flowise#readme) |
 | Licence | Apache-2.0 (enterprise dir separate) ⚠ needs review · [licence evidence](https://github.com/FlowiseAI/Flowise/blob/main/LICENSE.md) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
-| Repository state | archived |
+| Repository state | ⚠ **archived upstream** |
+| Licence review reason | Multiple licences: Apache-2.0 except the enterprise directory, which has separate terms (upstream LICENSE.md). |
+| Last lookup | ok |
 | Last commit | 2026-08-13 |
 | Latest release | flowise@3.1.4 (2026-07-29) |
 | Deployment | self-hosted |
@@ -76,6 +80,8 @@ Visual flow builder for agents and RAG
 | Licence | MIT · [licence evidence](https://github.com/langflow-ai/langflow/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-16 |
 | Latest release | v1.12.6 (2026-10-13) |
 | Deployment | self-hosted |
@@ -94,6 +100,8 @@ Workflow automation with AI nodes
 | Licence | Sustainable Use License (fair-code) ⚠ needs review · [licence evidence](https://github.com/n8n-io/n8n/blob/master/LICENSE.md) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | Source-available, not OSI: Sustainable Use License (fair-code) with portions under an enterprise licence (upstream LICENSE.md). |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | n8n@2.44.4 (2026-10-19) |
 | Deployment | self-hosted |

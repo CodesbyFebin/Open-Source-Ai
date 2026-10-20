@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/n8n-io/n8n",
   "default_branch": "master",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "n8n",
   "last_commit": "2026-10-20T18:18:00Z",
   "latest_release": {
@@ -12,9 +16,10 @@
     "source": "https://api.github.com/repos/n8n-io/n8n/license",
     "state": "needs-review"
   },
-  "pushed_at": "2026-10-20T18:41:01Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "moved": false,
+  "pushed_at": "2026-10-20T19:50:32Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/n8n-io/n8n",
-  "stars": 208141,
+  "stars": 208143,
   "state": "active"
 }

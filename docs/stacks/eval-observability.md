@@ -15,7 +15,7 @@ Tracing, evaluations and prompt management.
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
 | [Langfuse](#langfuse) | LLM tracing, evals and prompt management | Tracing platform | library, self-hosted | cpu-ok | MIT (ee/ dirs separate) ⚠ needs review | active |
-| [Phoenix](#phoenix) | AI observability and evaluation | Notebook + server | library, self-hosted | cpu-ok | Elastic-2.0 | active |
+| [Phoenix](#phoenix) | AI observability and evaluation | Notebook + server | library, self-hosted | cpu-ok | Elastic-2.0 ⚠ needs review | active |
 | [promptfoo](#promptfoo) | Prompt testing and red-teaming CLI | CI evals | library, self-hosted | cpu-ok | MIT | active |
 | [DeepEval](#deepeval) | Unit-test style LLM evaluation | pytest-style | library, self-hosted | cpu-ok | Apache-2.0 | active |
 
@@ -40,6 +40,8 @@ LLM tracing, evals and prompt management
 | Licence | MIT (ee/ dirs separate) ⚠ needs review · [licence evidence](https://github.com/langfuse/langfuse/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | Multiple licences: MIT except ee/ directories, which have separate terms (upstream LICENSE). |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v4.66.0 (2026-10-20) |
 | Deployment | library, self-hosted |
@@ -55,9 +57,11 @@ AI observability and evaluation
 |---|---|
 | Upstream repository | [Phoenix on GitHub](https://github.com/Arize-ai/phoenix) |
 | Setup docs | [Phoenix setup guide](https://github.com/Arize-ai/phoenix#readme) |
-| Licence | Elastic-2.0 · [licence evidence](https://github.com/Arize-ai/phoenix/blob/main/LICENSE) · checked 2026-10-20 |
+| Licence | Elastic-2.0 ⚠ needs review · [licence evidence](https://github.com/Arize-ai/phoenix/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | NOASSERTION |
 | Repository state | active |
+| Licence review reason | Source-available, not OSI: Elastic License 2.0 (upstream LICENSE). |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | arize-phoenix-sqlean-v0.2.1 (2026-10-19) |
 | Deployment | library, self-hosted |
@@ -76,6 +80,8 @@ Prompt testing and red-teaming CLI
 | Licence | MIT · [licence evidence](https://github.com/promptfoo/promptfoo/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | code-scan-action-0.2.2 (2026-10-08) |
 | Deployment | library, self-hosted |
@@ -94,6 +100,8 @@ Unit-test style LLM evaluation
 | Licence | Apache-2.0 · [licence evidence](https://github.com/confident-ai/deepeval/blob/main/LICENSE.md) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-19 |
 | Latest release | python-v4.2.4 (2026-09-22) |
 | Deployment | library, self-hosted |

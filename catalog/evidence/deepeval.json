@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/confident-ai/deepeval",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "deepeval",
   "last_commit": "2026-10-19T06:25:00Z",
   "latest_release": {
@@ -12,8 +16,9 @@
     "source": "https://api.github.com/repos/confident-ai/deepeval/license",
     "state": "detected"
   },
+  "moved": false,
   "pushed_at": "2026-10-19T06:25:04Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/confident-ai/deepeval",
   "stars": 18991,
   "state": "active"

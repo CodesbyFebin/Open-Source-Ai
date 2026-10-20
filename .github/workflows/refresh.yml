@@ -3,6 +3,7 @@ on:
   schedule: [{cron: '0 3 * * 1'}]   # weekly, Monday 03:00 UTC
   workflow_dispatch:
 concurrency: {group: refresh, cancel-in-progress: false}
+permissions: {}   # job-level only
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -10,6 +11,7 @@ jobs:
     permissions: {contents: write, pull-requests: write}
     steps:
       - uses: actions/checkout@v4
+        with: {persist-credentials: false}
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: pip install -r requirements.txt
@@ -18,17 +20,29 @@ jobs:
           path: .cache/etags.json
           key: etags-${{ github.run_id }}
           restore-keys: etags-
-      - name: Collect evidence from GitHub API
-        env: {GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'}
+      - name: Collect evidence from GitHub API (read-only token)
+        id: collect
+        env: {GITHUB_TOKEN: '${{ github.token }}'}
         run: python scripts/collect.py
-      - name: Regenerate docs and validate
-        run: python scripts/build.py && python scripts/validate.py
+      - name: Regenerate docs, test and validate
+        run: python scripts/build.py && python -m pytest -q tests && python scripts/validate.py
+      # Optional GitHub App token: PRs opened with it trigger CI automatically.
+      # Configure repo variable OSA_APP_ID and secret OSA_APP_PRIVATE_KEY (see CONTRIBUTING.md).
+      - name: Mint GitHub App token (optional)
+        id: app
+        if: ${{ vars.OSA_APP_ID != '' }}
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.OSA_APP_ID }}
+          private-key: ${{ secrets.OSA_APP_PRIVATE_KEY }}
       - uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ steps.app.outputs.token || github.token }}
           branch: bot/evidence-refresh
+          base: main
           delete-branch: true
           commit-message: "catalog: refresh evidence"
-          title: "catalog: weekly evidence refresh"
+          title: "catalog: weekly evidence refresh${{ steps.collect.outputs.failed != '0' && format(' ({0} lookups failed)', steps.collect.outputs.failed) || '' }}"
           body-path: .cache/summary.md
           labels: evidence-refresh
           add-paths: |
@@ -36,3 +50,4 @@ jobs:
             docs
             README.md
             CREDITS.md
+            mkdocs.yml

@@ -33,6 +33,8 @@ Browse the upstream examples repository, clone only the example you need, instal
 | Licence | Apache-2.0 · [licence evidence](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-18 |
 | Latest release | none detected  |
 | Deployment | examples |

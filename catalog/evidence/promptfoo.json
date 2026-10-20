@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/promptfoo/promptfoo",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "promptfoo",
   "last_commit": "2026-10-20T15:41:20Z",
   "latest_release": {
@@ -12,9 +16,10 @@
     "source": "https://api.github.com/repos/promptfoo/promptfoo/license",
     "state": "detected"
   },
+  "moved": false,
   "pushed_at": "2026-10-20T17:04:08Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/promptfoo/promptfoo",
-  "stars": 26191,
+  "stars": 26192,
   "state": "active"
 }

@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/mem0ai/openmemory",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "openmemory",
   "last_commit": "2026-07-29T09:40:39Z",
   "latest_release": null,
@@ -9,8 +13,9 @@
     "source": "https://api.github.com/repos/mem0ai/openmemory/license",
     "state": "detected"
   },
+  "moved": false,
   "pushed_at": "2026-07-29T09:40:39Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/mem0ai/openmemory",
   "stars": 98,
   "state": "active"

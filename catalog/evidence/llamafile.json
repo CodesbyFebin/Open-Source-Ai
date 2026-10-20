@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/mozilla-ai/llamafile",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "llamafile",
   "last_commit": "2026-10-08T19:53:38Z",
   "latest_release": {
@@ -12,9 +16,10 @@
     "source": "https://api.github.com/repos/mozilla-ai/llamafile/license",
     "state": "needs-review"
   },
+  "moved": false,
   "pushed_at": "2026-10-12T00:26:41Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/mozilla-ai/llamafile",
-  "stars": 26446,
+  "stars": 26442,
   "state": "active"
 }

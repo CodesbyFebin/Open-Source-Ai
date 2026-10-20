@@ -43,6 +43,8 @@ Composable LLM application framework
 | Licence | MIT · [licence evidence](https://github.com/langchain-ai/langchain/blob/master/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | langchain-core==1.6.12 (2026-10-16) |
 | Deployment | library |
@@ -61,6 +63,8 @@ Graph-based stateful agent orchestration
 | Licence | MIT · [licence evidence](https://github.com/langchain-ai/langgraph/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | cli==0.4.37 (2026-10-19) |
 | Deployment | library |
@@ -79,6 +83,8 @@ Role-based multi-agent crews
 | Licence | MIT · [licence evidence](https://github.com/crewAIInc/crewAI/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | 1.15.28 (2026-10-14) |
 | Deployment | library |
@@ -97,6 +103,8 @@ Conversational multi-agent framework
 | Licence | CC-BY-4.0 (docs) / MIT (code) ⚠ needs review · [licence evidence](https://github.com/microsoft/autogen/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | CC-BY-4.0 |
 | Repository state | active |
+| Licence review reason | Multiple licences: LICENSE is CC-BY-4.0 (docs) and LICENSE-CODE is MIT (code); GitHub reports only CC-BY-4.0. |
+| Last lookup | ok |
 | Last commit | 2026-10-16 |
 | Latest release | python-v0.7.5 (2025-09-30) |
 | Deployment | library |
@@ -115,6 +123,8 @@ Minimal code-writing agents
 | Licence | Apache-2.0 · [licence evidence](https://github.com/huggingface/smolagents/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-06 |
 | Latest release | v1.26.0 (2026-05-29) |
 | Deployment | library |
@@ -133,6 +143,8 @@ Fast agent framework with memory and tools
 | Licence | Apache-2.0 · [licence evidence](https://github.com/agno-agi/agno/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | Apache-2.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v3.1.7 (2026-10-20) |
 | Deployment | library |
@@ -151,6 +163,8 @@ Lightweight agent harness that runs hundreds of agents on a small VPS
 | Licence | GPL-3.0 · [licence evidence](https://github.com/tinyhumansai/openhuman/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | GPL-3.0 |
 | Repository state | active |
+| Licence review reason | – |
+| Last lookup | ok |
 | Last commit | 2026-10-20 |
 | Latest release | v0.64.15 (2026-10-09) |
 | Deployment | library |

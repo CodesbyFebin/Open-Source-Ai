@@ -8,7 +8,7 @@ Open Source Ai's own content is MIT-licensed © CodesbyFebin. Catalogued project
 | FreeLLMAPI | https://github.com/tashfeenahmed/freellmapi | MIT | declared | 2026-10-20 |
 | OpenCode Free Router | https://github.com/0xgetz/opencode-free-9router | MIT | declared | 2026-10-20 |
 | Bifrost | https://github.com/maximhq/bifrost | Apache-2.0 | declared | 2026-10-20 |
-| Trylon Gateway | https://github.com/trylonai/gateway | BUSL-1.1 | declared | 2026-10-20 |
+| Trylon Gateway | https://github.com/trylonai/gateway | BUSL-1.1 | needs-review | 2026-10-20 |
 | LiteLLM | https://github.com/BerriAI/litellm | MIT (enterprise/ dir separate) | needs-review | 2026-10-20 |
 | Portkey Gateway | https://github.com/Portkey-AI/gateway | MIT | declared | 2026-10-20 |
 | Open WebUI | https://github.com/open-webui/open-webui | Open WebUI License (BSD-3 + branding clause) | needs-review | 2026-10-20 |
@@ -18,7 +18,7 @@ Open Source Ai's own content is MIT-licensed © CodesbyFebin. Catalogued project
 | GPT4All | https://github.com/nomic-ai/gpt4all | MIT | declared | 2026-10-20 |
 | Ollama | https://github.com/ollama/ollama | MIT | declared | 2026-10-20 |
 | llama.cpp | https://github.com/ggml-org/llama.cpp | MIT | declared | 2026-10-20 |
-| llamafile | https://github.com/mozilla-ai/llamafile | Apache-2.0 | declared | 2026-10-20 |
+| llamafile | https://github.com/mozilla-ai/llamafile | Apache-2.0 | needs-review | 2026-10-20 |
 | LocalAI | https://github.com/mudler/LocalAI | MIT | declared | 2026-10-20 |
 | Text Generation WebUI | https://github.com/oobabooga/textgen | AGPL-3.0 | declared | 2026-10-20 |
 | vLLM | https://github.com/vllm-project/vllm | Apache-2.0 | declared | 2026-10-20 |
@@ -26,7 +26,7 @@ Open Source Ai's own content is MIT-licensed © CodesbyFebin. Catalogued project
 | Text Generation Inference | https://github.com/huggingface/text-generation-inference | Apache-2.0 | declared | 2026-10-20 |
 | Triton Inference Server | https://github.com/triton-inference-server/server | BSD-3-Clause | declared | 2026-10-20 |
 | Mem0 | https://github.com/mem0ai/mem0 | Apache-2.0 | declared | 2026-10-20 |
-| OpenMemory | https://github.com/mem0ai/openmemory | MIT | declared | 2026-10-20 |
+| OpenMemory | https://github.com/mem0ai/openmemory | MIT | declared | 2026-10-21 |
 | Letta | https://github.com/letta-ai/letta | Apache-2.0 | declared | 2026-10-20 |
 | Graphiti | https://github.com/getzep/graphiti | Apache-2.0 | declared | 2026-10-20 |
 | LangChain | https://github.com/langchain-ai/langchain | MIT | declared | 2026-10-20 |
@@ -42,7 +42,7 @@ Open Source Ai's own content is MIT-licensed © CodesbyFebin. Catalogued project
 | OpenCode | https://github.com/anomalyco/opencode | MIT | declared | 2026-10-20 |
 | Cline | https://github.com/cline/cline | Apache-2.0 | declared | 2026-10-20 |
 | Open Code Review | https://github.com/alibaba/open-code-review | Apache-2.0 | declared | 2026-10-20 |
-| PR-Agent | https://github.com/The-PR-Agent/pr-agent | MIT | declared | 2026-10-20 |
+| PR-Agent | https://github.com/The-PR-Agent/pr-agent | MIT | declared | 2026-10-21 |
 | Dify | https://github.com/langgenius/dify | Dify Open Source License (Apache-2.0 + conditions) | needs-review | 2026-10-20 |
 | Flowise | https://github.com/FlowiseAI/Flowise | Apache-2.0 (enterprise dir separate) | needs-review | 2026-10-20 |
 | Langflow | https://github.com/langflow-ai/langflow | MIT | declared | 2026-10-20 |
@@ -55,7 +55,7 @@ Open Source Ai's own content is MIT-licensed © CodesbyFebin. Catalogued project
 | Milvus | https://github.com/milvus-io/milvus | Apache-2.0 | declared | 2026-10-20 |
 | Weaviate | https://github.com/weaviate/weaviate | BSD-3-Clause (core) | needs-review | 2026-10-20 |
 | Langfuse | https://github.com/langfuse/langfuse | MIT (ee/ dirs separate) | needs-review | 2026-10-20 |
-| Phoenix | https://github.com/Arize-ai/phoenix | Elastic-2.0 | declared | 2026-10-20 |
+| Phoenix | https://github.com/Arize-ai/phoenix | Elastic-2.0 | needs-review | 2026-10-20 |
 | promptfoo | https://github.com/promptfoo/promptfoo | MIT | declared | 2026-10-20 |
 | DeepEval | https://github.com/confident-ai/deepeval | Apache-2.0 | declared | 2026-10-20 |
 | Butterbase | https://github.com/butterbase-ai/butterbase | Apache-2.0 | declared | 2026-10-20 |
@@ -65,9 +65,9 @@ Open Source Ai's own content is MIT-licensed © CodesbyFebin. Catalogued project
 | One Person Company | https://github.com/tashfeenahmed/OnePersonCompany | MIT | declared | 2026-10-20 |
 | Kinetic | https://github.com/tashfeenahmed/kinetic | MIT | declared | 2026-10-20 |
 | CircleChat | https://github.com/tashfeenahmed/circlechat | MIT | declared | 2026-10-20 |
-| AgentDomains | https://github.com/tashfeenahmed/AgentDomains | FSL-1.1-Apache-2.0 | declared | 2026-10-20 |
-| AgentDomains MCP | https://github.com/tashfeenahmed/AgentDomains-mcp | FSL-1.1-Apache-2.0 | declared | 2026-10-20 |
-| AgentDomains Skill | https://github.com/tashfeenahmed/AgentDomains-skill | FSL-1.1-Apache-2.0 | declared | 2026-10-20 |
+| AgentDomains | https://github.com/tashfeenahmed/AgentDomains | FSL-1.1-Apache-2.0 | needs-review | 2026-10-20 |
+| AgentDomains MCP | https://github.com/tashfeenahmed/AgentDomains-mcp | FSL-1.1-Apache-2.0 | needs-review | 2026-10-20 |
+| AgentDomains Skill | https://github.com/tashfeenahmed/AgentDomains-skill | FSL-1.1-Apache-2.0 | needs-review | 2026-10-20 |
 | ScallopBot | https://github.com/tashfeenahmed/scallopbot | MIT | declared | 2026-10-20 |
 | Cashmaxx | https://github.com/tashfeenahmed/cashmaxx | MIT | declared | 2026-10-20 |
 | Jev Deep Research | https://github.com/tashfeenahmed/jev-deepresearch | MIT | declared | 2026-10-20 |

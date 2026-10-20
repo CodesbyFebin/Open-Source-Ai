@@ -13,6 +13,17 @@
 
 No accounts or paid API keys are needed.
 
+## Pinned versions
+
+| Component | Version |
+|---|---|
+| Ollama | `ollama/ollama:0.40.6` |
+| LiteLLM | `ghcr.io/berriai/litellm:v1.106.1` |
+| Open WebUI | `ghcr.io/open-webui/open-webui:v0.12.3` |
+| Model | `qwen2.5:0.5b` (~0.4 GB) |
+
+Typical cold start on a 4-vCPU CI runner: about 2 minutes (image pulls dominate).
+
 ## Run
 
 ```bash
@@ -28,7 +39,8 @@ Environment variables: `LITELLM_MASTER_KEY` (gateway key, default is a placehold
 ## Verify
 
 ```bash
-./smoke.sh     # same test CI runs
+./smoke.sh     # same test CI runs; asks 17+25 and checks the model answers 42,
+               # token usage is reported, and Ollama's own log shows the request
 # or manually
 curl -H "Authorization: Bearer $LITELLM_MASTER_KEY" -H 'Content-Type: application/json' \
   http://localhost:4000/v1/chat/completions \
@@ -47,4 +59,4 @@ docker compose down -v     # also delete models and chats
 ## Known limitations
 
 - `qwen2.5:0.5b` is a tiny model chosen so CI can run on CPU; answers are low quality. Use a 3B–8B model for real use.
-- Images use moving tags (`latest`, `main`, `main-stable`); the exact digests tested are in the CI log.
+- Ollama model tags are not immutable; the digest actually pulled is printed by `ollama list` in the CI log.

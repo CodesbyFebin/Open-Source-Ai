@@ -1,6 +1,10 @@
 {
   "canonical_repo": "https://github.com/tashfeenahmed/AgentDomains-skill",
   "default_branch": "main",
+  "fetch_status": {
+    "at": "2026-10-20T19:54:06Z",
+    "result": "ok"
+  },
   "id": "agentdomains-skill",
   "last_commit": "2026-10-17T20:25:20Z",
   "latest_release": null,
@@ -9,8 +13,9 @@
     "source": "https://api.github.com/repos/tashfeenahmed/AgentDomains-skill/license",
     "state": "needs-review"
   },
+  "moved": false,
   "pushed_at": "2026-10-17T20:25:23Z",
-  "retrieved_at": "2026-10-20T18:52:53Z",
+  "retrieved_at": "2026-10-20T19:54:06Z",
   "source": "https://api.github.com/repos/tashfeenahmed/AgentDomains-skill",
   "stars": 10,
   "state": "active"
