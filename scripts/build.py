@@ -76,6 +76,14 @@ description: {c['description']} Compare {len(ps)} open-source projects by licenc
 |---|---|---|---|---|---|---|
 {rows}
 
+## What this repository includes
+
+- A searchable, filterable catalogue of AI infrastructure and agent projects.
+- Category comparison pages with upstream links, licence details, deployment options, hardware notes, and evidence dates.
+- Tested recipes that combine selected open-source components into documented workflows.
+- A freshness report that makes repository changes and review-needed metadata visible.
+- Human-maintained catalogue data with generated documentation and search pages.
+
 ## Quick start
 
 {quick[c['id']]}
@@ -154,17 +162,34 @@ A **curated catalog** of open-source and source-available projects for building 
 {tbl}
 """)
 rt = "\n".join(f"| [{c['title']}](docs/stacks/{c['id']}.md) | {c['description']} | {len(by_cat[c['id']])} |" for c in cats)
-w("README.md", f"""{GEN}<p align="center"><img src="docs/assets/favicon.svg" width="96" alt="Open Source Ai logo"></p>
+w("README.md", f"""{GEN}<p align="center">
+  <img src="docs/assets/favicon.svg" width="96" height="96" alt="Open Source Ai by CodesbyFebin logo and favicon">
+</p>
 
 # Open Source Ai by CodesbyFebin
 
-A **curated, evidence-backed catalog** of open-source and source-available projects for AI agents and LLM apps: gateways, chat UIs, local models, inference servers, memory, agent frameworks, coding agents, code review, RAG and vector databases, evaluation, backends and templates.
+[![CI](https://github.com/CodesbyFebin/Open-Source-Ai/actions/workflows/ci.yml/badge.svg)](https://github.com/CodesbyFebin/Open-Source-Ai/actions/workflows/ci.yml)
+[![GitHub Pages](https://github.com/CodesbyFebin/Open-Source-Ai/actions/workflows/pages.yml/badge.svg)](https://github.com/CodesbyFebin/Open-Source-Ai/actions/workflows/pages.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-10b981.svg)](LICENSE)
+[![Projects](https://img.shields.io/badge/projects-{total}-0ea5e9.svg)](catalog/projects.yaml)
+[![Categories](https://img.shields.io/badge/categories-{len(cats)}-6366f1.svg)](catalog/categories.yaml)
+[![Evidence refresh](https://img.shields.io/badge/evidence-weekly%20PR-10b981.svg)](docs/freshness.md)
+[![GitHub stars](https://img.shields.io/github/stars/CodesbyFebin/Open-Source-Ai?style=social)](https://github.com/CodesbyFebin/Open-Source-Ai/stargazers)
 
-This repo holds catalog data, comparisons and tested recipes. It does **not** bundle upstream code; every project stays with its own maintainers and licence.
+> A curated, evidence-backed **Awesome AI Agent & LLM Stack List** for developers building AI assistants, agent workflows, and LLM applications.
+
+Open Source Ai by CodesbyFebin is a searchable catalogue of open-source and source-available AI projects. Explore gateways and LLM routing, chat UIs, local models, inference servers, memory, agent frameworks, coding agents, code review, app builders, RAG, vector databases, evaluation, observability, backends, and templates.
+
+This repository contains catalogue data, comparisons, and tested recipes. It does **not** bundle upstream code. Each project remains with its maintainers and under its own licence.
 
 📖 **Site:** {SITE} · 🔎 [Search & filter]({SITE}catalog/) · 🧪 [Recipes]({SITE}recipes/) · 📅 [Freshness report]({SITE}freshness/)
 
 {total} projects · {len(cats)} categories · evidence refreshed weekly by pull request
+
+## Awesome AI Agent & LLM Stack List
+
+Browse the catalogue by stack category. Each category page links to upstream projects, setup guides, licence evidence, deployment notes, hardware requirements, and freshness data where available.
+
 
 | Category | What it covers | Projects |
 |---|---|---|
@@ -177,6 +202,22 @@ git clone https://github.com/CodesbyFebin/Open-Source-Ai
 cd Open-Source-Ai/recipes/local-chat
 docker compose up -d        # Ollama + LiteLLM + Open WebUI, see recipes/local-chat/README.md
 ```
+
+## Freshness, evidence, and project status
+
+A scheduled GitHub Actions workflow checks public repository evidence weekly and proposes changes in a pull request for human review. The report is a periodic snapshot, not real-time monitoring. A failed lookup is not treated as proof that a project has disappeared; check the upstream repository before relying on status or licence information.
+
+## Recipes
+
+The local chat recipe combines Ollama, LiteLLM, and Open WebUI. Its CI smoke test validates the Compose setup and checks that a real prompt receives a response. Recipe pages state their own verification status and limitations, so review them before using a stack.
+
+## Frequently asked questions
+
+**Does this repository include the projects listed here?** No. It links to upstream repositories and provides curated metadata, comparisons, and recipes.
+
+**Are all listed projects under the same licence?** No. The MIT licence covers this catalogue's own content only. Each upstream project has its own licence; review its linked terms before use.
+
+**Is the freshness report live?** No. Evidence is refreshed weekly through pull requests. Review the report's dates and upstream links for the latest available evidence.
 
 ## Contributing
 
