@@ -6,6 +6,7 @@ Usage:
   python agent.py ask "<question>"     # answer using retrieved memories
 """
 import os, sys
+os.environ.setdefault("MEM0_TELEMETRY", "False")
 from mem0 import Memory
 from openai import OpenAI
 
@@ -22,7 +23,7 @@ memory = Memory.from_config({
 
 
 def hits(q):
-    r = memory.search(q, user_id=USER)
+    r = memory.search(q, filters={"user_id": USER})  # mem0 2.x API
     return [m["memory"] for m in (r.get("results", r) if isinstance(r, dict) else r)]
 
 
