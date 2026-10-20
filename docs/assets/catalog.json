@@ -521,7 +521,7 @@
     "Python"
    ],
    "last_commit": "2026-07-29",
-   "license": "Apache-2.0",
+   "license": "MIT",
    "license_state": "declared",
    "name": "OpenMemory",
    "repo": "https://github.com/mem0ai/openmemory",
@@ -859,7 +859,7 @@
     "Python"
    ],
    "last_commit": "2026-10-20",
-   "license": "AGPL-3.0",
+   "license": "MIT",
    "license_state": "declared",
    "name": "PR-Agent",
    "repo": "https://github.com/The-PR-Agent/pr-agent",

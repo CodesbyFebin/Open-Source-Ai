@@ -4,6 +4,9 @@ Catalog changes are recorded here. Evidence refreshes are listed by their pull r
 
 ## Unreleased
 
+- Merged first evidence refresh (PR #1): 70 projects collected, 2 archived upstream (Flowise, Text Generation Inference).
+- Corrected licences from upstream LICENSE files: OpenMemory Apache-2.0 → MIT, PR-Agent AGPL-3.0 → MIT.
+
 ## 2026-10-21 – Catalog-first release
 
 - Converted the repository from git submodules to a catalog: removed `.gitmodules` and all 70 gitlinks; upstream code is no longer referenced as bundled.

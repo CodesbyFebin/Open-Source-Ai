@@ -26,7 +26,7 @@ Open Source Ai's own content is MIT-licensed © CodesbyFebin. Catalogued project
 | Text Generation Inference | https://github.com/huggingface/text-generation-inference | Apache-2.0 | declared | 2026-10-20 |
 | Triton Inference Server | https://github.com/triton-inference-server/server | BSD-3-Clause | declared | 2026-10-20 |
 | Mem0 | https://github.com/mem0ai/mem0 | Apache-2.0 | declared | 2026-10-20 |
-| OpenMemory | https://github.com/mem0ai/openmemory | Apache-2.0 | declared | 2026-10-20 |
+| OpenMemory | https://github.com/mem0ai/openmemory | MIT | declared | 2026-10-20 |
 | Letta | https://github.com/letta-ai/letta | Apache-2.0 | declared | 2026-10-20 |
 | Graphiti | https://github.com/getzep/graphiti | Apache-2.0 | declared | 2026-10-20 |
 | LangChain | https://github.com/langchain-ai/langchain | MIT | declared | 2026-10-20 |
@@ -42,7 +42,7 @@ Open Source Ai's own content is MIT-licensed © CodesbyFebin. Catalogued project
 | OpenCode | https://github.com/anomalyco/opencode | MIT | declared | 2026-10-20 |
 | Cline | https://github.com/cline/cline | Apache-2.0 | declared | 2026-10-20 |
 | Open Code Review | https://github.com/alibaba/open-code-review | Apache-2.0 | declared | 2026-10-20 |
-| PR-Agent | https://github.com/The-PR-Agent/pr-agent | AGPL-3.0 | declared | 2026-10-20 |
+| PR-Agent | https://github.com/The-PR-Agent/pr-agent | MIT | declared | 2026-10-20 |
 | Dify | https://github.com/langgenius/dify | Dify Open Source License (Apache-2.0 + conditions) | needs-review | 2026-10-20 |
 | Flowise | https://github.com/FlowiseAI/Flowise | Apache-2.0 (enterprise dir separate) | needs-review | 2026-10-20 |
 | Langflow | https://github.com/langflow-ai/langflow | MIT | declared | 2026-10-20 |

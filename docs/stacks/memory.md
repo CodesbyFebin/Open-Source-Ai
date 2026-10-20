@@ -15,7 +15,7 @@ Long-term memory layers for agents and assistants.
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
 | [Mem0](#mem0) | Universal memory layer for AI agents | Extract-and-retrieve facts | library, self-hosted | cpu-ok | Apache-2.0 | active |
-| [OpenMemory](#openmemory) | Local-first memory server (MCP) for AI tools | MCP memory server | library, self-hosted | cpu-ok | Apache-2.0 | active |
+| [OpenMemory](#openmemory) | Local-first memory server (MCP) for AI tools | MCP memory server | library, self-hosted | cpu-ok | MIT | active |
 | [Letta](#letta) | Stateful agents with self-editing memory | Agent OS with memory | library, self-hosted | cpu-ok | Apache-2.0 | active |
 | [Graphiti](#graphiti) | Temporal knowledge-graph memory | Knowledge graph | library, self-hosted | cpu-ok | Apache-2.0 | active |
 
@@ -55,7 +55,7 @@ Local-first memory server (MCP) for AI tools
 |---|---|
 | Upstream repository | [OpenMemory on GitHub](https://github.com/mem0ai/openmemory) |
 | Setup docs | [OpenMemory setup guide](https://github.com/mem0ai/openmemory#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/mem0ai/openmemory/blob/main/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/mem0ai/openmemory/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
 | Last commit | 2026-07-29 |

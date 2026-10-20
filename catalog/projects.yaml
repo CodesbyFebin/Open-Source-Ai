@@ -444,8 +444,8 @@ projects:
   languages:
   - Python
   license:
-    spdx: Apache-2.0
-    label: Apache-2.0
+    spdx: MIT
+    label: MIT
     state: declared
     evidence_url: https://github.com/mem0ai/openmemory/blob/main/LICENSE
     checked: '2026-10-20'
@@ -770,8 +770,8 @@ projects:
   languages:
   - Python
   license:
-    spdx: AGPL-3.0
-    label: AGPL-3.0
+    spdx: MIT
+    label: MIT
     state: declared
     evidence_url: https://github.com/The-PR-Agent/pr-agent/blob/main/LICENSE
     checked: '2026-10-20'

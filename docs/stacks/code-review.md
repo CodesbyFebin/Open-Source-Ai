@@ -15,7 +15,7 @@ Automated AI pull-request review.
 | Project | What it does | Highlight (editorial) | Deployment | Hardware | Licence | Status |
 |---|---|---|---|---|---|---|
 | [Open Code Review](#open-code-review) | Hybrid deterministic + LLM agent code reviewer with line-level comments | CLI / CI | ci | cpu-ok | Apache-2.0 | active |
-| [PR-Agent](#pr-agent) | PR review, describe and improve commands | GitHub Action / app | ci | cpu-ok | AGPL-3.0 | active |
+| [PR-Agent](#pr-agent) | PR review, describe and improve commands | GitHub Action / app | ci | cpu-ok | MIT | active |
 
 ## Quick start
 
@@ -49,7 +49,7 @@ PR review, describe and improve commands
 |---|---|
 | Upstream repository | [PR-Agent on GitHub](https://github.com/The-PR-Agent/pr-agent) |
 | Setup docs | [PR-Agent setup guide](https://github.com/The-PR-Agent/pr-agent#readme) |
-| Licence | AGPL-3.0 · [licence evidence](https://github.com/The-PR-Agent/pr-agent/blob/main/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/The-PR-Agent/pr-agent/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | MIT |
 | Repository state | active |
 | Last commit | 2026-10-20 |

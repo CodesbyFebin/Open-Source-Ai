@@ -35,7 +35,7 @@ Evidence is collected from the public GitHub REST API by a **weekly** scheduled 
 | [Text Generation Inference](stacks/inference-serving.md#text-generation-inference) | archived | 2026-03-21 | v3.3.7 | Apache-2.0 | Apache-2.0 | 2026-10-20 | archived |
 | [Triton Inference Server](stacks/inference-serving.md#triton-server) | active | 2026-10-15 | v2.73.0 | BSD-3-Clause | BSD-3-Clause | 2026-10-20 | – |
 | [Mem0](stacks/memory.md#mem0) | active | 2026-10-14 | ts-v3.3.1 | Apache-2.0 | Apache-2.0 | 2026-10-20 | – |
-| [OpenMemory](stacks/memory.md#openmemory) | active | 2026-07-29 | – | Apache-2.0 | MIT | 2026-10-20 | – |
+| [OpenMemory](stacks/memory.md#openmemory) | active | 2026-07-29 | – | MIT | MIT | 2026-10-20 | – |
 | [Letta](stacks/memory.md#letta) | active | 2026-10-18 | 0.16.8 | Apache-2.0 | Apache-2.0 | 2026-10-20 | – |
 | [Graphiti](stacks/memory.md#graphiti) | active | 2026-10-20 | v0.31.2 | Apache-2.0 | Apache-2.0 | 2026-10-20 | – |
 | [LangChain](stacks/agent-frameworks.md#langchain) | active | 2026-10-20 | langchain-core==1.6.12 | MIT | MIT | 2026-10-20 | – |
@@ -51,7 +51,7 @@ Evidence is collected from the public GitHub REST API by a **weekly** scheduled 
 | [OpenCode](stacks/coding-agents.md#opencode) | active | 2026-10-20 | v1.19.3 | MIT | MIT | 2026-10-20 | – |
 | [Cline](stacks/coding-agents.md#cline) | active | 2026-10-20 | desktop-v0.0.48 | Apache-2.0 | Apache-2.0 | 2026-10-20 | – |
 | [Open Code Review](stacks/code-review.md#open-code-review) | active | 2026-10-20 | v1.13.2 | Apache-2.0 | Apache-2.0 | 2026-10-20 | – |
-| [PR-Agent](stacks/code-review.md#pr-agent) | active | 2026-10-20 | v0.48.0 | AGPL-3.0 | MIT | 2026-10-20 | – |
+| [PR-Agent](stacks/code-review.md#pr-agent) | active | 2026-10-20 | v0.48.0 | MIT | MIT | 2026-10-20 | – |
 | [Dify](stacks/app-builders.md#dify) | active | 2026-10-20 | 1.17.1 | Dify Open Source License (Apache-2.0 + conditions) | NOASSERTION | 2026-10-20 | licence review |
 | [Flowise](stacks/app-builders.md#flowise) | archived | 2026-08-13 | flowise@3.1.4 | Apache-2.0 (enterprise dir separate) | NOASSERTION | 2026-10-20 | archived, licence review |
 | [Langflow](stacks/app-builders.md#langflow) | active | 2026-10-16 | v1.12.6 | MIT | MIT | 2026-10-20 | – |
