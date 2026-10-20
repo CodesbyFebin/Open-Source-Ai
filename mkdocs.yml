@@ -10,7 +10,7 @@ theme:
   name: material
   favicon: assets/favicon.svg
   logo: assets/favicon.svg
-  features: [navigation.instant, navigation.sections, navigation.top, search.suggest, content.code.copy, navigation.footer]
+  features: [navigation.sections, navigation.top, search.suggest, content.code.copy, navigation.footer]
   palette:
     - scheme: default
       primary: deep purple
@@ -23,14 +23,19 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/CodesbyFebin
 plugins: [search]
-markdown_extensions: [admonition, tables, toc, pymdownx.superfences, pymdownx.highlight]
+extra_javascript: [javascripts/catalog.js]
+extra_css: [stylesheets/extra.css]
+markdown_extensions: [attr_list, admonition, tables, toc, pymdownx.superfences, pymdownx.highlight]
 nav:
   - Home: index.md
+  - Search & Filter: catalog.md
+  - Recipes:
+      - Overview: recipes/index.md
+      - Agent with persistent memory and evaluation: recipes/agent-memory-eval.md
+      - Local private chat (model + gateway + chat UI): recipes/local-chat.md
   - Guides:
       - Getting Started: guides/getting-started.md
-      - Build a Full Stack: guides/full-stack.md
       - Connect to a Gateway: guides/connect-gateway.md
-  - Selection Criteria: selection-criteria.md
   - Stacks:
       - Gateways & LLM Routing: stacks/gateways-routing.md
       - Chat UIs: stacks/chat-ui.md
@@ -46,4 +51,6 @@ nav:
       - Backend & Infra: stacks/backend-infra.md
       - App Templates & Examples: stacks/app-templates.md
       - CodesbyFebin Collection: stacks/codesbyfebin-collection.md
+  - Freshness Report: freshness.md
+  - Selection Criteria: selection-criteria.md
   - Credits & Licences: credits.md

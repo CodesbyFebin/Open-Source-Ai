@@ -1,0 +1,29 @@
+name: Suggest a project
+description: Propose a new open-source AI/LLM project for the catalog.
+labels: [suggestion]
+body:
+  - type: input
+    id: repo
+    attributes: {label: GitHub repository URL}
+    validations: {required: true}
+  - type: input
+    id: category
+    attributes: {label: Category, placeholder: e.g. memory}
+    validations: {required: true}
+  - type: textarea
+    id: why
+    attributes: {label: What does it do and why include it?}
+    validations: {required: true}
+  - type: input
+    id: license
+    attributes: {label: Licence and link to LICENSE file}
+    validations: {required: true}
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Selection criteria
+      options:
+        - label: It has a licence file
+          required: true
+        - label: It is self-hostable or usable as a library
+          required: true

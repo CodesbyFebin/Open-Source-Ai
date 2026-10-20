@@ -1,0 +1,38 @@
+name: Refresh catalog evidence
+on:
+  schedule: [{cron: '0 3 * * 1'}]   # weekly, Monday 03:00 UTC
+  workflow_dispatch:
+concurrency: {group: refresh, cancel-in-progress: false}
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions: {contents: write, pull-requests: write}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: .cache/etags.json
+          key: etags-${{ github.run_id }}
+          restore-keys: etags-
+      - name: Collect evidence from GitHub API
+        env: {GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'}
+        run: python scripts/collect.py
+      - name: Regenerate docs and validate
+        run: python scripts/build.py && python scripts/validate.py
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/evidence-refresh
+          delete-branch: true
+          commit-message: "catalog: refresh evidence"
+          title: "catalog: weekly evidence refresh"
+          body-path: .cache/summary.md
+          labels: evidence-refresh
+          add-paths: |
+            catalog/evidence
+            docs
+            README.md
+            CREDITS.md

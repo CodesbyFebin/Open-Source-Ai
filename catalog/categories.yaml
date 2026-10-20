@@ -1,0 +1,44 @@
+categories:
+- id: gateways-routing
+  title: Gateways & LLM Routing
+  description: OpenAI-compatible gateways, routers, guardrail firewalls and free-LLM
+    aggregators.
+- id: chat-ui
+  title: Chat UIs
+  description: Self-hosted ChatGPT-style interfaces.
+- id: local-models
+  title: Local Models & Runtimes
+  description: Run LLMs on your own laptop or server.
+- id: inference-serving
+  title: Inference & Serving
+  description: High-throughput production model serving on GPUs.
+- id: memory
+  title: Memory
+  description: Long-term memory layers for agents and assistants.
+- id: agent-frameworks
+  title: Agent Frameworks
+  description: Libraries for building single and multi-agent systems.
+- id: coding-agents
+  title: Coding Agents
+  description: AI pair programmers and autonomous software agents.
+- id: code-review
+  title: Code Review
+  description: Automated AI pull-request review.
+- id: app-builders
+  title: Low-code App Builders
+  description: Visual builders for LLM apps, agents and workflows.
+- id: rag-vector-db
+  title: RAG & Vector Databases
+  description: Retrieval frameworks, document pipelines and vector stores.
+- id: eval-observability
+  title: Evaluation & Observability
+  description: Tracing, evaluations and prompt management.
+- id: backend-infra
+  title: Backend & Infra
+  description: Backends, databases and auth for AI products.
+- id: app-templates
+  title: App Templates & Examples
+  description: Ready-made AI apps and examples to copy.
+- id: codesbyfebin-collection
+  title: CodesbyFebin Collection
+  description: Hand-picked agent tools, MCP servers and experiments.

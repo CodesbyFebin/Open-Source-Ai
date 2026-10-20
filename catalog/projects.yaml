@@ -1,0 +1,1438 @@
+projects:
+- id: freellmapi
+  name: FreeLLMAPI
+  repo: https://github.com/tashfeenahmed/freellmapi
+  category: gateways-routing
+  description: Aggregates free LLM providers behind one /v1 endpoint with failover
+  tasks: &id001
+  - routing
+  - api-gateway
+  deployment: &id002
+  - self-hosted
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/freellmapi/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/freellmapi#readme
+  editorial:
+    highlight: Free-tier aggregation
+  last_checked: '2026-10-20'
+- id: opencode-free-9router
+  name: OpenCode Free Router
+  repo: https://github.com/0xgetz/opencode-free-9router
+  category: gateways-routing
+  description: Routes coding-agent traffic to free model endpoints
+  tasks: *id001
+  deployment: *id002
+  hardware: cpu-ok
+  languages:
+  - JavaScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/0xgetz/opencode-free-9router/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/0xgetz/opencode-free-9router#readme
+  editorial:
+    highlight: Free routing for coding agents
+  last_checked: '2026-10-20'
+- id: bifrost
+  name: Bifrost
+  repo: https://github.com/maximhq/bifrost
+  category: gateways-routing
+  description: High-performance AI gateway with load balancing and fallbacks
+  tasks: *id001
+  deployment: *id002
+  hardware: cpu-ok
+  languages:
+  - Go
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/maximhq/bifrost/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/maximhq/bifrost#readme
+  editorial:
+    highlight: Low-latency gateway
+  last_checked: '2026-10-20'
+- id: trylon-gateway
+  name: Trylon Gateway
+  repo: https://github.com/trylonai/gateway
+  category: gateways-routing
+  description: Self-hosted LLM firewall with guardrails
+  tasks: *id001
+  deployment: *id002
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: BUSL-1.1
+    label: BUSL-1.1
+    state: declared
+    evidence_url: https://github.com/trylonai/gateway/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/trylonai/gateway#readme
+  editorial:
+    highlight: Guardrails / security
+  last_checked: '2026-10-20'
+- id: litellm
+  name: LiteLLM
+  repo: https://github.com/BerriAI/litellm
+  category: gateways-routing
+  description: Proxy + SDK for 100+ LLM APIs in OpenAI format, cost tracking
+  tasks: *id001
+  deployment: *id002
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: null
+    label: MIT (enterprise/ dir separate)
+    state: needs-review
+    evidence_url: https://github.com/BerriAI/litellm/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/BerriAI/litellm#readme
+  editorial:
+    highlight: Broadest provider coverage
+  last_checked: '2026-10-20'
+- id: portkey-gateway
+  name: Portkey Gateway
+  repo: https://github.com/Portkey-AI/gateway
+  category: gateways-routing
+  description: Fast AI gateway with routing, retries and caching
+  tasks: *id001
+  deployment: *id002
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/Portkey-AI/gateway/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/Portkey-AI/gateway#readme
+  editorial:
+    highlight: Edge-friendly gateway
+  last_checked: '2026-10-20'
+- id: open-webui
+  name: Open WebUI
+  repo: https://github.com/open-webui/open-webui
+  category: chat-ui
+  description: Feature-rich web UI for Ollama and OpenAI-compatible APIs
+  tasks: &id003
+  - chat
+  deployment: &id004
+  - self-hosted
+  hardware: cpu-ok
+  languages:
+  - Python
+  - Svelte
+  license:
+    spdx: null
+    label: Open WebUI License (BSD-3 + branding clause)
+    state: needs-review
+    evidence_url: https://github.com/open-webui/open-webui/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/open-webui/open-webui#readme
+  editorial:
+    highlight: RAG, multi-user, plugins
+  last_checked: '2026-10-20'
+- id: lobe-chat
+  name: Lobe Chat
+  repo: https://github.com/lobehub/lobehub
+  category: chat-ui
+  description: Modern multi-provider chat and agent workspace
+  tasks: *id003
+  deployment: *id004
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: null
+    label: LobeHub Community License (Apache-2.0 based)
+    state: needs-review
+    evidence_url: https://github.com/lobehub/lobehub/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/lobehub/lobehub#readme
+  editorial:
+    highlight: Agents marketplace
+  last_checked: '2026-10-20'
+- id: librechat
+  name: LibreChat
+  repo: https://github.com/LibreChat-AI/LibreChat
+  category: chat-ui
+  description: Multi-provider chat with agents, auth and plugins
+  tasks: *id003
+  deployment: *id004
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/LibreChat-AI/LibreChat/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/LibreChat-AI/LibreChat#readme
+  editorial:
+    highlight: Enterprise auth
+  last_checked: '2026-10-20'
+- id: chatbot-ui
+  name: Chatbot UI
+  repo: https://github.com/mckaywrigley/chatbot-ui
+  category: chat-ui
+  description: Minimal open-source chat front end
+  tasks: *id003
+  deployment: *id004
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/mckaywrigley/chatbot-ui/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/mckaywrigley/chatbot-ui#readme
+  editorial:
+    highlight: Simple, hackable
+  last_checked: '2026-10-20'
+- id: gpt4all
+  name: GPT4All
+  repo: https://github.com/nomic-ai/gpt4all
+  category: local-models
+  description: Desktop app for private local LLM chat
+  tasks: &id005
+  - local-inference
+  deployment: &id006
+  - local
+  hardware: cpu-ok
+  languages:
+  - C++
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/nomic-ai/gpt4all/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/nomic-ai/gpt4all#readme
+  editorial:
+    highlight: Non-technical desktop users
+  last_checked: '2026-10-20'
+- id: ollama
+  name: Ollama
+  repo: https://github.com/ollama/ollama
+  category: local-models
+  description: One-command local model runner with OpenAI-compatible API
+  tasks: *id005
+  deployment: *id006
+  hardware: cpu-ok
+  languages:
+  - Go
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/ollama/ollama/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/ollama/ollama#readme
+  editorial:
+    highlight: Easiest local API
+  last_checked: '2026-10-20'
+- id: llama.cpp
+  name: llama.cpp
+  repo: https://github.com/ggml-org/llama.cpp
+  category: local-models
+  description: Portable C/C++ inference for GGUF models
+  tasks: *id005
+  deployment: *id006
+  hardware: cpu-ok
+  languages:
+  - C++
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/ggml-org/llama.cpp/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/ggml-org/llama.cpp#readme
+  editorial:
+    highlight: CPU / Apple Silicon
+  last_checked: '2026-10-20'
+- id: llamafile
+  name: llamafile
+  repo: https://github.com/mozilla-ai/llamafile
+  category: local-models
+  description: Single-file executable LLMs
+  tasks: *id005
+  deployment: *id006
+  hardware: cpu-ok
+  languages:
+  - C++
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/mozilla-ai/llamafile/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/mozilla-ai/llamafile#readme
+  editorial:
+    highlight: Zero-install distribution
+  last_checked: '2026-10-20'
+- id: localai
+  name: LocalAI
+  repo: https://github.com/mudler/LocalAI
+  category: local-models
+  description: Drop-in OpenAI API replacement for local models
+  tasks: *id005
+  deployment: *id006
+  hardware: cpu-ok
+  languages:
+  - Go
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/mudler/LocalAI/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/mudler/LocalAI#readme
+  editorial:
+    highlight: Multi-modal local API
+  last_checked: '2026-10-20'
+- id: text-generation-webui
+  name: Text Generation WebUI
+  repo: https://github.com/oobabooga/textgen
+  category: local-models
+  description: Gradio UI supporting many backends
+  tasks: *id005
+  deployment: *id006
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: AGPL-3.0
+    label: AGPL-3.0
+    state: declared
+    evidence_url: https://github.com/oobabooga/textgen/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/oobabooga/textgen#readme
+  editorial:
+    highlight: Experimenting with backends
+  last_checked: '2026-10-20'
+- id: vllm
+  name: vLLM
+  repo: https://github.com/vllm-project/vllm
+  category: inference-serving
+  description: PagedAttention-based high-throughput server
+  tasks: &id007
+  - serving
+  deployment: &id008
+  - self-hosted
+  hardware: gpu-required
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/vllm-project/vllm/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/vllm-project/vllm#readme
+  editorial:
+    highlight: Throughput
+  last_checked: '2026-10-20'
+- id: sglang
+  name: SGLang
+  repo: https://github.com/sgl-project/sglang
+  category: inference-serving
+  description: Fast serving with structured generation
+  tasks: *id007
+  deployment: *id008
+  hardware: gpu-required
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/sgl-project/sglang/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/sgl-project/sglang#readme
+  editorial:
+    highlight: Structured outputs
+  last_checked: '2026-10-20'
+- id: text-generation-inference
+  name: Text Generation Inference
+  repo: https://github.com/huggingface/text-generation-inference
+  category: inference-serving
+  description: Production LLM server
+  tasks: *id007
+  deployment: *id008
+  hardware: gpu-required
+  languages:
+  - Rust
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/huggingface/text-generation-inference/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/huggingface/text-generation-inference#readme
+  editorial:
+    highlight: HF Hub integration
+  last_checked: '2026-10-20'
+- id: triton-server
+  name: Triton Inference Server
+  repo: https://github.com/triton-inference-server/server
+  category: inference-serving
+  description: Multi-framework model server
+  tasks: *id007
+  deployment: *id008
+  hardware: gpu-required
+  languages:
+  - C++
+  license:
+    spdx: BSD-3-Clause
+    label: BSD-3-Clause
+    state: declared
+    evidence_url: https://github.com/triton-inference-server/server/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/triton-inference-server/server#readme
+  editorial:
+    highlight: Mixed model fleets
+  last_checked: '2026-10-20'
+- id: mem0
+  name: Mem0
+  repo: https://github.com/mem0ai/mem0
+  category: memory
+  description: Universal memory layer for AI agents
+  tasks: &id009
+  - memory
+  deployment: &id010
+  - library
+  - self-hosted
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/mem0ai/mem0/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/mem0ai/mem0#readme
+  editorial:
+    highlight: Extract-and-retrieve facts
+  last_checked: '2026-10-20'
+- id: openmemory
+  name: OpenMemory
+  repo: https://github.com/mem0ai/openmemory
+  category: memory
+  description: Local-first memory server (MCP) for AI tools
+  tasks: *id009
+  deployment: *id010
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/mem0ai/openmemory/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/mem0ai/openmemory#readme
+  editorial:
+    highlight: MCP memory server
+  last_checked: '2026-10-20'
+- id: letta
+  name: Letta
+  repo: https://github.com/letta-ai/letta
+  category: memory
+  description: Stateful agents with self-editing memory
+  tasks: *id009
+  deployment: *id010
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/letta-ai/letta/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/letta-ai/letta#readme
+  editorial:
+    highlight: Agent OS with memory
+  last_checked: '2026-10-20'
+- id: graphiti
+  name: Graphiti
+  repo: https://github.com/getzep/graphiti
+  category: memory
+  description: Temporal knowledge-graph memory
+  tasks: *id009
+  deployment: *id010
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/getzep/graphiti/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/getzep/graphiti#readme
+  editorial:
+    highlight: Knowledge graph
+  last_checked: '2026-10-20'
+- id: langchain
+  name: LangChain
+  repo: https://github.com/langchain-ai/langchain
+  category: agent-frameworks
+  description: Composable LLM application framework
+  tasks: &id011
+  - agents
+  deployment: &id012
+  - library
+  hardware: not-applicable
+  languages:
+  - Python
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/langchain-ai/langchain/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/langchain-ai/langchain#readme
+  editorial:
+    highlight: Broad integrations
+  last_checked: '2026-10-20'
+- id: langgraph
+  name: LangGraph
+  repo: https://github.com/langchain-ai/langgraph
+  category: agent-frameworks
+  description: Graph-based stateful agent orchestration
+  tasks: *id011
+  deployment: *id012
+  hardware: not-applicable
+  languages:
+  - Python
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/langchain-ai/langgraph/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/langchain-ai/langgraph#readme
+  editorial:
+    highlight: Controllable workflows
+  last_checked: '2026-10-20'
+- id: crewai
+  name: CrewAI
+  repo: https://github.com/crewAIInc/crewAI
+  category: agent-frameworks
+  description: Role-based multi-agent crews
+  tasks: *id011
+  deployment: *id012
+  hardware: not-applicable
+  languages:
+  - Python
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/crewAIInc/crewAI/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/crewAIInc/crewAI#readme
+  editorial:
+    highlight: Multi-agent teams
+  last_checked: '2026-10-20'
+- id: autogen
+  name: AutoGen
+  repo: https://github.com/microsoft/autogen
+  category: agent-frameworks
+  description: Conversational multi-agent framework
+  tasks: *id011
+  deployment: *id012
+  hardware: not-applicable
+  languages:
+  - Python
+  license:
+    spdx: null
+    label: CC-BY-4.0 (docs) / MIT (code)
+    state: needs-review
+    evidence_url: https://github.com/microsoft/autogen/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/microsoft/autogen#readme
+  editorial:
+    highlight: Agent conversations
+  last_checked: '2026-10-20'
+- id: smolagents
+  name: smolagents
+  repo: https://github.com/huggingface/smolagents
+  category: agent-frameworks
+  description: Minimal code-writing agents
+  tasks: *id011
+  deployment: *id012
+  hardware: not-applicable
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/huggingface/smolagents/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/huggingface/smolagents#readme
+  editorial:
+    highlight: Lightweight
+  last_checked: '2026-10-20'
+- id: agno
+  name: Agno
+  repo: https://github.com/agno-agi/agno
+  category: agent-frameworks
+  description: Fast agent framework with memory and tools
+  tasks: *id011
+  deployment: *id012
+  hardware: not-applicable
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/agno-agi/agno/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/agno-agi/agno#readme
+  editorial:
+    highlight: Performance
+  last_checked: '2026-10-20'
+- id: openhuman
+  name: OpenHuman
+  repo: https://github.com/tinyhumansai/openhuman
+  category: agent-frameworks
+  description: Lightweight agent harness that runs hundreds of agents on a small VPS
+  tasks: *id011
+  deployment: *id012
+  hardware: not-applicable
+  languages:
+  - Rust
+  license:
+    spdx: GPL-3.0
+    label: GPL-3.0
+    state: declared
+    evidence_url: https://github.com/tinyhumansai/openhuman/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tinyhumansai/openhuman#readme
+  editorial:
+    highlight: '-'
+  last_checked: '2026-10-20'
+- id: openhands
+  name: OpenHands
+  repo: https://github.com/OpenHands/OpenHands
+  category: coding-agents
+  description: Autonomous software-engineering agent
+  tasks: &id013
+  - coding
+  deployment: &id014
+  - local
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/OpenHands/OpenHands/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/OpenHands/OpenHands#readme
+  editorial:
+    highlight: Web / headless
+  last_checked: '2026-10-20'
+- id: continue
+  name: Continue
+  repo: https://github.com/continuedev/continue
+  category: coding-agents
+  description: IDE assistant for VS Code and JetBrains
+  tasks: *id013
+  deployment: *id014
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/continuedev/continue/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/continuedev/continue#readme
+  editorial:
+    highlight: IDE extension
+  last_checked: '2026-10-20'
+- id: aider
+  name: Aider
+  repo: https://github.com/Aider-AI/aider
+  category: coding-agents
+  description: Terminal pair programmer working on git repos
+  tasks: *id013
+  deployment: *id014
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/Aider-AI/aider/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/Aider-AI/aider#readme
+  editorial:
+    highlight: CLI
+  last_checked: '2026-10-20'
+- id: opencode
+  name: OpenCode
+  repo: https://github.com/anomalyco/opencode
+  category: coding-agents
+  description: Terminal coding agent
+  tasks: *id013
+  deployment: *id014
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/anomalyco/opencode/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/anomalyco/opencode#readme
+  editorial:
+    highlight: TUI
+  last_checked: '2026-10-20'
+- id: cline
+  name: Cline
+  repo: https://github.com/cline/cline
+  category: coding-agents
+  description: Autonomous coding agent in VS Code
+  tasks: *id013
+  deployment: *id014
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/cline/cline/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/cline/cline#readme
+  editorial:
+    highlight: IDE extension
+  last_checked: '2026-10-20'
+- id: open-code-review
+  name: Open Code Review
+  repo: https://github.com/alibaba/open-code-review
+  category: code-review
+  description: Hybrid deterministic + LLM agent code reviewer with line-level comments
+  tasks: &id015
+  - code-review
+  deployment: &id016
+  - ci
+  hardware: cpu-ok
+  languages:
+  - Go
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/alibaba/open-code-review/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/alibaba/open-code-review#readme
+  editorial:
+    highlight: CLI / CI
+  last_checked: '2026-10-20'
+- id: pr-agent
+  name: PR-Agent
+  repo: https://github.com/The-PR-Agent/pr-agent
+  category: code-review
+  description: PR review, describe and improve commands
+  tasks: *id015
+  deployment: *id016
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: AGPL-3.0
+    label: AGPL-3.0
+    state: declared
+    evidence_url: https://github.com/The-PR-Agent/pr-agent/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/The-PR-Agent/pr-agent#readme
+  editorial:
+    highlight: GitHub Action / app
+  last_checked: '2026-10-20'
+- id: dify
+  name: Dify
+  repo: https://github.com/langgenius/dify
+  category: app-builders
+  description: LLM app and agentic workflow platform
+  tasks: &id017
+  - workflows
+  - no-code
+  deployment: &id018
+  - self-hosted
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: null
+    label: Dify Open Source License (Apache-2.0 + conditions)
+    state: needs-review
+    evidence_url: https://github.com/langgenius/dify/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/langgenius/dify#readme
+  editorial:
+    highlight: Multi-tenant SaaS restricted
+  last_checked: '2026-10-20'
+- id: flowise
+  name: Flowise
+  repo: https://github.com/FlowiseAI/Flowise
+  category: app-builders
+  description: Drag-and-drop agent builder
+  tasks: *id017
+  deployment: *id018
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: null
+    label: Apache-2.0 (enterprise dir separate)
+    state: needs-review
+    evidence_url: https://github.com/FlowiseAI/Flowise/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/FlowiseAI/Flowise#readme
+  editorial:
+    highlight: Core Apache-2.0
+  last_checked: '2026-10-20'
+- id: langflow
+  name: Langflow
+  repo: https://github.com/langflow-ai/langflow
+  category: app-builders
+  description: Visual flow builder for agents and RAG
+  tasks: *id017
+  deployment: *id018
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/langflow-ai/langflow/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/langflow-ai/langflow#readme
+  editorial:
+    highlight: Permissive
+  last_checked: '2026-10-20'
+- id: n8n
+  name: n8n
+  repo: https://github.com/n8n-io/n8n
+  category: app-builders
+  description: Workflow automation with AI nodes
+  tasks: *id017
+  deployment: *id018
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: null
+    label: Sustainable Use License (fair-code)
+    state: needs-review
+    evidence_url: https://github.com/n8n-io/n8n/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/n8n-io/n8n#readme
+  editorial:
+    highlight: Source-available
+  last_checked: '2026-10-20'
+- id: llama-index
+  name: LlamaIndex
+  repo: https://github.com/run-llama/llama_index
+  category: rag-vector-db
+  description: Data framework for RAG
+  tasks: &id019
+  - rag
+  deployment: &id020
+  - library
+  - self-hosted
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/run-llama/llama_index/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/run-llama/llama_index#readme
+  editorial:
+    highlight: Framework
+  last_checked: '2026-10-20'
+- id: haystack
+  name: Haystack
+  repo: https://github.com/deepset-ai/haystack
+  category: rag-vector-db
+  description: Production RAG pipelines
+  tasks: *id019
+  deployment: *id020
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/deepset-ai/haystack/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/deepset-ai/haystack#readme
+  editorial:
+    highlight: Framework
+  last_checked: '2026-10-20'
+- id: ragflow
+  name: RAGFlow
+  repo: https://github.com/infiniflow/ragflow
+  category: rag-vector-db
+  description: Deep-document-understanding RAG engine
+  tasks: *id019
+  deployment: *id020
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/infiniflow/ragflow/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/infiniflow/ragflow#readme
+  editorial:
+    highlight: Engine + UI
+  last_checked: '2026-10-20'
+- id: qdrant
+  name: Qdrant
+  repo: https://github.com/qdrant/qdrant
+  category: rag-vector-db
+  description: Vector search engine
+  tasks: *id019
+  deployment: *id020
+  hardware: cpu-ok
+  languages:
+  - Rust
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/qdrant/qdrant/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/qdrant/qdrant#readme
+  editorial:
+    highlight: Vector DB
+  last_checked: '2026-10-20'
+- id: chroma
+  name: Chroma
+  repo: https://github.com/chroma-core/chroma
+  category: rag-vector-db
+  description: Embedding database
+  tasks: *id019
+  deployment: *id020
+  hardware: cpu-ok
+  languages:
+  - Rust
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/chroma-core/chroma/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/chroma-core/chroma#readme
+  editorial:
+    highlight: Vector DB (embedded)
+  last_checked: '2026-10-20'
+- id: milvus
+  name: Milvus
+  repo: https://github.com/milvus-io/milvus
+  category: rag-vector-db
+  description: Cloud-native vector database
+  tasks: *id019
+  deployment: *id020
+  hardware: cpu-ok
+  languages:
+  - Go
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/milvus-io/milvus/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/milvus-io/milvus#readme
+  editorial:
+    highlight: Vector DB (scale)
+  last_checked: '2026-10-20'
+- id: weaviate
+  name: Weaviate
+  repo: https://github.com/weaviate/weaviate
+  category: rag-vector-db
+  description: Vector DB with hybrid search
+  tasks: *id019
+  deployment: *id020
+  hardware: cpu-ok
+  languages:
+  - Go
+  license:
+    spdx: null
+    label: BSD-3-Clause (core)
+    state: needs-review
+    evidence_url: https://github.com/weaviate/weaviate/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/weaviate/weaviate#readme
+  editorial:
+    highlight: Vector DB (hybrid)
+  last_checked: '2026-10-20'
+- id: langfuse
+  name: Langfuse
+  repo: https://github.com/langfuse/langfuse
+  category: eval-observability
+  description: LLM tracing, evals and prompt management
+  tasks: &id021
+  - evaluation
+  - tracing
+  deployment: &id022
+  - library
+  - self-hosted
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: null
+    label: MIT (ee/ dirs separate)
+    state: needs-review
+    evidence_url: https://github.com/langfuse/langfuse/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/langfuse/langfuse#readme
+  editorial:
+    highlight: Tracing platform
+  last_checked: '2026-10-20'
+- id: phoenix
+  name: Phoenix
+  repo: https://github.com/Arize-ai/phoenix
+  category: eval-observability
+  description: AI observability and evaluation
+  tasks: *id021
+  deployment: *id022
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: Elastic-2.0
+    label: Elastic-2.0
+    state: declared
+    evidence_url: https://github.com/Arize-ai/phoenix/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/Arize-ai/phoenix#readme
+  editorial:
+    highlight: Notebook + server
+  last_checked: '2026-10-20'
+- id: promptfoo
+  name: promptfoo
+  repo: https://github.com/promptfoo/promptfoo
+  category: eval-observability
+  description: Prompt testing and red-teaming CLI
+  tasks: *id021
+  deployment: *id022
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/promptfoo/promptfoo/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/promptfoo/promptfoo#readme
+  editorial:
+    highlight: CI evals
+  last_checked: '2026-10-20'
+- id: deepeval
+  name: DeepEval
+  repo: https://github.com/confident-ai/deepeval
+  category: eval-observability
+  description: Unit-test style LLM evaluation
+  tasks: *id021
+  deployment: *id022
+  hardware: cpu-ok
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/confident-ai/deepeval/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/confident-ai/deepeval#readme
+  editorial:
+    highlight: pytest-style
+  last_checked: '2026-10-20'
+- id: butterbase
+  name: Butterbase
+  repo: https://github.com/butterbase-ai/butterbase
+  category: backend-infra
+  description: 'Open-source backend-as-a-service: Postgres, auth, storage, functions, AI gateway, MCP'
+  tasks: &id023
+  - backend
+  deployment: &id024
+  - self-hosted
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/butterbase-ai/butterbase/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/butterbase-ai/butterbase#readme
+  editorial:
+    highlight: BaaS + AI gateway
+  last_checked: '2026-10-20'
+- id: supabase
+  name: Supabase
+  repo: https://github.com/supabase/supabase
+  category: backend-infra
+  description: Postgres platform with auth, storage, pgvector
+  tasks: *id023
+  deployment: *id024
+  hardware: cpu-ok
+  languages:
+  - TypeScript
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/supabase/supabase/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/supabase/supabase#readme
+  editorial:
+    highlight: BaaS
+  last_checked: '2026-10-20'
+- id: pocketbase
+  name: PocketBase
+  repo: https://github.com/pocketbase/pocketbase
+  category: backend-infra
+  description: Single-file backend with realtime DB
+  tasks: *id023
+  deployment: *id024
+  hardware: cpu-ok
+  languages:
+  - Go
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/pocketbase/pocketbase/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/pocketbase/pocketbase#readme
+  editorial:
+    highlight: Embedded BaaS
+  last_checked: '2026-10-20'
+- id: awesome-llm-apps
+  name: Awesome LLM Apps
+  repo: https://github.com/Shubhamsaboo/awesome-llm-apps
+  category: app-templates
+  description: 100+ runnable LLM, RAG and agent example apps
+  tasks:
+  - examples
+  deployment:
+  - examples
+  hardware: unknown
+  languages:
+  - Python
+  license:
+    spdx: Apache-2.0
+    label: Apache-2.0
+    state: declared
+    evidence_url: https://github.com/Shubhamsaboo/awesome-llm-apps/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/Shubhamsaboo/awesome-llm-apps#readme
+  editorial:
+    highlight: Examples
+  last_checked: '2026-10-20'
+- id: one-person-company
+  name: One Person Company
+  repo: https://github.com/tashfeenahmed/OnePersonCompany
+  category: codesbyfebin-collection
+  description: Operations dashboard for solo founders
+  tasks: &id025
+  - experiments
+  deployment: &id026
+  - unknown
+  hardware: unknown
+  languages:
+  - TypeScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/OnePersonCompany/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/OnePersonCompany#readme
+  editorial:
+    highlight: Dashboard
+  last_checked: '2026-10-20'
+- id: kinetic
+  name: Kinetic
+  repo: https://github.com/tashfeenahmed/kinetic
+  category: codesbyfebin-collection
+  description: GTM enrichment tables plus cold-email outreach
+  tasks: *id025
+  deployment: *id026
+  hardware: unknown
+  languages:
+  - TypeScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/kinetic/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/kinetic#readme
+  editorial:
+    highlight: Sales app
+  last_checked: '2026-10-20'
+- id: circlechat
+  name: CircleChat
+  repo: https://github.com/tashfeenahmed/circlechat
+  category: codesbyfebin-collection
+  description: Team chat where humans and agents are members
+  tasks: *id025
+  deployment: *id026
+  hardware: unknown
+  languages:
+  - TypeScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/circlechat/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/circlechat#readme
+  editorial:
+    highlight: Chat + agent runtime
+  last_checked: '2026-10-20'
+- id: agentdomains
+  name: AgentDomains
+  repo: https://github.com/tashfeenahmed/AgentDomains
+  category: codesbyfebin-collection
+  description: CLI to claim free subdomains and DNS for agents
+  tasks: *id025
+  deployment: *id026
+  hardware: unknown
+  languages:
+  - Go
+  license:
+    spdx: FSL-1.1-Apache-2.0
+    label: FSL-1.1-Apache-2.0
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/AgentDomains/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/AgentDomains#readme
+  editorial:
+    highlight: CLI
+  last_checked: '2026-10-20'
+- id: agentdomains-mcp
+  name: AgentDomains MCP
+  repo: https://github.com/tashfeenahmed/AgentDomains-mcp
+  category: codesbyfebin-collection
+  description: MCP server for subdomain/DNS management
+  tasks: *id025
+  deployment: *id026
+  hardware: unknown
+  languages:
+  - TypeScript
+  license:
+    spdx: FSL-1.1-Apache-2.0
+    label: FSL-1.1-Apache-2.0
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/AgentDomains-mcp/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/AgentDomains-mcp#readme
+  editorial:
+    highlight: MCP server
+  last_checked: '2026-10-20'
+- id: agentdomains-skill
+  name: AgentDomains Skill
+  repo: https://github.com/tashfeenahmed/AgentDomains-skill
+  category: codesbyfebin-collection
+  description: Coding-agent skill for subdomain/DNS
+  tasks: *id025
+  deployment: *id026
+  hardware: unknown
+  languages:
+  - Shell
+  license:
+    spdx: FSL-1.1-Apache-2.0
+    label: FSL-1.1-Apache-2.0
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/AgentDomains-skill/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/AgentDomains-skill#readme
+  editorial:
+    highlight: Agent skill
+  last_checked: '2026-10-20'
+- id: scallopbot
+  name: ScallopBot
+  repo: https://github.com/tashfeenahmed/scallopbot
+  category: codesbyfebin-collection
+  description: Self-hosted assistant with MCP-native memory
+  tasks: *id025
+  deployment: *id026
+  hardware: unknown
+  languages:
+  - TypeScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/scallopbot/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/scallopbot#readme
+  editorial:
+    highlight: Assistant
+  last_checked: '2026-10-20'
+- id: cashmaxx
+  name: Cashmaxx
+  repo: https://github.com/tashfeenahmed/cashmaxx
+  category: codesbyfebin-collection
+  description: Autonomous agent with guarded crypto wallet
+  tasks: *id025
+  deployment: *id026
+  hardware: unknown
+  languages:
+  - Python
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/cashmaxx/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/cashmaxx#readme
+  editorial:
+    highlight: Agent
+  last_checked: '2026-10-20'
+- id: jev-deepresearch
+  name: Jev Deep Research
+  repo: https://github.com/tashfeenahmed/jev-deepresearch
+  category: codesbyfebin-collection
+  description: Deep-research crawler with planner LLM
+  tasks: *id025
+  deployment: *id026
+  hardware: unknown
+  languages:
+  - JavaScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/jev-deepresearch/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/jev-deepresearch#readme
+  editorial:
+    highlight: Research agent
+  last_checked: '2026-10-20'
+- id: emotion-state
+  name: Emotion State
+  repo: https://github.com/tashfeenahmed/emotion-state
+  category: codesbyfebin-collection
+  description: Emotion state classification for agents
+  tasks: *id025
+  deployment: *id026
+  hardware: unknown
+  languages:
+  - TypeScript
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/emotion-state/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/emotion-state#readme
+  editorial:
+    highlight: Library
+  last_checked: '2026-10-20'
+- id: magictap
+  name: MagicTap
+  repo: https://github.com/tashfeenahmed/magictap
+  category: codesbyfebin-collection
+  description: Gaze + sound touch input for laptops
+  tasks: *id025
+  deployment: *id026
+  hardware: unknown
+  languages:
+  - Python
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/magictap/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/magictap#readme
+  editorial:
+    highlight: HCI experiment
+  last_checked: '2026-10-20'
+- id: pyreality
+  name: PyReality
+  repo: https://github.com/tashfeenahmed/pyreality
+  category: codesbyfebin-collection
+  description: Mixed-reality visualisations in notebooks
+  tasks: *id025
+  deployment: *id026
+  hardware: unknown
+  languages:
+  - Python
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/pyreality/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/pyreality#readme
+  editorial:
+    highlight: Library
+  last_checked: '2026-10-20'
+- id: html-email-template
+  name: HTML Email Template
+  repo: https://github.com/tashfeenahmed/html-email-template
+  category: codesbyfebin-collection
+  description: Reusable HTML email template
+  tasks: *id025
+  deployment: *id026
+  hardware: unknown
+  languages:
+  - HTML
+  license:
+    spdx: MIT
+    label: MIT
+    state: declared
+    evidence_url: https://github.com/tashfeenahmed/html-email-template/blob/HEAD/LICENSE
+    checked: '2026-10-20'
+  setup_url: https://github.com/tashfeenahmed/html-email-template#readme
+  editorial:
+    highlight: Template
+  last_checked: '2026-10-20'

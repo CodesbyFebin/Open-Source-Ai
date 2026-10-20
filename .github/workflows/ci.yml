@@ -3,30 +3,56 @@ on:
   push: {branches: [main]}
   pull_request:
   workflow_dispatch:
+permissions: {contents: read}
 jobs:
   catalog:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Catalog vs .gitmodules vs gitlinks
-        run: python3 scripts/check_catalog.py
-      - name: Generated files are up to date
-        run: python3 scripts/build.py && git diff --exit-code -- . ':!stacks'
-      - name: Compose file is valid
-        run: docker compose -f examples/full-stack/docker-compose.yml config --quiet
-  docs:
+    name: Catalog integrity
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - run: pip install mkdocs-material
-      - run: mkdocs build --strict
-  links:
+      - run: pip install -r requirements.txt
+      - name: Schema, duplicates, licences, evidence, no submodules
+        run: python scripts/validate.py
+      - name: Generated files match catalog (and generation is deterministic)
+        run: |
+          python scripts/build.py && git diff --exit-code
+          python scripts/build.py && git diff --exit-code
+  docs:
+    name: Docs build + internal links
     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -r requirements.txt
+      - run: mkdocs build --strict
+      - name: Internal links (blocking)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline --no-progress --root-dir ${{ github.workspace }}/site --remap 'https://codesbyfebin.github.io/Open-Source-Ai file://${{ github.workspace }}/site' 'site/**/*.html'
+          fail: true
+  upstream-links:
+    name: Upstream links (non-blocking)
+    runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-progress --max-retries 3 --accept 200,206,429 --exclude 'localhost' --exclude 'codesbyfebin.github.io' README.md CREDITS.md 'docs/**/*.md'
+          args: --no-progress --max-retries 3 --max-concurrency 8 --accept 200,206,429 --exclude localhost --exclude codesbyfebin.github.io README.md CREDITS.md 'docs/**/*.md' 'recipes/**/*.md'
           fail: true
+  recipe-local-chat:
+    name: Recipe smoke test – local-chat
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate both recipe compose files
+        run: |
+          docker compose -f recipes/local-chat/docker-compose.yml config --quiet
+          docker compose -f recipes/agent-memory-eval/docker-compose.yml config --quiet
+      - run: ./recipes/local-chat/smoke.sh
+      - if: always()
+        run: docker compose -f recipes/local-chat/docker-compose.yml down -v

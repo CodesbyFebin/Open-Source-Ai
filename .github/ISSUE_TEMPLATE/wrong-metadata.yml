@@ -1,0 +1,20 @@
+name: Wrong metadata or licence
+description: Report incorrect description, licence, deployment, hardware or status.
+labels: [metadata]
+body:
+  - type: input
+    id: project
+    attributes: {label: Project id}
+    validations: {required: true}
+  - type: dropdown
+    id: field
+    attributes: {label: Which field is wrong?, options: [licence, description, category, deployment, hardware, languages, status, other]}
+    validations: {required: true}
+  - type: textarea
+    id: correction
+    attributes: {label: Correct value}
+    validations: {required: true}
+  - type: input
+    id: evidence
+    attributes: {label: Evidence URL, description: "Link to the upstream LICENSE file, docs or release proving the correction."}
+    validations: {required: true}

@@ -1,0 +1,5 @@
+model_list:
+  - model_name: local-llama
+    litellm_params:
+      model: ollama/qwen2.5:0.5b
+      api_base: http://ollama:11434

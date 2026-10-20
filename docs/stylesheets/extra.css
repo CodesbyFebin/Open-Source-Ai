@@ -1,0 +1,6 @@
+.osa-filters{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.4rem .8rem;align-items:end;margin:1rem 0}
+.osa-filters label{font-weight:600;font-size:.75rem;display:block}
+.osa-filters input,.osa-filters select{width:100%;padding:.35rem;border:1px solid var(--md-default-fg-color--light);border-radius:4px;background:var(--md-default-bg-color);color:var(--md-default-fg-color)}
+.osa-filters input:focus,.osa-filters select:focus{outline:3px solid var(--md-accent-fg-color);outline-offset:1px}
+.osa-table-wrap{overflow-x:auto}
+#osa-results caption{text-align:left;font-weight:600}

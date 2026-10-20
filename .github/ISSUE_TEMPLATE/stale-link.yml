@@ -1,0 +1,15 @@
+name: Stale or broken link
+description: A project link, setup link or docs link is broken or redirects.
+labels: [stale-link]
+body:
+  - type: input
+    id: project
+    attributes: {label: Project id or page, placeholder: e.g. ollama or stacks/chat-ui}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: Broken URL}
+    validations: {required: true}
+  - type: input
+    id: replacement
+    attributes: {label: Correct URL (if known)}

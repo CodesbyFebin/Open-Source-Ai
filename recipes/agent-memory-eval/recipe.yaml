@@ -1,0 +1,6 @@
+title: Agent with persistent memory and evaluation
+summary: A small Python agent uses a local model via Ollama, stores long-term memory with Mem0 (Qdrant backend), and is regression-tested with promptfoo.
+components: [ollama, mem0, qdrant, promptfoo]
+test:
+  status: unverified
+  details: "Not yet run end-to-end. Missing evidence: a successful run of agent.py with Mem0's Ollama provider and a passing promptfoo eval. Treat the commands as a starting point."

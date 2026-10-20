@@ -1,20 +1,15 @@
 # Getting Started
 
-## Clone
+Open Source Ai is a catalog: it links to upstream projects instead of bundling them.
 
-```bash
-git clone https://github.com/CodesbyFebin/Open-Source-Ai
-cd Open-Source-Ai
-# fetch one category only (recommended; the full set is many GB)
-git submodule update --init --depth 1 stacks/code-review
-# or everything
-git submodule update --init --depth 1
-```
-
-## Update pinned stacks to the latest upstream
-
-```bash
-git submodule update --init --remote --depth 1 stacks/<category>
-```
-
-Next: [Run a full local stack](full-stack.md).
+1. **Find projects** – use [Search & Filter](../catalog.md) or browse a category in the navigation.
+2. **Check fit** – each project's detail section lists deployment, hardware, licence (with evidence link) and activity.
+3. **Install from upstream** – follow the project's linked setup docs, or clone only what you need:
+   ```bash
+   git clone --depth 1 https://github.com/ollama/ollama
+   ```
+4. **Compose a stack** – start from a [recipe](../recipes/index.md):
+   ```bash
+   git clone https://github.com/CodesbyFebin/Open-Source-Ai
+   cd Open-Source-Ai/recipes/local-chat && docker compose up -d
+   ```

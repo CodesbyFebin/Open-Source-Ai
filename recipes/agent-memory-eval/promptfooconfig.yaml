@@ -1,0 +1,9 @@
+description: Memory recall regression test (untested recipe)
+providers:
+  - id: exec:python agent.py
+tests:
+  - vars: {prompt: "What is my favourite language?"}
+    assert:
+      - type: icontains
+        value: python
+prompts: ["{{prompt}}"]

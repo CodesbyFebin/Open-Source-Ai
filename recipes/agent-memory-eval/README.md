@@ -1,0 +1,32 @@
+# Agent with persistent memory and evaluation: Ollama + Mem0 + Qdrant + promptfoo
+
+**Data flow:** `agent.py` → Mem0 (extracts facts) → Qdrant (vectors) · `agent.py` → Ollama (chat + embeddings) · promptfoo runs `agent.py` and asserts on answers.
+
+## Requirements
+
+- Docker 24+ with Compose v2, Python 3.10+, Node.js 18+ (for promptfoo)
+- 8 GB RAM, ~6 GB disk; CPU is enough for the 1.5B model
+
+## Run
+
+```bash
+cd Open-Source-Ai/recipes/agent-memory-eval
+docker compose up -d
+docker compose exec ollama ollama pull qwen2.5:1.5b
+docker compose exec ollama ollama pull nomic-embed-text
+python -m venv .venv && . .venv/bin/activate && pip install mem0ai openai
+python agent.py "Hi, my favourite language is Python."
+python agent.py "What is my favourite language?"
+npx promptfoo@latest eval
+```
+
+## Clean up
+
+```bash
+docker compose down -v && rm -rf .venv
+```
+
+## Known limitations
+
+- **Unverified:** this recipe has not been run end-to-end yet; Mem0 config keys may differ between versions.
+- Small models extract memories unreliably; use 7B+ for meaningful results.

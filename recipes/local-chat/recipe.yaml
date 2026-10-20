@@ -1,0 +1,6 @@
+title: Local private chat (model + gateway + chat UI)
+summary: Ollama serves a small local model, LiteLLM exposes it as an OpenAI-compatible gateway, Open WebUI provides the chat interface.
+components: [ollama, litellm, open-webui]
+test:
+  status: tested
+  details: "CI job `recipe-local-chat` runs recipes/local-chat/smoke.sh on GitHub-hosted ubuntu-latest (4 vCPU, 16 GB, no GPU) on every push to main: compose validation, model pull (qwen2.5:0.5b), a chat completion through the gateway and the Open WebUI health endpoint. Image digests are printed in the job log. Not tested: GPUs, larger models, the browser UI flow."

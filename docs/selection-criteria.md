@@ -1,13 +1,18 @@
 # Selection Criteria
 
-*Last checked: 2026-10-20*
-
 A project is included when it:
 
-1. **Has a licence file** that is OSI-approved open source, or clearly labelled source-available (BUSL, FSL, Elastic, fair-code). Licence notes are shown on every category page and in [Credits](credits.md). Repositories with no licence file are excluded.
-2. **Is actively maintained** – commits within roughly the last 12 months, or a stable, widely used release.
-3. **Is self-hostable** – runs on your own hardware or cloud without a mandatory vendor account.
-4. **Fits a category** in the AI agent / LLM stack, and is useful on its own or alongside the other stacks.
-5. **Speaks open interfaces** where possible (OpenAI-compatible API, MCP, standard databases).
+1. **Has a licence file.** OSI-approved licences are shown as declared SPDX identifiers. Custom, multiple, source-available or undetected licences are marked **needs review** – read the upstream terms before use; inclusion does not mean the project is freely reusable.
+2. **Is maintained or widely used.** Activity is recorded weekly in the [freshness report](freshness.md); archived projects stay listed and are flagged rather than silently removed.
+3. **Is self-hostable or usable as a library** without a mandatory vendor account.
+4. **Fits a category** of the AI agent / LLM stack.
 
-Each project is pinned as a git submodule at its upstream default-branch HEAD on the last-checked date. Run `python scripts/sync_gitlinks.py --update` to refresh the pins.
+What is what on this site:
+
+- **Catalog data** (`catalog/projects.yaml`): curated descriptions, categories, deployment, hardware, declared licence – edited by humans via pull request.
+- **Collected evidence** (`catalog/evidence/`): facts from the GitHub API with source URL and retrieval time.
+- **Editorial** ("Highlight" columns, recipes choice): opinion, labelled as such.
+- **Upstream claims**: anything in a project's own README; not verified here.
+- **Test results**: only recipes marked *tested*, with environment and date.
+
+Stars and popularity are not used as a proxy for quality or security.
