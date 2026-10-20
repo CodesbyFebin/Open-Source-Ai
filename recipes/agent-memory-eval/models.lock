@@ -1,0 +1,3 @@
+# Ollama manifest digests (sha256 of registry manifest), recorded 2026-10-21 from registry.ollama.ai
+qwen2.5:1.5b sha256:65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b
+nomic-embed-text:v1.5 sha256:0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f

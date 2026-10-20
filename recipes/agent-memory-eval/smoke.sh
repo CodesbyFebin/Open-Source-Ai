@@ -9,6 +9,7 @@ start=$(date +%s)
 docker compose config --quiet
 docker compose up -d
 docker compose wait model-pull
+../verify-models.sh .
 for i in $(seq 1 30); do curl -fsS http://localhost:6333/readyz >/dev/null 2>&1 && break; sleep 2; done
 python agent.py remember "My favourite programming language is Rust."
 python agent.py remember "I live in Lisbon, Portugal."

@@ -76,3 +76,9 @@ PRs created with the default `GITHUB_TOKEN` **do not trigger** other workflows (
 **Option B – manual fallback (no setup):** open the PR, then either close and reopen it, or run *CI* via *Actions → CI → Run workflow* on the `bot/evidence-refresh` branch. Merge only when blocking checks are green.
 
 The refresh job never pushes to `main`, uses no `pull_request_target`, and the collection step runs before any write token is minted.
+
+## Pinned dependencies
+
+- **GitHub Actions** are pinned to full commit SHAs with the version in a comment (`uses: owner/action@<sha> # vX.Y.Z`). To update, resolve the new tag's commit (`gh api repos/<owner>/<action>/commits/<tag> -q .sha`) and change both.
+- **Ollama models** are pinned by manifest digest in `recipes/<recipe>/models.lock`. Get a digest with `curl -fsSL -H 'Accept: application/vnd.docker.distribution.manifest.v2+json' https://registry.ollama.ai/v2/library/<name>/manifests/<tag> | sha256sum`.
+- **Upstream link check** (`.github/workflows/links.yml`) is non-blocking; on scheduled runs it opens or comments on an issue labelled `link-check`.

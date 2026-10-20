@@ -11,6 +11,8 @@ description: Ollama serves a small local model, LiteLLM exposes it as an OpenAI-
 
 **Data flow:** browser → Open WebUI (:3000) → LiteLLM gateway (:4000, OpenAI-compatible) → Ollama (:11434) → local model. Nothing leaves your machine after the first image/model download.
 
+Model digests are pinned in `models.lock`; `smoke.sh` runs `../verify-models.sh` after the pull and fails if the tag now points to different weights. To update, pull the new tag, record its digest and say so in CHANGELOG.
+
 ## Requirements
 
 | | Minimum (tested) | For bigger models |
@@ -68,4 +70,3 @@ docker compose down -v     # also delete models and chats
 ## Known limitations
 
 - `qwen2.5:0.5b` is a tiny model chosen so CI can run on CPU; answers are low quality. Use a 3B–8B model for real use.
-- Ollama model tags are not immutable; the digest actually pulled is printed by `ollama list` in the CI log.

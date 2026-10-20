@@ -1,0 +1,68 @@
+name: Upstream links
+# Non-blocking: external sites can be flaky. Checks every upstream repo, licence and setup URL
+# in the catalog plus links in README/docs/recipes. On scheduled runs, failures open/update an issue.
+on:
+  push: {branches: [main]}
+  pull_request:
+  schedule: [{cron: '30 3 * * 1'}]   # weekly, Monday 03:30 UTC
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  lychee:
+    name: Upstream links (non-blocking)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    continue-on-error: true
+    permissions: {contents: read, issues: write}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with: {python-version: '3.12'}
+      - run: pip install -r requirements.txt && python scripts/upstream_links.py
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          token: ${{ github.token }}
+          fail: false
+          format: json
+          output: _links/report.json
+          args: >-
+            --no-progress --max-concurrency 8 --max-retries 4 --retry-wait-time 5 --timeout 30
+            --accept '200..=206'
+            --exclude 'localhost|127\.0\.0\.1|codesbyfebin\.github\.io'
+            _links/upstream.md README.md CREDITS.md 'docs/**/*.md' 'recipes/**/*.md'
+      - name: Summarise
+        id: sum
+        run: |
+          python3 - <<'PY'
+          import json, os
+          r = json.load(open("_links/report.json"))
+          keys = ("total", "successful", "errors", "timeouts", "redirects", "excludes", "unknown", "cached")
+          stats = {k: r.get(k, 0) for k in keys}
+          lines = ["## Upstream link check", "", "| " + " | ".join(keys) + " |", "|" + "---|" * len(keys), "| " + " | ".join(str(stats[k]) for k in keys) + " |", ""]
+          for src, errs in sorted((r.get("error_map") or r.get("fail_map") or {}).items()):
+              for e in errs:
+                  lines.append(f"- `{src}`: {e.get('url')} – {e.get('status', {}).get('text') if isinstance(e.get('status'), dict) else e.get('status')}")
+          out = "\n".join(lines) + "\n"
+          open("_links/summary.md", "w").write(out)
+          open(os.environ["GITHUB_STEP_SUMMARY"], "a").write(out)
+          bad = stats["errors"] + stats["timeouts"]
+          open(os.environ["GITHUB_OUTPUT"], "a").write(f"bad={bad}\ntotal={stats['total']}\n")
+          print(out)
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        if: always()
+        with: {name: upstream-link-report, path: _links/}
+      - name: Open or update issue (scheduled runs only)
+        if: github.event_name == 'schedule' && steps.sum.outputs.bad != '0'
+        env: {GH_TOKEN: '${{ github.token }}'}
+        run: |
+          n=$(gh issue list --label link-check --state open --json number -q '.[0].number')
+          body="$(cat _links/summary.md)
+
+          Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          if [ -n "$n" ]; then gh issue comment "$n" --body "$body"; else gh issue create --title "Upstream link check failures" --label link-check --body "$body" || gh issue create --title "Upstream link check failures" --body "$body"; fi
+      - name: Mark job failed when links are broken (still non-blocking)
+        if: steps.sum.outputs.bad != '0'
+        run: exit 1

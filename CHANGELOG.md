@@ -4,6 +4,10 @@ Catalog changes are recorded here. Evidence refreshes are listed by their pull r
 
 ## Unreleased
 
+- Upstream link check moved to its own workflow: checks all 140 unique upstream repo/licence/setup URLs plus docs links with a GitHub token, publishes a report artifact, and opens/updates an issue on scheduled failures (still non-blocking).
+- Ollama models pinned by manifest digest (`recipes/*/models.lock`), verified after pull; all GitHub Actions pinned to commit SHAs.
+- Added Licence Review Worksheet (`docs/licence-review.md`) for the 15 needs-review entries.
+
 - Licences: 15 projects now `needs-review`, each with a recorded `review_reason` (adds Phoenix, Trylon Gateway, llamafile and three AgentDomains repos: source-available or undetected). OpenMemory and PR-Agent re-verified as MIT from their LICENSE files.
 - Collector: failed / rate-limited lookups are reported as failed and keep previous evidence; records `moved` and `fetch_status`. Validator: moved repo and GitHub licence mismatch are errors; zone-aware date checks.
 - Unit tests (collector, validator, build) and Playwright browser tests (Chromium + WebKit, desktop and iPhone 13 emulation, axe-core).

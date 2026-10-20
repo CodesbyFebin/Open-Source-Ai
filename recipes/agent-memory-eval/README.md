@@ -12,6 +12,8 @@
 | promptfoo | `promptfoo@0.124.1` |
 | Models | `qwen2.5:1.5b` (~1 GB), `nomic-embed-text:v1.5` (~0.3 GB) |
 
+Model digests are pinned in `models.lock`; `smoke.sh` runs `../verify-models.sh` after the pull and fails if the tag now points to different weights. To update, pull the new tag, record its digest and say so in CHANGELOG.
+
 ## Requirements
 
 - Docker 24+ with Compose v2, Python 3.10+, Node.js 22.22+ (promptfoo 0.124 requirement)

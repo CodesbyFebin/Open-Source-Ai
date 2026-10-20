@@ -11,6 +11,7 @@ start=$(date +%s)
 docker compose config --quiet
 docker compose up -d
 docker compose wait model-pull
+../verify-models.sh .
 for i in $(seq 1 60); do curl -fsS http://localhost:4000/health/liveliness >/dev/null 2>&1 && break; sleep 5; done
 resp=$(curl -fsS http://localhost:4000/v1/chat/completions -H "Authorization: Bearer $LITELLM_MASTER_KEY" -H 'Content-Type: application/json' \
   -d '{"model":"local-llama","temperature":0,"messages":[{"role":"user","content":"What is 17 plus 25? Answer with the number only."}],"max_tokens":20}')
