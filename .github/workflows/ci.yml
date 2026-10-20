@@ -9,8 +9,8 @@ jobs:
     name: Catalog integrity
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with: {python-version: '3.12'}
       - run: pip install -r requirements.txt
       - name: Schema, duplicates, licences, evidence, no submodules
@@ -25,13 +25,13 @@ jobs:
     name: Docs build + internal links
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with: {python-version: '3.12'}
       - run: pip install -r requirements.txt
       - run: mkdocs build --strict -d _check/Open-Source-Ai
       - name: Internal links (blocking)
-        uses: lycheeverse/lychee-action@v2
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
         with:
           args: --offline --no-progress --index-files index.html --root-dir ${{ github.workspace }}/_check --remap 'https://codesbyfebin.github.io/Open-Source-Ai file://${{ github.workspace }}/_check/Open-Source-Ai' --exclude-path _check/Open-Source-Ai/404.html '_check/**/*.html'
           fail: true
@@ -40,10 +40,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with: {python-version: '3.12'}
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with: {node-version: '20'}
       - run: pip install -r requirements.txt
       - run: mkdocs build --strict -d _site/Open-Source-Ai
@@ -52,29 +52,19 @@ jobs:
       - working-directory: tests/browser
         run: npx playwright test
       - if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: playwright-results
           if-no-files-found: ignore
           path: |
             tests/browser/results.json
             tests/browser/test-results
-  upstream-links:
-    name: Upstream links (non-blocking)
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
-      - uses: actions/checkout@v4
-      - uses: lycheeverse/lychee-action@v2
-        with:
-          args: --no-progress --max-retries 3 --max-concurrency 8 --accept 200,206,429 --exclude localhost --exclude codesbyfebin.github.io README.md CREDITS.md 'docs/**/*.md' 'recipes/**/*.md'
-          fail: true
   recipe-local-chat:
     name: Recipe smoke test – local-chat
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
       - name: Validate both recipe compose files
         run: |
           docker compose -f recipes/local-chat/docker-compose.yml config --quiet

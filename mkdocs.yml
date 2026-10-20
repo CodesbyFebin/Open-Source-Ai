@@ -54,6 +54,7 @@ nav:
   - Freshness Report: freshness.md
   - Selection Criteria: selection-criteria.md
   - Credits & Licences: credits.md
+  - Licence Review Worksheet: licence-review.md
 
 exclude_docs: |
   wiki/

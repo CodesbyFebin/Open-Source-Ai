@@ -186,8 +186,8 @@ Edit `catalog/projects.yaml` (never the generated pages), run `python scripts/bu
 
 The MIT [LICENSE](LICENSE) © CodesbyFebin covers only this repository's own curation, docs and code. Upstream projects are governed by their own licences – see [CREDITS.md](CREDITS.md).
 """)
-cr = GEN + "# Credits & Licences\n\nOpen Source Ai's own content is MIT-licensed © CodesbyFebin. Catalogued projects are not included in this repository; each is governed by its upstream licence, which is authoritative. Entries marked **needs review** have custom, multiple or undetected licences – read the upstream terms before use.\n\n| Project | Upstream | Licence | State | Checked |\n|---|---|---|---|---|\n" + "\n".join(f"| {p['name']} | {p['repo']} | {p['license']['label']} | {p['license']['state']} | {p['license']['checked']} |" for p in projects) + "\n"
-w("CREDITS.md", cr); w("docs/credits.md", cr.replace("](", "]("))
+cr = GEN + "# Credits & Licences\n\nOpen Source Ai's own content is MIT-licensed © CodesbyFebin. Catalogued projects are not included in this repository; each is governed by its upstream licence, which is authoritative. Entries marked **needs review** have custom, multiple, source-available or undetected licences – read the upstream terms before use. Quoted clauses and open questions: [Licence Review Worksheet](licence-review.md).\n\n| Project | Upstream | Licence | State | Checked |\n|---|---|---|---|---|\n" + "\n".join(f"| {p['name']} | {p['repo']} | {p['license']['label']} | {p['license']['state']} | {p['license']['checked']} |" for p in projects) + "\n"
+w("CREDITS.md", cr.replace("](licence-review.md)", "](docs/licence-review.md)")); w("docs/credits.md", cr.replace("](", "]("))
 
 # ---- nav
 m = open("mkdocs.yml").read().split("nav:")[0]
@@ -208,6 +208,7 @@ w("mkdocs.yml", m + f"""nav:
   - Freshness Report: freshness.md
   - Selection Criteria: selection-criteria.md
   - Credits & Licences: credits.md
+  - Licence Review Worksheet: licence-review.md
 """ + tail)
 
 # ---- recipe pages
