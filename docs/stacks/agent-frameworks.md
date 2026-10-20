@@ -40,7 +40,7 @@ Composable LLM application framework
 |---|---|
 | Upstream repository | [LangChain on GitHub](https://github.com/langchain-ai/langchain) |
 | Setup docs | [LangChain setup guide](https://github.com/langchain-ai/langchain#readme) |
-| Licence | MIT · [licence evidence](https://github.com/langchain-ai/langchain/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/langchain-ai/langchain/blob/master/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -58,7 +58,7 @@ Graph-based stateful agent orchestration
 |---|---|
 | Upstream repository | [LangGraph on GitHub](https://github.com/langchain-ai/langgraph) |
 | Setup docs | [LangGraph setup guide](https://github.com/langchain-ai/langgraph#readme) |
-| Licence | MIT · [licence evidence](https://github.com/langchain-ai/langgraph/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/langchain-ai/langgraph/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -76,7 +76,7 @@ Role-based multi-agent crews
 |---|---|
 | Upstream repository | [CrewAI on GitHub](https://github.com/crewAIInc/crewAI) |
 | Setup docs | [CrewAI setup guide](https://github.com/crewAIInc/crewAI#readme) |
-| Licence | MIT · [licence evidence](https://github.com/crewAIInc/crewAI/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/crewAIInc/crewAI/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -94,7 +94,7 @@ Conversational multi-agent framework
 |---|---|
 | Upstream repository | [AutoGen on GitHub](https://github.com/microsoft/autogen) |
 | Setup docs | [AutoGen setup guide](https://github.com/microsoft/autogen#readme) |
-| Licence | CC-BY-4.0 (docs) / MIT (code) ⚠ needs review · [licence evidence](https://github.com/microsoft/autogen/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | CC-BY-4.0 (docs) / MIT (code) ⚠ needs review · [licence evidence](https://github.com/microsoft/autogen/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -112,7 +112,7 @@ Minimal code-writing agents
 |---|---|
 | Upstream repository | [smolagents on GitHub](https://github.com/huggingface/smolagents) |
 | Setup docs | [smolagents setup guide](https://github.com/huggingface/smolagents#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/huggingface/smolagents/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/huggingface/smolagents/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -130,7 +130,7 @@ Fast agent framework with memory and tools
 |---|---|
 | Upstream repository | [Agno on GitHub](https://github.com/agno-agi/agno) |
 | Setup docs | [Agno setup guide](https://github.com/agno-agi/agno#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/agno-agi/agno/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/agno-agi/agno/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -148,7 +148,7 @@ Lightweight agent harness that runs hundreds of agents on a small VPS
 |---|---|
 | Upstream repository | [OpenHuman on GitHub](https://github.com/tinyhumansai/openhuman) |
 | Setup docs | [OpenHuman setup guide](https://github.com/tinyhumansai/openhuman#readme) |
-| Licence | GPL-3.0 · [licence evidence](https://github.com/tinyhumansai/openhuman/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | GPL-3.0 · [licence evidence](https://github.com/tinyhumansai/openhuman/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |

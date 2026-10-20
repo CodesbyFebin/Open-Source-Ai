@@ -31,7 +31,7 @@ Hybrid deterministic + LLM agent code reviewer with line-level comments
 |---|---|
 | Upstream repository | [Open Code Review on GitHub](https://github.com/alibaba/open-code-review) |
 | Setup docs | [Open Code Review setup guide](https://github.com/alibaba/open-code-review#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/alibaba/open-code-review/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/alibaba/open-code-review/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -49,7 +49,7 @@ PR review, describe and improve commands
 |---|---|
 | Upstream repository | [PR-Agent on GitHub](https://github.com/The-PR-Agent/pr-agent) |
 | Setup docs | [PR-Agent setup guide](https://github.com/The-PR-Agent/pr-agent#readme) |
-| Licence | AGPL-3.0 · [licence evidence](https://github.com/The-PR-Agent/pr-agent/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | AGPL-3.0 · [licence evidence](https://github.com/The-PR-Agent/pr-agent/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |

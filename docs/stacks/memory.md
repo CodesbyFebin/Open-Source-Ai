@@ -37,7 +37,7 @@ Universal memory layer for AI agents
 |---|---|
 | Upstream repository | [Mem0 on GitHub](https://github.com/mem0ai/mem0) |
 | Setup docs | [Mem0 setup guide](https://github.com/mem0ai/mem0#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/mem0ai/mem0/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/mem0ai/mem0/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -55,7 +55,7 @@ Local-first memory server (MCP) for AI tools
 |---|---|
 | Upstream repository | [OpenMemory on GitHub](https://github.com/mem0ai/openmemory) |
 | Setup docs | [OpenMemory setup guide](https://github.com/mem0ai/openmemory#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/mem0ai/openmemory/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/mem0ai/openmemory/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -73,7 +73,7 @@ Stateful agents with self-editing memory
 |---|---|
 | Upstream repository | [Letta on GitHub](https://github.com/letta-ai/letta) |
 | Setup docs | [Letta setup guide](https://github.com/letta-ai/letta#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/letta-ai/letta/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/letta-ai/letta/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -91,7 +91,7 @@ Temporal knowledge-graph memory
 |---|---|
 | Upstream repository | [Graphiti on GitHub](https://github.com/getzep/graphiti) |
 | Setup docs | [Graphiti setup guide](https://github.com/getzep/graphiti#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/getzep/graphiti/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/getzep/graphiti/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |

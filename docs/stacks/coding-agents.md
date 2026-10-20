@@ -37,7 +37,7 @@ Autonomous software-engineering agent
 |---|---|
 | Upstream repository | [OpenHands on GitHub](https://github.com/OpenHands/OpenHands) |
 | Setup docs | [OpenHands setup guide](https://github.com/OpenHands/OpenHands#readme) |
-| Licence | MIT · [licence evidence](https://github.com/OpenHands/OpenHands/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/OpenHands/OpenHands/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -55,7 +55,7 @@ IDE assistant for VS Code and JetBrains
 |---|---|
 | Upstream repository | [Continue on GitHub](https://github.com/continuedev/continue) |
 | Setup docs | [Continue setup guide](https://github.com/continuedev/continue#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/continuedev/continue/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/continuedev/continue/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -73,7 +73,7 @@ Terminal pair programmer working on git repos
 |---|---|
 | Upstream repository | [Aider on GitHub](https://github.com/Aider-AI/aider) |
 | Setup docs | [Aider setup guide](https://github.com/Aider-AI/aider#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/Aider-AI/aider/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/Aider-AI/aider/blob/main/LICENSE.txt) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -91,7 +91,7 @@ Terminal coding agent
 |---|---|
 | Upstream repository | [OpenCode on GitHub](https://github.com/anomalyco/opencode) |
 | Setup docs | [OpenCode setup guide](https://github.com/anomalyco/opencode#readme) |
-| Licence | MIT · [licence evidence](https://github.com/anomalyco/opencode/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/anomalyco/opencode/blob/dev/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -109,7 +109,7 @@ Autonomous coding agent in VS Code
 |---|---|
 | Upstream repository | [Cline on GitHub](https://github.com/cline/cline) |
 | Setup docs | [Cline setup guide](https://github.com/cline/cline#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/cline/cline/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/cline/cline/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |

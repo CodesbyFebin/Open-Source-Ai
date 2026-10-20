@@ -40,7 +40,7 @@ Data framework for RAG
 |---|---|
 | Upstream repository | [LlamaIndex on GitHub](https://github.com/run-llama/llama_index) |
 | Setup docs | [LlamaIndex setup guide](https://github.com/run-llama/llama_index#readme) |
-| Licence | MIT · [licence evidence](https://github.com/run-llama/llama_index/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/run-llama/llama_index/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -58,7 +58,7 @@ Production RAG pipelines
 |---|---|
 | Upstream repository | [Haystack on GitHub](https://github.com/deepset-ai/haystack) |
 | Setup docs | [Haystack setup guide](https://github.com/deepset-ai/haystack#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/deepset-ai/haystack/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/deepset-ai/haystack/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -76,7 +76,7 @@ Deep-document-understanding RAG engine
 |---|---|
 | Upstream repository | [RAGFlow on GitHub](https://github.com/infiniflow/ragflow) |
 | Setup docs | [RAGFlow setup guide](https://github.com/infiniflow/ragflow#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/infiniflow/ragflow/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/infiniflow/ragflow/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -94,7 +94,7 @@ Vector search engine
 |---|---|
 | Upstream repository | [Qdrant on GitHub](https://github.com/qdrant/qdrant) |
 | Setup docs | [Qdrant setup guide](https://github.com/qdrant/qdrant#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/qdrant/qdrant/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/qdrant/qdrant/blob/master/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -112,7 +112,7 @@ Embedding database
 |---|---|
 | Upstream repository | [Chroma on GitHub](https://github.com/chroma-core/chroma) |
 | Setup docs | [Chroma setup guide](https://github.com/chroma-core/chroma#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/chroma-core/chroma/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/chroma-core/chroma/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -130,7 +130,7 @@ Cloud-native vector database
 |---|---|
 | Upstream repository | [Milvus on GitHub](https://github.com/milvus-io/milvus) |
 | Setup docs | [Milvus setup guide](https://github.com/milvus-io/milvus#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/milvus-io/milvus/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/milvus-io/milvus/blob/master/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -148,7 +148,7 @@ Vector DB with hybrid search
 |---|---|
 | Upstream repository | [Weaviate on GitHub](https://github.com/weaviate/weaviate) |
 | Setup docs | [Weaviate setup guide](https://github.com/weaviate/weaviate#readme) |
-| Licence | BSD-3-Clause (core) ⚠ needs review · [licence evidence](https://github.com/weaviate/weaviate/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | BSD-3-Clause (core) ⚠ needs review · [licence evidence](https://github.com/weaviate/weaviate/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |

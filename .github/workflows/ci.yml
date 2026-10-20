@@ -27,11 +27,11 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: pip install -r requirements.txt
-      - run: mkdocs build --strict
+      - run: mkdocs build --strict -d _check/Open-Source-Ai
       - name: Internal links (blocking)
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --offline --no-progress --root-dir ${{ github.workspace }}/site --remap 'https://codesbyfebin.github.io/Open-Source-Ai file://${{ github.workspace }}/site' 'site/**/*.html'
+          args: --offline --no-progress --index-files index.html --root-dir ${{ github.workspace }}/_check --remap 'https://codesbyfebin.github.io/Open-Source-Ai file://${{ github.workspace }}/_check/Open-Source-Ai' --exclude-path _check/Open-Source-Ai/404.html '_check/**/*.html'
           fail: true
   upstream-links:
     name: Upstream links (non-blocking)

@@ -36,7 +36,7 @@ Feature-rich web UI for Ollama and OpenAI-compatible APIs
 |---|---|
 | Upstream repository | [Open WebUI on GitHub](https://github.com/open-webui/open-webui) |
 | Setup docs | [Open WebUI setup guide](https://github.com/open-webui/open-webui#readme) |
-| Licence | Open WebUI License (BSD-3 + branding clause) ⚠ needs review · [licence evidence](https://github.com/open-webui/open-webui/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Open WebUI License (BSD-3 + branding clause) ⚠ needs review · [licence evidence](https://github.com/open-webui/open-webui/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -54,7 +54,7 @@ Modern multi-provider chat and agent workspace
 |---|---|
 | Upstream repository | [Lobe Chat on GitHub](https://github.com/lobehub/lobehub) |
 | Setup docs | [Lobe Chat setup guide](https://github.com/lobehub/lobehub#readme) |
-| Licence | LobeHub Community License (Apache-2.0 based) ⚠ needs review · [licence evidence](https://github.com/lobehub/lobehub/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | LobeHub Community License (Apache-2.0 based) ⚠ needs review · [licence evidence](https://github.com/lobehub/lobehub/blob/canary/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -72,7 +72,7 @@ Multi-provider chat with agents, auth and plugins
 |---|---|
 | Upstream repository | [LibreChat on GitHub](https://github.com/LibreChat-AI/LibreChat) |
 | Setup docs | [LibreChat setup guide](https://github.com/LibreChat-AI/LibreChat#readme) |
-| Licence | MIT · [licence evidence](https://github.com/LibreChat-AI/LibreChat/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/LibreChat-AI/LibreChat/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -90,7 +90,7 @@ Minimal open-source chat front end
 |---|---|
 | Upstream repository | [Chatbot UI on GitHub](https://github.com/mckaywrigley/chatbot-ui) |
 | Setup docs | [Chatbot UI setup guide](https://github.com/mckaywrigley/chatbot-ui#readme) |
-| Licence | MIT · [licence evidence](https://github.com/mckaywrigley/chatbot-ui/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/mckaywrigley/chatbot-ui/blob/main/license) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |

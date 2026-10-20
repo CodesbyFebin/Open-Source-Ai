@@ -42,7 +42,7 @@ Operations dashboard for solo founders
 |---|---|
 | Upstream repository | [One Person Company on GitHub](https://github.com/tashfeenahmed/OnePersonCompany) |
 | Setup docs | [One Person Company setup guide](https://github.com/tashfeenahmed/OnePersonCompany#readme) |
-| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/OnePersonCompany/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/OnePersonCompany/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -60,7 +60,7 @@ GTM enrichment tables plus cold-email outreach
 |---|---|
 | Upstream repository | [Kinetic on GitHub](https://github.com/tashfeenahmed/kinetic) |
 | Setup docs | [Kinetic setup guide](https://github.com/tashfeenahmed/kinetic#readme) |
-| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/kinetic/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/kinetic/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -78,7 +78,7 @@ Team chat where humans and agents are members
 |---|---|
 | Upstream repository | [CircleChat on GitHub](https://github.com/tashfeenahmed/circlechat) |
 | Setup docs | [CircleChat setup guide](https://github.com/tashfeenahmed/circlechat#readme) |
-| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/circlechat/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/circlechat/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -96,7 +96,7 @@ CLI to claim free subdomains and DNS for agents
 |---|---|
 | Upstream repository | [AgentDomains on GitHub](https://github.com/tashfeenahmed/AgentDomains) |
 | Setup docs | [AgentDomains setup guide](https://github.com/tashfeenahmed/AgentDomains#readme) |
-| Licence | FSL-1.1-Apache-2.0 · [licence evidence](https://github.com/tashfeenahmed/AgentDomains/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | FSL-1.1-Apache-2.0 · [licence evidence](https://github.com/tashfeenahmed/AgentDomains/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -114,7 +114,7 @@ MCP server for subdomain/DNS management
 |---|---|
 | Upstream repository | [AgentDomains MCP on GitHub](https://github.com/tashfeenahmed/AgentDomains-mcp) |
 | Setup docs | [AgentDomains MCP setup guide](https://github.com/tashfeenahmed/AgentDomains-mcp#readme) |
-| Licence | FSL-1.1-Apache-2.0 · [licence evidence](https://github.com/tashfeenahmed/AgentDomains-mcp/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | FSL-1.1-Apache-2.0 · [licence evidence](https://github.com/tashfeenahmed/AgentDomains-mcp/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -132,7 +132,7 @@ Coding-agent skill for subdomain/DNS
 |---|---|
 | Upstream repository | [AgentDomains Skill on GitHub](https://github.com/tashfeenahmed/AgentDomains-skill) |
 | Setup docs | [AgentDomains Skill setup guide](https://github.com/tashfeenahmed/AgentDomains-skill#readme) |
-| Licence | FSL-1.1-Apache-2.0 · [licence evidence](https://github.com/tashfeenahmed/AgentDomains-skill/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | FSL-1.1-Apache-2.0 · [licence evidence](https://github.com/tashfeenahmed/AgentDomains-skill/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -150,7 +150,7 @@ Self-hosted assistant with MCP-native memory
 |---|---|
 | Upstream repository | [ScallopBot on GitHub](https://github.com/tashfeenahmed/scallopbot) |
 | Setup docs | [ScallopBot setup guide](https://github.com/tashfeenahmed/scallopbot#readme) |
-| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/scallopbot/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/scallopbot/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -168,7 +168,7 @@ Autonomous agent with guarded crypto wallet
 |---|---|
 | Upstream repository | [Cashmaxx on GitHub](https://github.com/tashfeenahmed/cashmaxx) |
 | Setup docs | [Cashmaxx setup guide](https://github.com/tashfeenahmed/cashmaxx#readme) |
-| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/cashmaxx/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/cashmaxx/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -186,7 +186,7 @@ Deep-research crawler with planner LLM
 |---|---|
 | Upstream repository | [Jev Deep Research on GitHub](https://github.com/tashfeenahmed/jev-deepresearch) |
 | Setup docs | [Jev Deep Research setup guide](https://github.com/tashfeenahmed/jev-deepresearch#readme) |
-| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/jev-deepresearch/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/jev-deepresearch/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -204,7 +204,7 @@ Emotion state classification for agents
 |---|---|
 | Upstream repository | [Emotion State on GitHub](https://github.com/tashfeenahmed/emotion-state) |
 | Setup docs | [Emotion State setup guide](https://github.com/tashfeenahmed/emotion-state#readme) |
-| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/emotion-state/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/emotion-state/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -222,7 +222,7 @@ Gaze + sound touch input for laptops
 |---|---|
 | Upstream repository | [MagicTap on GitHub](https://github.com/tashfeenahmed/magictap) |
 | Setup docs | [MagicTap setup guide](https://github.com/tashfeenahmed/magictap#readme) |
-| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/magictap/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/magictap/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -240,7 +240,7 @@ Mixed-reality visualisations in notebooks
 |---|---|
 | Upstream repository | [PyReality on GitHub](https://github.com/tashfeenahmed/pyreality) |
 | Setup docs | [PyReality setup guide](https://github.com/tashfeenahmed/pyreality#readme) |
-| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/pyreality/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/pyreality/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -258,7 +258,7 @@ Reusable HTML email template
 |---|---|
 | Upstream repository | [HTML Email Template on GitHub](https://github.com/tashfeenahmed/html-email-template) |
 | Setup docs | [HTML Email Template setup guide](https://github.com/tashfeenahmed/html-email-template#readme) |
-| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/html-email-template/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/tashfeenahmed/html-email-template/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |

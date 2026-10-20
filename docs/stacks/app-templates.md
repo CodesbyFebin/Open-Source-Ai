@@ -30,7 +30,7 @@ Browse the upstream examples repository, clone only the example you need, instal
 |---|---|
 | Upstream repository | [Awesome LLM Apps on GitHub](https://github.com/Shubhamsaboo/awesome-llm-apps) |
 | Setup docs | [Awesome LLM Apps setup guide](https://github.com/Shubhamsaboo/awesome-llm-apps#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |

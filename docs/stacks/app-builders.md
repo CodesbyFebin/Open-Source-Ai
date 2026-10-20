@@ -37,7 +37,7 @@ LLM app and agentic workflow platform
 |---|---|
 | Upstream repository | [Dify on GitHub](https://github.com/langgenius/dify) |
 | Setup docs | [Dify setup guide](https://github.com/langgenius/dify#readme) |
-| Licence | Dify Open Source License (Apache-2.0 + conditions) ⚠ needs review · [licence evidence](https://github.com/langgenius/dify/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Dify Open Source License (Apache-2.0 + conditions) ⚠ needs review · [licence evidence](https://github.com/langgenius/dify/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -55,7 +55,7 @@ Drag-and-drop agent builder
 |---|---|
 | Upstream repository | [Flowise on GitHub](https://github.com/FlowiseAI/Flowise) |
 | Setup docs | [Flowise setup guide](https://github.com/FlowiseAI/Flowise#readme) |
-| Licence | Apache-2.0 (enterprise dir separate) ⚠ needs review · [licence evidence](https://github.com/FlowiseAI/Flowise/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 (enterprise dir separate) ⚠ needs review · [licence evidence](https://github.com/FlowiseAI/Flowise/blob/main/LICENSE.md) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -73,7 +73,7 @@ Visual flow builder for agents and RAG
 |---|---|
 | Upstream repository | [Langflow on GitHub](https://github.com/langflow-ai/langflow) |
 | Setup docs | [Langflow setup guide](https://github.com/langflow-ai/langflow#readme) |
-| Licence | MIT · [licence evidence](https://github.com/langflow-ai/langflow/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/langflow-ai/langflow/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -91,7 +91,7 @@ Workflow automation with AI nodes
 |---|---|
 | Upstream repository | [n8n on GitHub](https://github.com/n8n-io/n8n) |
 | Setup docs | [n8n setup guide](https://github.com/n8n-io/n8n#readme) |
-| Licence | Sustainable Use License (fair-code) ⚠ needs review · [licence evidence](https://github.com/n8n-io/n8n/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Sustainable Use License (fair-code) ⚠ needs review · [licence evidence](https://github.com/n8n-io/n8n/blob/master/LICENSE.md) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |

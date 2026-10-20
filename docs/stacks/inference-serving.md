@@ -37,7 +37,7 @@ PagedAttention-based high-throughput server
 |---|---|
 | Upstream repository | [vLLM on GitHub](https://github.com/vllm-project/vllm) |
 | Setup docs | [vLLM setup guide](https://github.com/vllm-project/vllm#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/vllm-project/vllm/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/vllm-project/vllm/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -55,7 +55,7 @@ Fast serving with structured generation
 |---|---|
 | Upstream repository | [SGLang on GitHub](https://github.com/sgl-project/sglang) |
 | Setup docs | [SGLang setup guide](https://github.com/sgl-project/sglang#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/sgl-project/sglang/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/sgl-project/sglang/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -73,7 +73,7 @@ Production LLM server
 |---|---|
 | Upstream repository | [Text Generation Inference on GitHub](https://github.com/huggingface/text-generation-inference) |
 | Setup docs | [Text Generation Inference setup guide](https://github.com/huggingface/text-generation-inference#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/huggingface/text-generation-inference/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/huggingface/text-generation-inference/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -91,7 +91,7 @@ Multi-framework model server
 |---|---|
 | Upstream repository | [Triton Inference Server on GitHub](https://github.com/triton-inference-server/server) |
 | Setup docs | [Triton Inference Server setup guide](https://github.com/triton-inference-server/server#readme) |
-| Licence | BSD-3-Clause · [licence evidence](https://github.com/triton-inference-server/server/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | BSD-3-Clause · [licence evidence](https://github.com/triton-inference-server/server/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |

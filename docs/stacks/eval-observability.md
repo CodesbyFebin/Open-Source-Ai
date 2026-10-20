@@ -37,7 +37,7 @@ LLM tracing, evals and prompt management
 |---|---|
 | Upstream repository | [Langfuse on GitHub](https://github.com/langfuse/langfuse) |
 | Setup docs | [Langfuse setup guide](https://github.com/langfuse/langfuse#readme) |
-| Licence | MIT (ee/ dirs separate) ⚠ needs review · [licence evidence](https://github.com/langfuse/langfuse/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT (ee/ dirs separate) ⚠ needs review · [licence evidence](https://github.com/langfuse/langfuse/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -55,7 +55,7 @@ AI observability and evaluation
 |---|---|
 | Upstream repository | [Phoenix on GitHub](https://github.com/Arize-ai/phoenix) |
 | Setup docs | [Phoenix setup guide](https://github.com/Arize-ai/phoenix#readme) |
-| Licence | Elastic-2.0 · [licence evidence](https://github.com/Arize-ai/phoenix/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Elastic-2.0 · [licence evidence](https://github.com/Arize-ai/phoenix/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -73,7 +73,7 @@ Prompt testing and red-teaming CLI
 |---|---|
 | Upstream repository | [promptfoo on GitHub](https://github.com/promptfoo/promptfoo) |
 | Setup docs | [promptfoo setup guide](https://github.com/promptfoo/promptfoo#readme) |
-| Licence | MIT · [licence evidence](https://github.com/promptfoo/promptfoo/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | MIT · [licence evidence](https://github.com/promptfoo/promptfoo/blob/main/LICENSE) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
@@ -91,7 +91,7 @@ Unit-test style LLM evaluation
 |---|---|
 | Upstream repository | [DeepEval on GitHub](https://github.com/confident-ai/deepeval) |
 | Setup docs | [DeepEval setup guide](https://github.com/confident-ai/deepeval#readme) |
-| Licence | Apache-2.0 · [licence evidence](https://github.com/confident-ai/deepeval/blob/HEAD/LICENSE) · checked 2026-10-20 |
+| Licence | Apache-2.0 · [licence evidence](https://github.com/confident-ai/deepeval/blob/main/LICENSE.md) · checked 2026-10-20 |
 | Licence detected by GitHub | not detected |
 | Repository state | not yet collected |
 | Last commit | – |
