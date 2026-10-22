@@ -44,7 +44,7 @@ Upstream licences are authoritative. Use an SPDX id with `state: declared` only 
 
 ```bash
 python -m pytest -q tests                      # unit tests
-mkdocs build --strict -d _site/Open-Source-Ai
+mkdocs build --strict -d _site/Open-Source-Ai-Full-Stack
 cd tests/browser && npm ci && npx playwright install chromium webkit && npx playwright test
 ./recipes/local-chat/smoke.sh                  # needs Docker
 ```

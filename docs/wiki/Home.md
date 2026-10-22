@@ -6,12 +6,12 @@
 
 **Purpose.** Open Source Ai by CodesbyFebin is a curated, evidence-backed catalog of open-source and source-available projects for building AI agents and LLM apps. It contains metadata, comparisons and recipes – not upstream source code.
 
-- **Search & filter:** https://codesbyfebin.github.io/Open-Source-Ai/catalog/
-- **Docs site:** https://codesbyfebin.github.io/Open-Source-Ai/
+- **Search & filter:** https://codesbyfebin.github.io/Open-Source-Ai-Full-Stack/catalog/
+- **Docs site:** https://codesbyfebin.github.io/Open-Source-Ai-Full-Stack/
 
 ## Selection criteria
 
-Projects must have a licence file, be maintained or widely used, be self-hostable or usable as a library, and fit a catalog category. Full criteria: https://codesbyfebin.github.io/Open-Source-Ai/selection-criteria/
+Projects must have a licence file, be maintained or widely used, be self-hostable or usable as a library, and fit a catalog category. Full criteria: https://codesbyfebin.github.io/Open-Source-Ai-Full-Stack/selection-criteria/
 
 ## Recipes
 
@@ -32,4 +32,4 @@ The MIT licence covers only this repository's curation, docs and code. Every cat
 
 ## Freshness
 
-A workflow collects repository state, last commit, latest release and licence detection from the GitHub API every Monday 03:00 UTC and opens a pull request for human review. It is not real-time monitoring. Report: https://codesbyfebin.github.io/Open-Source-Ai/freshness/
+A workflow collects repository state, last commit, latest release and licence detection from the GitHub API every Monday 03:00 UTC and opens a pull request for human review. It is not real-time monitoring. Report: https://codesbyfebin.github.io/Open-Source-Ai-Full-Stack/freshness/
