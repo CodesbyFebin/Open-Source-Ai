@@ -10,6 +10,6 @@ Open Source Ai is a catalog: it links to upstream projects instead of bundling t
    ```
 4. **Compose a stack** – start from a [recipe](../recipes/index.md):
    ```bash
-   git clone https://github.com/CodesbyFebin/Open-Source-Ai
-   cd Open-Source-Ai/recipes/local-chat && docker compose up -d
+   git clone https://github.com/CodesbyFebin/Open-Source-Ai-Full-Stack
+   cd Open-Source-Ai-Full-Stack/recipes/local-chat && docker compose up -d
    ```

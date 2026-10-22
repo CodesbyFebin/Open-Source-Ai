@@ -36,8 +36,8 @@ Typical cold start on a 4-vCPU CI runner: about 2 minutes (image pulls dominate)
 ## Run
 
 ```bash
-git clone https://github.com/CodesbyFebin/Open-Source-Ai
-cd Open-Source-Ai/recipes/local-chat
+git clone https://github.com/CodesbyFebin/Open-Source-Ai-Full-Stack
+cd Open-Source-Ai-Full-Stack/recipes/local-chat
 export LITELLM_MASTER_KEY=sk-$(openssl rand -hex 12)   # never commit real keys
 docker compose up -d
 docker compose wait model-pull

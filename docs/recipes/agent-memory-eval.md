@@ -29,7 +29,7 @@ description: A small Python agent uses a local model via Ollama, stores long-ter
 ## Run
 
 ```bash
-cd Open-Source-Ai/recipes/agent-memory-eval
+cd Open-Source-Ai-Full-Stack/recipes/agent-memory-eval
 python -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt
 ./smoke.sh          # full end-to-end test (cleans up on exit; KEEP=1 to keep containers)
 ```

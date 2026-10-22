@@ -1,9 +1,9 @@
 site_name: Open Source Ai
 site_description: All open-source AI agent and LLM stacks in one repo – gateways, chat UIs, local models, agents, RAG, memory, observability. By CodesbyFebin.
 site_author: CodesbyFebin
-site_url: https://codesbyfebin.github.io/Open-Source-Ai/
-repo_url: https://github.com/CodesbyFebin/Open-Source-Ai
-repo_name: CodesbyFebin/Open-Source-Ai
+site_url: https://codesbyfebin.github.io/Open-Source-Ai-Full-Stack/
+repo_url: https://github.com/CodesbyFebin/Open-Source-Ai-Full-Stack
+repo_name: CodesbyFebin/Open-Source-Ai-Full-Stack
 copyright: Copyright &copy; 2026 CodesbyFebin – MIT
 theme:
   custom_dir: overrides

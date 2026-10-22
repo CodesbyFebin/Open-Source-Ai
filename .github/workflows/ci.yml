@@ -29,11 +29,11 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: pip install -r requirements.txt
-      - run: mkdocs build --strict -d _check/Open-Source-Ai
+      - run: mkdocs build --strict -d _check/Open-Source-Ai-Full-Stack
       - name: Internal links (blocking)
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --offline --no-progress --index-files index.html --root-dir ${{ github.workspace }}/_check --remap 'https://codesbyfebin.github.io/Open-Source-Ai file://${{ github.workspace }}/_check/Open-Source-Ai' --exclude-path _check/Open-Source-Ai/404.html '_check/**/*.html'
+          args: --offline --no-progress --index-files index.html --root-dir ${{ github.workspace }}/_check --remap 'https://codesbyfebin.github.io/Open-Source-Ai-Full-Stack file://${{ github.workspace }}/_check/Open-Source-Ai-Full-Stack' --exclude-path _check/Open-Source-Ai-Full-Stack/404.html '_check/**/*.html'
           fail: true
   browser:
     name: Browser tests (Playwright, desktop + iPhone 13 emulation)
@@ -46,7 +46,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: {node-version: '20'}
       - run: pip install -r requirements.txt
-      - run: mkdocs build --strict -d _site/Open-Source-Ai
+      - run: mkdocs build --strict -d _site/Open-Source-Ai-Full-Stack
       - working-directory: tests/browser
         run: npm ci && npx playwright install --with-deps chromium webkit
       - working-directory: tests/browser
